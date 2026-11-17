@@ -1,5 +1,7 @@
 # 两条口播工程：跨电脑恢复备份
 
+> 传输状态见 [STATUS.md](STATUS.md)。Release 发布并完成远端校验前，不要把文本克隆视为完整备份。
+
 这是 **Windows x64** 的制作状态备份，不是只保存成片的展示仓库。
 
 - 私有仓库：<https://github.com/124-creator/talking-head-production-backup-20261117>
@@ -9,7 +11,7 @@
 
 ## 另一台电脑怎么恢复
 
-准备 Windows x64、Git、GitHub CLI（`gh`），并至少预留 **50 GB 本地空闲空间**。首次下载需要网络；项目恢复后，已打包的渲染和 ASR 依赖可离线安装。请用有权访问此私有仓库的 GitHub 账户登录，**不要从旧电脑复制 token 或登录文件**。
+准备 Windows x64、Git、GitHub CLI（`gh`），建议至少预留 **70 GB 本地空闲空间**，用于传输块、合并后的 ZIP、独立恢复文件、运行环境与临时文件。首次下载需要网络；项目恢复后，已打包的渲染和 ASR 依赖可离线安装。请用有权访问此私有仓库的 GitHub 账户登录，**不要从旧电脑复制 token 或登录文件**。
 
 在 PowerShell 中执行：
 
@@ -22,12 +24,16 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\Restore.ps1 -Destination '
 
 `D:\TalkingHeadStudio` 是示例，可以换成有足够空间的本地盘新目录；不要选择已有其他工程的目录。无需恢复旧电脑的 `E:` 盘符或 `Dreamboat` 用户名。登录已完成时可跳过 `gh auth login`。
 
-**只执行 `git clone` 不会取回视频、图片、模型和缓存。** `Restore.ps1` 默认下载全部 Release 分卷，校验归档与文件，再恢复路径和独立运行环境。如果已经手工下载了全部 ZIP，也可复用本地归档：
+**只执行 `git clone` 不会取回视频、图片、模型和缓存。** `Restore.ps1` 默认下载全部 Release 传输块，逐块校验并自动合并成 19 个逻辑 ZIP，再校验 ZIP 和恢复文件，最后恢复路径和独立运行环境。**不需要手工拼接**。传输块每个不超过 48 MiB，减少长连接中断时需要重传的数据量。
+
+如果已经有全部 19 个原始逻辑 ZIP，可直接复用本地归档。也可以只准备完整的 286 个 `transfer-snapshot-*.bin` 传输块，放在指定目录内或其 `transport/` 子目录内，恢复工具会离线校验、合并：
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\Restore.ps1 `
   -Destination 'D:\TalkingHeadStudio' -ArchivesDirectory 'D:\TalkingHeadArchives'
 ```
+
+下载时优先使用当前进程已有的代理环境变量；未设置时，包装脚本可读取**新电脑当前用户**已启用的 Windows HTTP/HTTPS 静态代理，仅供本次进程使用，不修改系统代理，也不迁移旧电脑的代理配置或认证凭证。PAC / SOCKS 等配置不等于可用的静态 HTTP 代理，网络不通时需检查新电脑自己的连接设置。
 
 脚本优先使用兼容的 Python 3.13；没有时校验随包 Python 3.13.5 x64 安装器的 SHA-256 和签名，再安装到当前用户目录，不修改全局 PATH、文件关联或启动器。渲染与 ASR 分别使用新建的隔离 venv，不复制旧电脑不可迁移的 venv，也不向全局 Python 安装包。
 
@@ -70,10 +76,13 @@ $Studio = 'D:\TalkingHeadStudio'
 | 完整恢复文件 | 12,099 个 |
 | 文件逻辑总大小（含重复副本） | 21,330,443,319 B，约 19.87 GiB |
 | SHA-256 去重后唯一对象 | 8,519 个，14,810,894,438 B |
-| ZIP 分卷 | 19 个：4 个 core、15 个 cache |
-| ZIP 下载合计 | 14,163,795,658 B，约 13.19 GiB |
+| 逻辑 ZIP 分卷 | 19 个：4 个 core、15 个 cache |
+| Release 传输块 | 286 个有序 `.bin` 块，每块不超过 48 MiB |
+| 传输块合计（等于逻辑 ZIP 总大小） | 14,163,795,658 B，约 13.19 GiB |
 
 ZIP 内保存按 SHA-256 命名的对象，清单将其还原成原目录结构。重复内容只传一份；恢复时每个文件都独立复制，**不使用硬链接**，避免修改某个版本时影响其他版本。**默认包含 cache 分卷**，不会因为可重新渲染就省略历史帧、解码帧、QA 或渲染缓存。
+
+传输块只是把逻辑 ZIP 的原始字节按顺序切开，不改变 ZIP、工程文件或 `snapshot.json`。`archives.json` 的 `parts` 列表规定合并顺序与每块哈希；例如 `transfer-snapshot-core-001-001.bin` 是 `snapshot-core-001.zip` 的第一个传输块，不是可直接解压的独立 ZIP。表中大小不含少量清单文件，以及单独提供、用于首次启动的 Python 安装器。
 
 - 第一条完整 `speech_7c1fa1f1`，包括早期版本、`ending_v2`、`raw_v3`、`overlay_v4`、`overlay_v5`。
 - 第二条整个项目，包括原视频、`1.txt`、人物图片、分析文件、`production_v1`、`production_v2_tests`、`production_v2` 和根目录交付副本。
@@ -84,7 +93,7 @@ ZIP 内保存按 SHA-256 命名的对象，清单将其还原成原目录结构�
 
 ## 完整性与边界
 
-- `manifests/archives.json` 和 Release 的 `SHA256SUMS` 记录每个分卷的大小与 SHA-256；`snapshot.json` 记录每个恢复文件的原始哈希。
+- `manifests/snapshot.json` 是不变的工程内容清单，记录每个恢复文件的原始哈希；`manifests/archives.json` 是归档 / 传输索引，记录逻辑 ZIP 的大小与 SHA-256，以及有序 `parts` 的名称、大小与 SHA-256。Release 的 `SHA256SUMS` 记录逻辑 ZIP 校验值；校验不能只做到传输块，还必须合并后核对原 ZIP，再核对恢复文件。
 - 恢复先校验原始文件，再把旧 `E:` 路径、失效微信路径、skill / 模型 / FFmpeg 路径改为当前恢复目录。修改前原文和独立哈希日志保存在 `.relocation/`，**不会伪改旧记录里的历史校验值**。因此重定位后的少数文本不再与原快照字节相同，这是有记录的迁移，不是媒体损坏。
 - 四张首条口播图片原微信 Temp 路径已经失效；工程内精确副本已保留，恢复工具使用这些副本，不创建假的微信目录。
 - 不包括不相关项目、整个微信资料、Windows 系统、账户凭证、GitHub token、Codex 登录文件或聊天数据库。恢复的是**项目文件、制作环境和明确的交接上下文**，不是原聊天窗口或账户登录状态。

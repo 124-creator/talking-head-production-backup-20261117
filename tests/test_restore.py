@@ -1,4 +1,10 @@
 from pathlib import Path
+import copy
+import contextlib
+import io
+import os
+import subprocess
+import threading
 import hashlib
 import importlib.util
 import json
@@ -145,6 +151,248 @@ class RestoreTests(unittest.TestCase):
         self.assertFalse((self.dest / 'workspace/b.mp4').exists())
         self.assertEqual(list((self.dest / 'workspace').glob('.restore-*')), [])
         self.assertTrue(r.restore(self.repo, self.dest, self.archives)['all_files_sha256_verified'])
+
+
+    def transport_parts(self, subfolder='', chunk_size=47):
+        asset = self.index['assets'][0]
+        original = (self.archives / asset['name']).read_bytes()
+        directory = self.archives / subfolder
+        directory.mkdir(parents=True, exist_ok=True)
+        parts, contents = [], {}
+        for position, offset in enumerate(range(0, len(original), chunk_size), 1):
+            data = original[offset:offset + chunk_size]
+            name = f'transfer-snapshot-core-001-{position:03d}.bin'
+            (directory / name).write_bytes(data)
+            parts.append({'name': name, 'size': len(data), 'sha256': hashlib.sha256(data).hexdigest()})
+            contents[name] = data
+        asset['parts'] = parts
+        self.save()
+        return original, contents
+
+    def test_local_parts_reassemble_exact_bytes_and_restore_without_network(self):
+        original, contents = self.transport_parts()
+        asset = self.index['assets'][0]
+        (self.archives / asset['name']).unlink()
+        with patch.object(r.subprocess, 'run') as network:
+            report = r.restore(self.repo, self.dest, self.archives)
+        network.assert_not_called()
+        self.assertTrue(report['all_files_sha256_verified'])
+        self.assertEqual((self.archives / asset['name']).read_bytes(), original)
+        for name, data in contents.items():
+            self.assertEqual((self.archives / name).read_bytes(), data)
+        self.assertFalse((self.repo / '.downloads').exists())
+
+    def test_local_transport_subfolder_is_supported_and_never_deleted(self):
+        original, contents = self.transport_parts('transport')
+        asset = self.index['assets'][0]
+        (self.archives / asset['name']).unlink()
+        with patch.object(r.subprocess, 'run') as network:
+            result = r.prepare_archives(self.repo, self.index, self.archives)
+        network.assert_not_called()
+        self.assertEqual(result, self.archives.resolve())
+        self.assertEqual((result / asset['name']).read_bytes(), original)
+        for name, data in contents.items():
+            self.assertEqual((self.archives / 'transport' / name).read_bytes(), data)
+
+    def test_complete_local_zip_wins_even_when_parts_are_unavailable(self):
+        original, contents = self.transport_parts()
+        for name in contents:
+            (self.archives / name).unlink()
+        path = self.archives / self.index['assets'][0]['name']
+        before = path.stat().st_mtime_ns
+        with patch.object(r, 'local_parts') as parts, patch.object(r.subprocess, 'run') as network:
+            r.prepare_archives(self.repo, self.index, self.archives)
+        parts.assert_not_called()
+        network.assert_not_called()
+        self.assertEqual(path.read_bytes(), original)
+        self.assertEqual(path.stat().st_mtime_ns, before)
+
+    def test_corrupt_local_part_rejected_without_network_or_mutation(self):
+        _, contents = self.transport_parts()
+        asset = self.index['assets'][0]
+        (self.archives / asset['name']).unlink()
+        name = next(iter(contents))
+        bad = b'X' * len(contents[name])
+        (self.archives / name).write_bytes(bad)
+        with patch.object(r.subprocess, 'run') as network:
+            with self.assertRaisesRegex(ValueError, 'verified local transport part'):
+                r.prepare_archives(self.repo, self.index, self.archives)
+        network.assert_not_called()
+        self.assertFalse((self.archives / asset['name']).exists())
+        self.assertEqual((self.archives / name).read_bytes(), bad)
+        self.assertEqual(list(self.archives.glob('.assemble-*')), [])
+
+    def test_wrong_part_order_fails_parent_hash_without_partial_zip(self):
+        _, contents = self.transport_parts()
+        asset = self.index['assets'][0]
+        (self.archives / asset['name']).unlink()
+        asset['parts'].reverse()
+        with self.assertRaisesRegex(ValueError, 'Reassembled archive SHA256'):
+            r.prepare_archives(self.repo, self.index, self.archives)
+        self.assertFalse((self.archives / asset['name']).exists())
+        self.assertEqual(list(self.archives.glob('.assemble-*')), [])
+        for name, data in contents.items():
+            self.assertEqual((self.archives / name).read_bytes(), data)
+
+    def test_transport_metadata_rejects_traversal_non_ascii_and_invalid_sizes(self):
+        self.transport_parts()
+        original = copy.deepcopy(self.index)
+        for name in ('../escape.bin', '/escape.bin', 'C:/escape.bin', 'a\\b.bin',
+                     'part?.bin', '中.bin', 'CON.bin', 'part.bin ', '.hidden.bin'):
+            with self.subTest(name=name):
+                index = copy.deepcopy(original)
+                index['assets'][0]['parts'][0]['name'] = name
+                with self.assertRaises(ValueError):
+                    r.validate_manifest(self.m, index)
+                with self.assertRaises(ValueError):
+                    r.prepare_archives(self.repo, index, None)
+        for size in (0, -1, True, '47', r.MAX_PART_BYTES + 1):
+            with self.subTest(size=size):
+                index = copy.deepcopy(original)
+                index['assets'][0]['parts'][0]['size'] = size
+                with self.assertRaises(ValueError):
+                    r.validate_manifest(self.m, index)
+        index = copy.deepcopy(original)
+        index['assets'][0]['parts'][0]['sha256'] = 'bad'
+        with self.assertRaises(ValueError):
+            r.validate_manifest(self.m, index)
+        index = copy.deepcopy(original)
+        index['assets'][0]['parts'][0]['size'] += 1
+        with self.assertRaisesRegex(ValueError, 'sum'):
+            r.validate_manifest(self.m, index)
+        index = copy.deepcopy(original)
+        index['assets'][0]['parts'][1]['name'] = index['assets'][0]['parts'][0]['name'].upper()
+        with self.assertRaisesRegex(ValueError, 'colliding'):
+            r.validate_manifest(self.m, index)
+        self.assertFalse((self.repo / '.downloads').exists())
+
+    def test_remote_parts_retry_three_attempts_cache_resume_and_precise_cleanup(self):
+        original, contents = self.transport_parts()
+        asset = self.index['assets'][0]
+        cache = self.repo / '.downloads/.parts' / asset['name']
+        cache.mkdir(parents=True)
+        first, retry = list(contents)[:2]
+        (cache / first).write_bytes(contents[first])
+        (cache / 'unrelated.keep').write_bytes(b'leave this exact file alone')
+        counts, active, maximum = {}, 0, 0
+        lock = threading.Lock()
+
+        def download(arguments, **kwargs):
+            nonlocal active, maximum
+            name = arguments[arguments.index('--pattern') + 1]
+            temporary = Path(arguments[arguments.index('--output') + 1])
+            with lock:
+                counts[name] = counts.get(name, 0) + 1
+                attempt = counts[name]
+                active += 1
+                maximum = max(maximum, active)
+            try:
+                threading.Event().wait(0.01)
+                self.assertIn('--clobber', arguments)
+                self.assertTrue(kwargs['capture_output'])
+                if name == retry and attempt < 3:
+                    temporary.write_bytes(b'partial')
+                    raise subprocess.CalledProcessError(1, arguments, stderr=b'private authentication diagnostic')
+                temporary.write_bytes(contents[name])
+            finally:
+                with lock:
+                    active -= 1
+
+        output = io.StringIO()
+        with patch.object(r.shutil, 'which', return_value='gh'), \
+             patch.object(r.subprocess, 'run', side_effect=download), \
+             patch.object(r.time, 'sleep'), contextlib.redirect_stdout(output):
+            folder = r.prepare_archives(self.repo, self.index, None)
+        self.assertEqual((folder / asset['name']).read_bytes(), original)
+        self.assertNotIn(first, counts)
+        self.assertEqual(counts[retry], 3)
+        self.assertLessEqual(maximum, 3)
+        self.assertGreaterEqual(maximum, 2)
+        self.assertNotIn('private authentication diagnostic', output.getvalue())
+        self.assertEqual((cache / 'unrelated.keep').read_bytes(), b'leave this exact file alone')
+        for name in contents:
+            self.assertFalse((cache / name).exists())
+        self.assertEqual(list(cache.glob('.download-*')), [])
+
+    def test_remote_part_failure_keeps_only_verified_cache_and_stops_after_three(self):
+        _, contents = self.transport_parts()
+        part = self.index['assets'][0]['parts'][0]
+        cache = self.repo / '.downloads/.parts/cache'
+        cache.mkdir(parents=True)
+        attempts = []
+
+        def fail(arguments, **kwargs):
+            temporary = Path(arguments[arguments.index('--output') + 1])
+            attempts.append(temporary)
+            temporary.write_bytes(b'partial')
+            raise subprocess.CalledProcessError(1, arguments, stderr=b'do not expose credential details')
+
+        with patch.object(r.shutil, 'which', return_value='gh'), \
+             patch.object(r.subprocess, 'run', side_effect=fail), patch.object(r.time, 'sleep'):
+            with self.assertRaisesRegex(RuntimeError, 'after 3 attempts') as failure:
+                r.download_verified(self.index, part, cache, {})
+        self.assertEqual(len(attempts), 3)
+        self.assertEqual(len(set(attempts)), 3)
+        self.assertNotIn('credential', str(failure.exception))
+        self.assertFalse((cache / part['name']).exists())
+        self.assertEqual(list(cache.iterdir()), [])
+
+    def test_wrong_downloaded_part_hash_is_retried_before_atomic_commit(self):
+        _, contents = self.transport_parts()
+        part = self.index['assets'][0]['parts'][0]
+        cache = self.repo / '.downloads/.parts/cache'
+        cache.mkdir(parents=True)
+        (cache / part['name']).write_bytes(b'X' * part['size'])
+        calls = []
+
+        def download(arguments, **kwargs):
+            calls.append(arguments)
+            temporary = Path(arguments[arguments.index('--output') + 1])
+            temporary.write_bytes(b'X' * part['size'] if len(calls) == 1 else contents[part['name']])
+
+        with patch.object(r.shutil, 'which', return_value='gh'), \
+             patch.object(r.subprocess, 'run', side_effect=download), patch.object(r.time, 'sleep'):
+            result = r.download_verified(self.index, part, cache, {})
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(result.read_bytes(), contents[part['name']])
+        self.assertEqual(list(cache.glob('.download-*')), [])
+
+    def test_failed_parent_hash_preserves_remote_parts_for_offline_resume(self):
+        original, contents = self.transport_parts()
+        asset = self.index['assets'][0]
+        ordered = copy.deepcopy(asset['parts'])
+        asset['parts'].reverse()
+        cache = self.repo / '.downloads/.parts' / asset['name']
+        cache.mkdir(parents=True)
+        for name, data in contents.items():
+            (cache / name).write_bytes(data)
+        with patch.object(r.subprocess, 'run') as network:
+            with self.assertRaisesRegex(ValueError, 'Reassembled archive SHA256'):
+                r.prepare_archives(self.repo, self.index, None)
+        network.assert_not_called()
+        for name, data in contents.items():
+            self.assertEqual((cache / name).read_bytes(), data)
+        self.assertFalse((self.repo / '.downloads' / asset['name']).exists())
+        asset['parts'] = ordered
+        with patch.object(r.subprocess, 'run') as network:
+            folder = r.prepare_archives(self.repo, self.index, None)
+        network.assert_not_called()
+        self.assertEqual((folder / asset['name']).read_bytes(), original)
+        self.assertTrue(all(not (cache / name).exists() for name in contents))
+
+    def test_explicit_proxy_environment_takes_precedence_over_static_windows_proxy(self):
+        explicit = {'https_proxy': 'http://explicit.example:1234', 'HTTP_PROXY': '', 'NO_PROXY': 'localhost'}
+        static = {'http': 'http://static.example:5678', 'https': 'http://static.example:5678', 'no': 'static-bypass'}
+        with patch.dict(os.environ, explicit, clear=True), patch.object(r.urllib.request, 'getproxies', return_value=static):
+            result = r.download_environment()
+        self.assertEqual({key.casefold(): value for key, value in result.items()},
+                         {key.casefold(): value for key, value in explicit.items()})
+        with patch.dict(os.environ, {}, clear=True), patch.object(r.urllib.request, 'getproxies', return_value=static):
+            result = r.download_environment()
+        self.assertEqual(result['HTTP_PROXY'], static['http'])
+        self.assertEqual(result['HTTPS_PROXY'], static['https'])
+        self.assertEqual(result['NO_PROXY'], static['no'])
+
 
 
 if __name__ == '__main__':

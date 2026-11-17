@@ -81,9 +81,11 @@ bdb63a29a513195bd5bdd6529f4463b0ef48f1509332ffc145bf2bcf2da55fb1
 
 ## 路径迁移与验证顺序
 
-完整快照 `2026-11-17-current` 记录 12,099 个文件、21,330,443,319 B 逻辑大小。19 个内容寻址分卷包含缓存，恢复不需要旧机器仍在线。
+完整快照 `2026-11-17-current` 记录 12,099 个文件、21,330,443,319 B 逻辑大小。19 个内容寻址逻辑 ZIP（4 core、15 cache）包含缓存，恢复不需要旧机器仍在线。
 
-1. 从 Release 下载所有 core 与 cache 分卷，按 `manifests/archives.json` 验证归档大小和 SHA-256。
+为降低大文件长连接中断的重传成本，传输层将这些 ZIP 的原始字节切成 **286 个有序 `.bin` 块**，每块不超过 48 MiB；所有块合计 14,163,795,658 B，与原 19 个 ZIP 总大小相同。`snapshot.json`、原始工程文件和逻辑 ZIP 的哈希均不因此改变。`archives.json` 新增每个 ZIP 的 `parts` 列表及传输索引，下载器按列表自动校验、合并，用户不需手工拼接。
+
+1. 从 Release 下载所有 core 与 cache 对应的传输块，按 `manifests/archives.json` 的 `parts` 顺序逐块校验、合并成 19 个逻辑 ZIP，再验证原 ZIP 的大小与 SHA-256。已有完整 ZIP 时可直接使用；已有全部传输块时，将其放在 `-ArchivesDirectory` 指定目录或其 `transport/` 子目录，自动离线合并。
 2. 根据 `manifests/snapshot.json` 恢复目录与每个原始文件，验证源哈希。
 3. `tools/relocate_workspace.py <恢复根> --apply` 将旧 `E:\Agent员工\研究自动剪辑`、微信引用、skill、模型、FFmpeg 路径改到当前根；默认不带 `--apply` 时只查看计划。
 4. `.relocation/originals/` 留修改前文本，`.relocation/relocation_log.json` 记原文与新文 SHA。原快照校验和与历史渲染 SHA 保持不动。

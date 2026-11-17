@@ -19,7 +19,7 @@ $SavedConsoleEncoding = [Console]::OutputEncoding
 $EnvironmentNames = @('PYTHONHOME', 'PYTHONPATH', 'PYTHONNOUSERSITE', 'PYTHONIOENCODING',
     'PIP_CONFIG_FILE', 'PIP_NO_INDEX', 'PIP_DISABLE_PIP_VERSION_CHECK',
     'PLAYWRIGHT_BROWSERS_PATH', 'PLAYWRIGHT_SKIP_BROWSER_GC', 'HF_HUB_OFFLINE',
-    'TRANSFORMERS_OFFLINE', 'HF_HUB_DISABLE_TELEMETRY', 'PATH')
+    'TRANSFORMERS_OFFLINE', 'HF_HUB_DISABLE_TELEMETRY', 'PATH', 'HTTP_PROXY', 'HTTPS_PROXY')
 $SavedEnvironment = @{}
 foreach ($Name in $EnvironmentNames) {
     $SavedEnvironment[$Name] = [Environment]::GetEnvironmentVariable($Name, 'Process')
@@ -38,6 +38,57 @@ function ConvertTo-PythonCommand {
     # Windows PowerShell 5.1 native argument passing can strip nested quotes.
     $Encoded = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($Code))
     return "import base64;exec(base64.b64decode('$Encoded'))"
+}
+
+function ConvertTo-HttpProxyUri {
+    param([string]$Value)
+    $Value = $Value.Trim()
+    if (-not $Value) { return $null }
+    # WinINET's https= key names the destination protocol, not a TLS proxy.
+    if ($Value -notmatch '^[a-z][a-z0-9+.-]*://') { $Value = 'http://' + $Value }
+    $Uri = $null
+    if (-not [Uri]::TryCreate($Value, [UriKind]::Absolute, [ref]$Uri) -or
+        $Uri.Scheme -notin @('http', 'https') -or -not $Uri.Host -or
+        $Uri.AbsolutePath -ne '/' -or $Uri.Query -or $Uri.Fragment) {
+        return $null
+    }
+    return $Uri.AbsoluteUri.TrimEnd('/')
+}
+
+function ConvertFrom-WindowsStaticProxy {
+    param([string]$Server)
+    $Proxies = @{}
+    if ($Server -match '(?i)(?:^|;)\s*(?:http|https|socks)\s*=') {
+        foreach ($Entry in $Server.Split(';')) {
+            if ($Entry -match '(?i)^\s*(http|https)\s*=\s*(.+?)\s*$') {
+                $Protocol = $Matches[1].ToLowerInvariant()
+                $Proxy = ConvertTo-HttpProxyUri $Matches[2]
+                if ($Proxy) { $Proxies[$Protocol] = $Proxy }
+            }
+        }
+    } else {
+        $Proxy = ConvertTo-HttpProxyUri $Server
+        if ($Proxy) { $Proxies['http'] = $Proxy; $Proxies['https'] = $Proxy }
+    }
+    return $Proxies
+}
+
+function Initialize-WindowsProxyEnvironment {
+    # Go/gh does not automatically inherit WinINET's current-user static proxy.
+    # Explicit process environment always wins; never change Windows settings.
+    if ($env:HTTP_PROXY -or $env:HTTPS_PROXY -or $env:ALL_PROXY) { return }
+    $Settings = Get-ItemProperty -LiteralPath 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings' -ErrorAction SilentlyContinue
+    if (-not $Settings -or -not $Settings.PSObject.Properties['ProxyEnable'] -or
+        -not $Settings.PSObject.Properties['ProxyServer'] -or $Settings.ProxyEnable -ne 1) {
+        return
+    }
+    $Proxies = ConvertFrom-WindowsStaticProxy ([string]$Settings.ProxyServer)
+    if ($Proxies.ContainsKey('http')) { $env:HTTP_PROXY = $Proxies['http'] }
+    if ($Proxies.ContainsKey('https')) { $env:HTTPS_PROXY = $Proxies['https'] }
+    if ($Proxies.Count) {
+        # Proxy addresses can contain credentials, so do not print them.
+        Write-Host 'Using the current-user Windows static proxy for this restore session only.'
+    }
 }
 
 function Find-Gh {
@@ -217,6 +268,7 @@ try {
     $env:HF_HUB_OFFLINE = '1'
     $env:TRANSFORMERS_OFFLINE = '1'
     $env:HF_HUB_DISABLE_TELEMETRY = '1'
+    Initialize-WindowsProxyEnvironment
 
     $Destination = [IO.Path]::GetFullPath($ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($Destination)).TrimEnd('\')
     if (-not [IO.Path]::GetDirectoryName($Destination) -or $Destination -eq $Repository) {

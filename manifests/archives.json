@@ -7,133 +7,1607 @@
       "size": 368172766,
       "sha256": "200f36221c1dad56b89a4e71e32512fa674e81bb115876241f2c7ef85e6777ac",
       "category": "core",
-      "objects": 240
+      "objects": 240,
+      "parts": [
+        {
+          "name": "transfer-snapshot-core-001-001.bin",
+          "size": 50331648,
+          "sha256": "f930e58abd341d298fd5f510dac18d17d4618d1179a9c64894b4c93d2284f291"
+        },
+        {
+          "name": "transfer-snapshot-core-001-002.bin",
+          "size": 50331648,
+          "sha256": "e7668a0ab97c756a1adf4942ae91b9925f6c9cafb8dee2d2445cf91e9ef4d234"
+        },
+        {
+          "name": "transfer-snapshot-core-001-003.bin",
+          "size": 50331648,
+          "sha256": "882a61fc3f10bc54c1c8611167342b1e36b73a3d955ebfa5bf94b36d9be09e06"
+        },
+        {
+          "name": "transfer-snapshot-core-001-004.bin",
+          "size": 50331648,
+          "sha256": "6c8900fe63bdf8cf2a36edf3e59fdc62d0526f5b13d38964b971c293ee4444fa"
+        },
+        {
+          "name": "transfer-snapshot-core-001-005.bin",
+          "size": 50331648,
+          "sha256": "b16681cbbef65ae0963bcd906a79e0bbfec989dee91ddfe2ad71d3c6e714a4b3"
+        },
+        {
+          "name": "transfer-snapshot-core-001-006.bin",
+          "size": 50331648,
+          "sha256": "a6eb969af6f8e66a78d3bcdf3dd9653bb8445fdf5d77ee0927c312d321f0fcd2"
+        },
+        {
+          "name": "transfer-snapshot-core-001-007.bin",
+          "size": 50331648,
+          "sha256": "be02717a9df6061740b56d583211ce064e4b59e03456a1d60f5621a8cbf98bbf"
+        },
+        {
+          "name": "transfer-snapshot-core-001-008.bin",
+          "size": 15851230,
+          "sha256": "7a66b6633c0de914a2345bb2d64a4f1db3ae12fc188bfd4605a69cc75601d908"
+        }
+      ]
     },
     {
       "name": "snapshot-core-002.zip",
       "size": 618988488,
       "sha256": "170b642760263de9b7d3d15573fc58e75d016e46fad2e568c61edfe8d99757c5",
       "category": "core",
-      "objects": 75
+      "objects": 75,
+      "parts": [
+        {
+          "name": "transfer-snapshot-core-002-001.bin",
+          "size": 50331648,
+          "sha256": "64fe82ea82db2f31961130afe7b6d4b03e68305cfe400757474e2d60c9279e48"
+        },
+        {
+          "name": "transfer-snapshot-core-002-002.bin",
+          "size": 50331648,
+          "sha256": "c516c6a8acd2a649910f3bf469406ddae2f2a467cda89ddebf89130d7455818d"
+        },
+        {
+          "name": "transfer-snapshot-core-002-003.bin",
+          "size": 50331648,
+          "sha256": "e495b226e63567ff44abe9cf7397d36df97e3e85b628f9cb67f8c7bcd4652097"
+        },
+        {
+          "name": "transfer-snapshot-core-002-004.bin",
+          "size": 50331648,
+          "sha256": "d9d7c113a403c7e7102e126481fa78baaa5a6c0516564b4d57bd3afa2adf2a0e"
+        },
+        {
+          "name": "transfer-snapshot-core-002-005.bin",
+          "size": 50331648,
+          "sha256": "386976a7da05c313cd99c04f47ec2ecd88fc75a723beb8bc871db9c50ad0de31"
+        },
+        {
+          "name": "transfer-snapshot-core-002-006.bin",
+          "size": 50331648,
+          "sha256": "b4de9de27292e1cfee903c07043d4869b9dfacc5afb8d3dba431c9ca32dbe3cb"
+        },
+        {
+          "name": "transfer-snapshot-core-002-007.bin",
+          "size": 50331648,
+          "sha256": "295af00c04867e31f3eacb2ebd6b22dd79f3c86048df51dc7e58597f681167cb"
+        },
+        {
+          "name": "transfer-snapshot-core-002-008.bin",
+          "size": 50331648,
+          "sha256": "be78d1322b32e6b93f16328d37a25c3fe83b7ed7f6e9849db66ba214493f440e"
+        },
+        {
+          "name": "transfer-snapshot-core-002-009.bin",
+          "size": 50331648,
+          "sha256": "bf66cd10d089044246f5cd045244223eed529c32f9acc314df62828d76c4e616"
+        },
+        {
+          "name": "transfer-snapshot-core-002-010.bin",
+          "size": 50331648,
+          "sha256": "4a298c64930b1fe48fc0fe62c2abde1901041826a2a30eec15b3711a51465f2f"
+        },
+        {
+          "name": "transfer-snapshot-core-002-011.bin",
+          "size": 50331648,
+          "sha256": "1354074ee8b66bf73451193404a58879a17130ae3cf514da2e3708a57009a9af"
+        },
+        {
+          "name": "transfer-snapshot-core-002-012.bin",
+          "size": 50331648,
+          "sha256": "179de52427fd437a20d9e3bc97b27341ccd4b0a2e110d3fc4500c8f6f49de861"
+        },
+        {
+          "name": "transfer-snapshot-core-002-013.bin",
+          "size": 15008712,
+          "sha256": "00ba97cac6f93008ca7562a2b9c477bd1bbe488bb6e7a09aea6b0582d3c66c14"
+        }
+      ]
     },
     {
       "name": "snapshot-core-003.zip",
       "size": 574270324,
       "sha256": "ee85664666d2cd28dc4a85134d7616ea2e6d2b6979da3e5f071102eb4628f8e3",
       "category": "core",
-      "objects": 330
+      "objects": 330,
+      "parts": [
+        {
+          "name": "transfer-snapshot-core-003-001.bin",
+          "size": 50331648,
+          "sha256": "875468fe56aea7b1db9d05ac639df25be3e6d3d02cf8d09d927d51275fc3faae"
+        },
+        {
+          "name": "transfer-snapshot-core-003-002.bin",
+          "size": 50331648,
+          "sha256": "c0ffb1077bb61c53aa478f69f973d296320142da976e0c22d0e2ae1443593ee2"
+        },
+        {
+          "name": "transfer-snapshot-core-003-003.bin",
+          "size": 50331648,
+          "sha256": "cd5000208226c432d4614ede9808070501cebfea852e68864ad7f1dab86e1a02"
+        },
+        {
+          "name": "transfer-snapshot-core-003-004.bin",
+          "size": 50331648,
+          "sha256": "ec242a7ec787b760f4ad41d99af6a8223bbfe0eb28ef05787a6da82a5d31e6ed"
+        },
+        {
+          "name": "transfer-snapshot-core-003-005.bin",
+          "size": 50331648,
+          "sha256": "d330b0d12c0625434e9bfa4bee35b72d35bee3797e64d7fc1737e14282c2573e"
+        },
+        {
+          "name": "transfer-snapshot-core-003-006.bin",
+          "size": 50331648,
+          "sha256": "020da5f15710d1f7e87543473f43fd93ecf15395b6a4fc86de2d7379e03d20f0"
+        },
+        {
+          "name": "transfer-snapshot-core-003-007.bin",
+          "size": 50331648,
+          "sha256": "51c4092728c11dddeb109122e9c5dd577993e6551ef124ab775e5f162bb968f4"
+        },
+        {
+          "name": "transfer-snapshot-core-003-008.bin",
+          "size": 50331648,
+          "sha256": "e93768453926e8fe40ea7d4b45bf168c0aeece58d68fac065505c2d0c8fc4c1f"
+        },
+        {
+          "name": "transfer-snapshot-core-003-009.bin",
+          "size": 50331648,
+          "sha256": "a4b28b1a9b987096a30f4c361b4d6341cd381ed8e4c05f15030509b2b7bd1d1e"
+        },
+        {
+          "name": "transfer-snapshot-core-003-010.bin",
+          "size": 50331648,
+          "sha256": "17092e46c5bc33a66ec5f953b68d1319cb4ecef00f051f6786495f1e34980b52"
+        },
+        {
+          "name": "transfer-snapshot-core-003-011.bin",
+          "size": 50331648,
+          "sha256": "0064aa99fa78721f3140ab8fde069af24b5dadc4b6789f394560e1f3558289c4"
+        },
+        {
+          "name": "transfer-snapshot-core-003-012.bin",
+          "size": 20622196,
+          "sha256": "115e9274ac6fd6a43ab09a980587fd4206e668d9b4d46b222b02ddaf75e15174"
+        }
+      ]
     },
     {
       "name": "snapshot-core-004.zip",
       "size": 566292499,
       "sha256": "c9e9db15a459f29a961ea5cc73c56c4230af508a30c272f99d3d4307cccfec67",
       "category": "core",
-      "objects": 325
+      "objects": 325,
+      "parts": [
+        {
+          "name": "transfer-snapshot-core-004-001.bin",
+          "size": 50331648,
+          "sha256": "7926f29440b6daa0846984a1c11b73e242fedd341a50bea315289f7e7f389f9a"
+        },
+        {
+          "name": "transfer-snapshot-core-004-002.bin",
+          "size": 50331648,
+          "sha256": "4ba3284cb5460094cf2f83b2c64bd8393db6740c8a2a83d9d6b4ba5722dc2f5c"
+        },
+        {
+          "name": "transfer-snapshot-core-004-003.bin",
+          "size": 50331648,
+          "sha256": "863a95e1f7f9ba615d77dfbc423f1af965925871ed52e4222036a7963bc5d892"
+        },
+        {
+          "name": "transfer-snapshot-core-004-004.bin",
+          "size": 50331648,
+          "sha256": "9eb5baf4a4738a26b2469f79e14f241629ba13a71c270396245efa4880ab04f5"
+        },
+        {
+          "name": "transfer-snapshot-core-004-005.bin",
+          "size": 50331648,
+          "sha256": "0837dc90758064a1ceba1472b046310a777b74d6614057886979161f0fe36a95"
+        },
+        {
+          "name": "transfer-snapshot-core-004-006.bin",
+          "size": 50331648,
+          "sha256": "e111a2520419dc4927d683701fb0ef80f07715c48e99909c562917b8a801c702"
+        },
+        {
+          "name": "transfer-snapshot-core-004-007.bin",
+          "size": 50331648,
+          "sha256": "ea40ab91f13c6bd48cf33c66070d9a8ff3a6e6b6db698cf7e313ddf6374cf4c0"
+        },
+        {
+          "name": "transfer-snapshot-core-004-008.bin",
+          "size": 50331648,
+          "sha256": "e62ffc36b23e0332140c1e0ea9d873f4a0afe9a8799b24bb64c74116c7d31d80"
+        },
+        {
+          "name": "transfer-snapshot-core-004-009.bin",
+          "size": 50331648,
+          "sha256": "55703d148806a7f4f857e52719a351b6f313f594ceffbb427f9cef8cd0ec43af"
+        },
+        {
+          "name": "transfer-snapshot-core-004-010.bin",
+          "size": 50331648,
+          "sha256": "d1b3348f652a428fc094cf40602afc99cf8271a5b0ebfe700a13cad73f81c949"
+        },
+        {
+          "name": "transfer-snapshot-core-004-011.bin",
+          "size": 50331648,
+          "sha256": "8cbd4bec336ee55a0fc8f1f2e15cd522e48e8c25ad3974a9bd9161d74eb7059f"
+        },
+        {
+          "name": "transfer-snapshot-core-004-012.bin",
+          "size": 12644371,
+          "sha256": "d30c13cdf8bb228bb58fc62182f29fc35f22567e76e70ea8e96a2631fb92e0be"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-001.zip",
       "size": 804765150,
       "sha256": "74fe9e60400448dea82a0b2f0d209e088269ef0c96f6f054b38704de55a5252d",
       "category": "cache",
-      "objects": 501
+      "objects": 501,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-001-001.bin",
+          "size": 50331648,
+          "sha256": "0a4619a5f6d42d621c7c9ddbf206e23dd73be6b8cd29be415c7c0e43fa558e27"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-002.bin",
+          "size": 50331648,
+          "sha256": "a7d1b6691d249fdc1874f15e74d0524f659237515a1e0866fce2cb9cfa44be13"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-003.bin",
+          "size": 50331648,
+          "sha256": "9a512195f31146adcc26eeb15a5c2064be1a84331b9f4a1ed584c766f48d22b9"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-004.bin",
+          "size": 50331648,
+          "sha256": "01311693c9977fdde2572029a0935c433c833d98fb4dadde1265b9030fd58ba9"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-005.bin",
+          "size": 50331648,
+          "sha256": "cfe76fea55dbb270e50189ae11584601076f260e3122ec14c2ebdf0523e64f92"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-006.bin",
+          "size": 50331648,
+          "sha256": "57cabd1969ede6037fbc20ee7ab72fb8451860d4f04643fd703a75e4d9eb0dac"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-007.bin",
+          "size": 50331648,
+          "sha256": "5f8199fced1081f2c804b0ea774b6c240921d934717ce2c29d93d5e24bac2d1e"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-008.bin",
+          "size": 50331648,
+          "sha256": "829cdc3d6e3c0bbd9281d8d454ce83270f3f8856bda1eddb4b0e1584a0cc8981"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-009.bin",
+          "size": 50331648,
+          "sha256": "b4958c59caf3a6c1280101a137fdf83df34823a14b843885d7401c0f642cd886"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-010.bin",
+          "size": 50331648,
+          "sha256": "8eac4f42e164349b0eb8acc0a201eb7c00b7acbd458fc64024bea6cb4769d1f7"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-011.bin",
+          "size": 50331648,
+          "sha256": "2fac93f10fbe0f16f537519d5e4fa4292663d9b143346527cda3c23317af62ec"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-012.bin",
+          "size": 50331648,
+          "sha256": "8d1bd208d8129eaa25765b4f9983a2152e3128b6ee84c4f7aed4a9fdb7f81a72"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-013.bin",
+          "size": 50331648,
+          "sha256": "dd6704bf19336eed7a6d7998d2b4e2648793a107a556716606241afc1b7ecc6e"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-014.bin",
+          "size": 50331648,
+          "sha256": "d176806446b245cb0579e422021deceae6cc2d6505c5a93a46240e9ad852ed41"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-015.bin",
+          "size": 50331648,
+          "sha256": "56b761560c06105d75c147ddef6f9c8136c37767facf0a2f05394f8570ae1976"
+        },
+        {
+          "name": "transfer-snapshot-cache-001-016.bin",
+          "size": 49790430,
+          "sha256": "a401c660edb075d80ee4065ce05652158a57ffb226f85be134d7280af3a154b9"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-002.zip",
       "size": 804612127,
       "sha256": "62e34b46faa886063d51c525c4d704d7409e49b52f9e6c9c996f2e03a55d23e7",
       "category": "cache",
-      "objects": 494
+      "objects": 494,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-002-001.bin",
+          "size": 50331648,
+          "sha256": "fb898343c7e19c2e54a1abef62673b4e0b94254aca8b94f0971bcc3a6ef3cce3"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-002.bin",
+          "size": 50331648,
+          "sha256": "be931ac770a66395519803fd9e2b16a43121c8fb7fbe4d9cbd9c06ec37e1c705"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-003.bin",
+          "size": 50331648,
+          "sha256": "4017437622f398caf9e052502abc5c3ca1149be623e0c1417a522d7f9fc1f347"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-004.bin",
+          "size": 50331648,
+          "sha256": "bf69185a52f58ca7af02bda5300b8102752cc58a1a6595b20fba8e60cff638bc"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-005.bin",
+          "size": 50331648,
+          "sha256": "9f11951cdb583adcc25ba81c3fb6d70e287602cc1d2ed0e23186fe9247b66a12"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-006.bin",
+          "size": 50331648,
+          "sha256": "6a33b73b5341f92cb3f8660379cfa1e85831412a6a073f3bd0600c063cd52785"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-007.bin",
+          "size": 50331648,
+          "sha256": "3884dd43cf5d59a616c4693de88cbb1958f89e0d606dc10030aff90726b228bf"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-008.bin",
+          "size": 50331648,
+          "sha256": "5b0902b1a8e0b3b4a71731e366cbb563484efcca5080873a46c2c2d04f84365f"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-009.bin",
+          "size": 50331648,
+          "sha256": "340d497232949a8a3f8f240db5fa9c7d7d81d6533956297ce39917fb94f0af8e"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-010.bin",
+          "size": 50331648,
+          "sha256": "13bec2293f29142518e03ecf8927c68524fcb0218a4bc27e74210d02b079270a"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-011.bin",
+          "size": 50331648,
+          "sha256": "b9ee620b0441d739607cc77dd85720a0f1dc799074481d15b077571263aab72d"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-012.bin",
+          "size": 50331648,
+          "sha256": "099de333728db543eb9e868ca0636badf7005a13c921c2ccade66f6809d92546"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-013.bin",
+          "size": 50331648,
+          "sha256": "7c30a1d0e3c48c55179391f5dfaf2e4ee16de6e836ca325a2824c1f07833d679"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-014.bin",
+          "size": 50331648,
+          "sha256": "ce6184a4aa9bca64dfc52bcfe165eade0b21a86aaec9daeb2c5d92464cdd0299"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-015.bin",
+          "size": 50331648,
+          "sha256": "1bc45427048a51310eb742d570fdf6dc7d94d5a24ab046d8df11e5b7ac86884d"
+        },
+        {
+          "name": "transfer-snapshot-cache-002-016.bin",
+          "size": 49637407,
+          "sha256": "a5eb975dfcd825cd9cf753b7cf6278de364340263c0f08975dfc332ee29067f2"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-003.zip",
       "size": 804553590,
       "sha256": "f4f3745aea8ca5e459cfcf2f87c6037c3ba60d84d1ef119963ee918a4ea868cb",
       "category": "cache",
-      "objects": 508
+      "objects": 508,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-003-001.bin",
+          "size": 50331648,
+          "sha256": "b6dfa6b9ba4cc0d21f86aafa2a1c6fa155d0bbc3623271b8c6d8c29903ebffa0"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-002.bin",
+          "size": 50331648,
+          "sha256": "54c660c50af3a2d0fb79119c0f3480ca1f9c025c1c90ae1f561de18b1b3b449c"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-003.bin",
+          "size": 50331648,
+          "sha256": "b75f5033816c23d6959991d89db1d7d48008255c41aa1c466b4925d844f3ab1e"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-004.bin",
+          "size": 50331648,
+          "sha256": "fe349588b9386c870084933a4e76005e3b1e6763fab074e648272da5798a9d31"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-005.bin",
+          "size": 50331648,
+          "sha256": "769ae5484dbef8fd3e840d4a9cda6131ed56282ff5f8a726f2c58da957aebe89"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-006.bin",
+          "size": 50331648,
+          "sha256": "873ab1d6106d80d811834711141dfac05105d71aaf687775640a73385f5afb93"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-007.bin",
+          "size": 50331648,
+          "sha256": "20bd560c4d6103235f59f12d9084577ddecaf8fe5be8dcddf14e3c16e47a665d"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-008.bin",
+          "size": 50331648,
+          "sha256": "7fafc52dbd071df64f97ff1dc668d279f351651dd4b4aed14ef2e450c48f8e96"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-009.bin",
+          "size": 50331648,
+          "sha256": "0e383a25025ed780c28007e7379ddd976d27c236a7a5d9203fc3a44643fe48af"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-010.bin",
+          "size": 50331648,
+          "sha256": "681a18406afe06dcf3db87f69b650749eaa64cf458db138443a0531a6182d8a5"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-011.bin",
+          "size": 50331648,
+          "sha256": "889e62d6faf677ef386da8fb497b54e2b96c914b9675465db2d03d6a9952f5c2"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-012.bin",
+          "size": 50331648,
+          "sha256": "0f246e83ccce11d3054d28fc09491f3cd1d3c45868f9352c26a36ab4c1b108a7"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-013.bin",
+          "size": 50331648,
+          "sha256": "2154be5505d6a7eed99130072c8c395af811db21d08f280d97a7d5dbd36fe0c1"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-014.bin",
+          "size": 50331648,
+          "sha256": "b62da824d02fb6b59d5c98d6d77bae27ce247dd64b759e716f2f4a3a3dc35eda"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-015.bin",
+          "size": 50331648,
+          "sha256": "cb372c896c84c3a8009b72535a5e73a8571248f93b9e907fb5c832156e96da03"
+        },
+        {
+          "name": "transfer-snapshot-cache-003-016.bin",
+          "size": 49578870,
+          "sha256": "7e69182ba550521556be0e86a1c0ca1abb1fd26af803a24f97e33112b12e38cf"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-004.zip",
       "size": 804837286,
       "sha256": "0c5b3b64d1f3aa961693f74e6183d57cbe47d974cf6566fd364986b58e156c59",
       "category": "cache",
-      "objects": 505
+      "objects": 505,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-004-001.bin",
+          "size": 50331648,
+          "sha256": "a1cfe58df5d2120a23e5dbc2c8c7ab09f99cd31ac3934e984e50bba4041c531b"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-002.bin",
+          "size": 50331648,
+          "sha256": "fb34a1888d6495f730b1e5a8f2dd0812de5e6661f8151cc54fd9fad1f0fc5a60"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-003.bin",
+          "size": 50331648,
+          "sha256": "6c4dc51a89b850675ff1b8cddbc0cd40690f24969f271d121a2ecd80b5c9d48c"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-004.bin",
+          "size": 50331648,
+          "sha256": "9710c27aeb0c971b52ace9c53c94520e62a124194e5e861156ecba04160496e5"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-005.bin",
+          "size": 50331648,
+          "sha256": "3f512498e6ba86bda160e335357fead673b4a07d6f6f9f7f4b122d991561640f"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-006.bin",
+          "size": 50331648,
+          "sha256": "7242e4f3b08d7508860d4f4a223155e84fbe53b27e35c7074c5fee19a2d343ef"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-007.bin",
+          "size": 50331648,
+          "sha256": "b0c84d28c702c2e07c2252d87723880686e1ce9e64b446971aa744df63cccc41"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-008.bin",
+          "size": 50331648,
+          "sha256": "07615300aac540c9854e75465d2ca45eebbd053a305f04c737ac30cceac6274b"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-009.bin",
+          "size": 50331648,
+          "sha256": "03e5178ca10c1611bb9fd8d79ff9f17411ccbf03c3d2c1c248aac329f1bd0687"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-010.bin",
+          "size": 50331648,
+          "sha256": "0e2dfd16b5f2b7e4c130ce5d7b84d9db59f960011ac3199c8e415670658c392d"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-011.bin",
+          "size": 50331648,
+          "sha256": "781467155c58d2e7bff1e11b20088ee01ec11142de801a55b63686b39f9dfb62"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-012.bin",
+          "size": 50331648,
+          "sha256": "21b91868960542f3c211595936876fb6b5ac9384c229304b2e3400dc90e51c56"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-013.bin",
+          "size": 50331648,
+          "sha256": "258d694081e7a81673ddff014c6cee855afff99bb6eaf39f82144c8a08a3f3cb"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-014.bin",
+          "size": 50331648,
+          "sha256": "6b73cc2a25a725540d897007d909d2aa94fb0b0a00f287065183aca0f5d73bbd"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-015.bin",
+          "size": 50331648,
+          "sha256": "cf2d34c79654f8980448abc91da840ffc00792c5c3408b3c03f471f8f45dffbe"
+        },
+        {
+          "name": "transfer-snapshot-cache-004-016.bin",
+          "size": 49862566,
+          "sha256": "1fdfc1aa3b6a821d3b51a6ee03f5fc1cb65c80d341f662164b211dddade405c4"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-005.zip",
       "size": 804736287,
       "sha256": "1ac6b1e84a68fe60781872900e865fb112ad76b28e4b0cef0c750c2e5c0a960c",
       "category": "cache",
-      "objects": 499
+      "objects": 499,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-005-001.bin",
+          "size": 50331648,
+          "sha256": "8935841f82495eb54f80c8f7d29580a1bc74699ad033e40c94fe18d0c1f169ac"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-002.bin",
+          "size": 50331648,
+          "sha256": "0b2897283df86bd24a5cf4c108fb82bc9e0a645d830c59d22f7468f0caf11229"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-003.bin",
+          "size": 50331648,
+          "sha256": "ece5f9db25ca0d66d4bcaf91029d5a98638858717508a41035ac06182b7e9607"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-004.bin",
+          "size": 50331648,
+          "sha256": "8183dbba68399d4e544e32d2c6aa3a71612dd90a19aa822100c3564e28ebae5f"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-005.bin",
+          "size": 50331648,
+          "sha256": "dd2536163e51a6585a96903a2a7dfe1f2a43d18d29c925457e28962160c8d9b1"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-006.bin",
+          "size": 50331648,
+          "sha256": "1bae947b8c6c3a5c3ef434b7f54bbfe2c6751f7340a712a3ca98240dc1cf76aa"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-007.bin",
+          "size": 50331648,
+          "sha256": "0bb1b174df378a76936f818620939e6d91dc67b348494b8fc5725614a597728e"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-008.bin",
+          "size": 50331648,
+          "sha256": "54c741892a8d8cf68cd506a35e1a940308f5a04ecf824b7f3f582e5633270d35"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-009.bin",
+          "size": 50331648,
+          "sha256": "71f808075708e21fe800b81066806f55c590c5f3959e2687fd27265abe3419d7"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-010.bin",
+          "size": 50331648,
+          "sha256": "f64e3ec2ebd1cab017e279125336f7895424cdf09c11c02b2c140bfa84b80301"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-011.bin",
+          "size": 50331648,
+          "sha256": "f70a1987ffb1058ffa40a428c1211932e49e0abc002ed7721bf5665428268caa"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-012.bin",
+          "size": 50331648,
+          "sha256": "2261fdb87cc1000f50bdfd6d6241654b0bee7d016c3bc9f4df261061680f44bf"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-013.bin",
+          "size": 50331648,
+          "sha256": "5aec7accb5706556cc91ac919a973ade600bf79d4228ef2cf125978d8649568f"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-014.bin",
+          "size": 50331648,
+          "sha256": "7459de0cd19617df5cdff8b15e1a130ace6cccb6e3d91dde7db1a8911cf957a5"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-015.bin",
+          "size": 50331648,
+          "sha256": "423ac6e2ead98c2e9b00ab1c4172cc773561b22d238a1812d8a6483ba9afc1cd"
+        },
+        {
+          "name": "transfer-snapshot-cache-005-016.bin",
+          "size": 49761567,
+          "sha256": "40a6e8d3baf7ec7fff4e42dd35780127bba8385ca4a93a4e6bd4b6ba8ae05688"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-006.zip",
       "size": 805386611,
       "sha256": "4867f48a8a59d0303abdec4f5d244391651ad3eccdb5337372b0472b230d23ec",
       "category": "cache",
-      "objects": 529
+      "objects": 529,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-006-001.bin",
+          "size": 50331648,
+          "sha256": "b6c4235454ff69efe9c45bda35f6b893ee10893f45e2e49ef11b206f1ce39586"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-002.bin",
+          "size": 50331648,
+          "sha256": "075d1e99eca94f124b150ec737263c4394a4ee9d2abec3bb3eea170dde23844e"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-003.bin",
+          "size": 50331648,
+          "sha256": "95ef516fc342041869f67309dc4cd02b659aabdd9b872d879e88b50980043520"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-004.bin",
+          "size": 50331648,
+          "sha256": "cc1c9e0108f6c9c3dc8311458949173a6e04de6e7074238a13ba79dcec59a942"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-005.bin",
+          "size": 50331648,
+          "sha256": "bac1013f48770105ddda05d26d42055070e34c556ca043fb4d716f59490bfe0d"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-006.bin",
+          "size": 50331648,
+          "sha256": "b47be3b592773888035c7ce77ebccaa23ac2ded30af553a957a7a37b978d698e"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-007.bin",
+          "size": 50331648,
+          "sha256": "88b0c3d7f94ebdacbe3bf925feb2661a94a1654cd21089339830244f3e893e33"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-008.bin",
+          "size": 50331648,
+          "sha256": "ece15603a9f2fc595366b83d835eb5c7f5839ebcce19942143a229ba98b28244"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-009.bin",
+          "size": 50331648,
+          "sha256": "81b92808356fa4d6a5cc822aee2fa272b3bd51d710984490d907f8a0ce71aa09"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-010.bin",
+          "size": 50331648,
+          "sha256": "73334c243dec93cc7800e5ece96a5b9439b831892c0ee971641a09abae8f16ae"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-011.bin",
+          "size": 50331648,
+          "sha256": "90f09cc5b12733947e6b60023a14f0eafbb5d57899cdb0dea51654cb9c609815"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-012.bin",
+          "size": 50331648,
+          "sha256": "c27f8c9dc1b804b33bbe997ee0300ff6a4256ea3b5b55ffe618ab2c70930b1c0"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-013.bin",
+          "size": 50331648,
+          "sha256": "874e06f89119a6b3721ad21c56a42792e195334ebffefad353e89c31716093f9"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-014.bin",
+          "size": 50331648,
+          "sha256": "e1e79457f65bdf467da13939af809e9fc95209c74a488334e7b21fbc6a41d017"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-015.bin",
+          "size": 50331648,
+          "sha256": "3abb60c84e0c69d64987ffd3cbb1f220d768abb0c2f4018b37664e5943aba8c7"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-016.bin",
+          "size": 50331648,
+          "sha256": "6681079e356dae67df6a55502b349f563f26b04476bbf6f207544eff61d51a83"
+        },
+        {
+          "name": "transfer-snapshot-cache-006-017.bin",
+          "size": 80243,
+          "sha256": "f3914083d9e603610667d7f09cf3a19aa9d27bdba837c2ea461cad46dad92d68"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-007.zip",
       "size": 805110035,
       "sha256": "f4148b525ec493e6f29b89830cbd21fc453a62939f624986e5036a4960876501",
       "category": "cache",
-      "objects": 511
+      "objects": 511,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-007-001.bin",
+          "size": 50331648,
+          "sha256": "6dae6131f44e2e470b6aca08071a7ac0d5b38745288c68c3870545ffc1cf6494"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-002.bin",
+          "size": 50331648,
+          "sha256": "639dfb3646e28b8d0a322f9d9cd1a2d3db4ea8f8e6b67f9cd80c78d8b7a0a821"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-003.bin",
+          "size": 50331648,
+          "sha256": "b592543f78b3ea4f4584da76ad99eaacc8c20d42c33720ecf73de8e7c7bc96a5"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-004.bin",
+          "size": 50331648,
+          "sha256": "824afeedf719532814e82040c5f25db93c062a9a03dd4a58de07f3325105f4df"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-005.bin",
+          "size": 50331648,
+          "sha256": "8810639a6c1d36bbc1b01230ea84da5aac913b0ae28e414373af7a8fe78d6be2"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-006.bin",
+          "size": 50331648,
+          "sha256": "c4bb04e6a6432f21adae8fe8dd9649851d711286d1a5027b41571234aef7e631"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-007.bin",
+          "size": 50331648,
+          "sha256": "e9baa122f7341069b27637e9bd51278016609bdcb57cd3e2c0f6569583d80f98"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-008.bin",
+          "size": 50331648,
+          "sha256": "19c1d949b35be89035217ae039edce456fd37f2434a1a7048e33805f7ab3b1fe"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-009.bin",
+          "size": 50331648,
+          "sha256": "700f1e9abc7546304a6ccee732e01f23bb54bdfc91a0314e18858338b731efa1"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-010.bin",
+          "size": 50331648,
+          "sha256": "968b5de8543bf7e734339114a08234793ee8dbcd1fa33d650121bc57f38bf0e0"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-011.bin",
+          "size": 50331648,
+          "sha256": "767a0cbbe8c35202d1aa09217d9b4c4f670be52652748ae4fbba28072885f631"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-012.bin",
+          "size": 50331648,
+          "sha256": "fe94b46d420d33166307929afc79a1a4b9ba6aa708bb87160a427c5148281bac"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-013.bin",
+          "size": 50331648,
+          "sha256": "1aaa230e59c9482a79d8431c5d3bd55db123618d2a4dc9df6fff50ce37e97050"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-014.bin",
+          "size": 50331648,
+          "sha256": "58525d12870f519ebad43a341eadd778b8066d34a54c273f53d103e2a7d2a8d3"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-015.bin",
+          "size": 50331648,
+          "sha256": "1d1c23f160d14669139bbdd9a3381d43378b395ef68eec9d67a8ffc01702c18f"
+        },
+        {
+          "name": "transfer-snapshot-cache-007-016.bin",
+          "size": 50135315,
+          "sha256": "6e131f437c7b0b35e66d7d4ed4a73dde97efe5bf45c0ecd4cc5c24c746357ffb"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-008.zip",
       "size": 803504921,
       "sha256": "c108fe120a7b065a90f38f971205fd792bc86f1686ccd823ca84098e2a8895ad",
       "category": "cache",
-      "objects": 480
+      "objects": 480,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-008-001.bin",
+          "size": 50331648,
+          "sha256": "e1f4b360b0eae4ce9a727cb5dd35065ebc415d4fc9b289d71e2eeb471039b51b"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-002.bin",
+          "size": 50331648,
+          "sha256": "835324e727be704050c301c9325b6011e60017e1838abe45354a1059beb9d5b2"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-003.bin",
+          "size": 50331648,
+          "sha256": "a96f98ba902b28bcb5ca2acc79c7b40b08a375b025f1e92fe7ff138e0cefbe85"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-004.bin",
+          "size": 50331648,
+          "sha256": "c40c6d271902cbbcbecea50ffa0366b5f957a1a7ebecdc2fe35e001da502b42b"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-005.bin",
+          "size": 50331648,
+          "sha256": "2a49ccba108118bd6826262d4b06422c69f9d5c131b442fef17576b6931f3bd3"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-006.bin",
+          "size": 50331648,
+          "sha256": "f5f26fd8fc85cf5011074179e3af0cee7b62a410365f2ae54aae883cf3c9b244"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-007.bin",
+          "size": 50331648,
+          "sha256": "8105d48b7a2e2d671e3461f4dc0fdd2c612a98f5f6443268b0ccdd42fc51b486"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-008.bin",
+          "size": 50331648,
+          "sha256": "f88e41799887b0cf6e24ed26f1799b2d5fddda71eed75fca9b345608102f9531"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-009.bin",
+          "size": 50331648,
+          "sha256": "df859bdb9547923f080a983872b45fc9bd30a6b9f1748ec3ecb4b581ba200d98"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-010.bin",
+          "size": 50331648,
+          "sha256": "33e0b265f1a7446774a38325d4f68bd33d4dbf477c2a18fae58a89db3b1d8e96"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-011.bin",
+          "size": 50331648,
+          "sha256": "72b6234980c22e2ce9275475dafc4822fc1177e79fd5a9f04c01c5b8aebed34e"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-012.bin",
+          "size": 50331648,
+          "sha256": "6bad2fdd2e30eab8dc18ef5e71309ad7eff4b7e30af672fb543b8af183d27d66"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-013.bin",
+          "size": 50331648,
+          "sha256": "8ba2ce404093cd4b9c7756ebb11f58c7def63657c66d94d9ea639ac0aa6a3798"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-014.bin",
+          "size": 50331648,
+          "sha256": "bb930b8ea7ef669d2a8b062c14ec7ea7d3ee4ffd0cd13e67e7b42742e1f8fdaa"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-015.bin",
+          "size": 50331648,
+          "sha256": "c76b8998aa97faebc9d3e3e7a5aaf1a96aaa09122fe8484b479a8653eb18d147"
+        },
+        {
+          "name": "transfer-snapshot-cache-008-016.bin",
+          "size": 48530201,
+          "sha256": "38c4153d2b116742bac037f883e36e11cbc5b1b999db11861bd6c52c4125e854"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-009.zip",
       "size": 804344053,
       "sha256": "82b414662ea126000eeb63428defa54a8fbcdcc6e9e280f709975278ee051ac6",
       "category": "cache",
-      "objects": 498
+      "objects": 498,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-009-001.bin",
+          "size": 50331648,
+          "sha256": "dbfa7834c27f0d4713bae05f03e4d0217148495220ec3086d39899068b2c2aec"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-002.bin",
+          "size": 50331648,
+          "sha256": "6fbee08bab9ba5e249e8f4ef334cae7747fa4b8fe61e897759f9093c7191538d"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-003.bin",
+          "size": 50331648,
+          "sha256": "0527b629d40de9c22ce74d4bf49983805d2ddd4001e66a2e2736ba3eb6edc87a"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-004.bin",
+          "size": 50331648,
+          "sha256": "98470abea3c8885cce4b905e74c8199fe3768c8d297f222fa6bef6a3dab567fe"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-005.bin",
+          "size": 50331648,
+          "sha256": "d40145a4dce950a35ba3e69db7ed716fc2cd83342040a6dc42ec709f2219e39d"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-006.bin",
+          "size": 50331648,
+          "sha256": "9e15e5cc12efae7c017282ff777e962288a038b419f0c1726d6e7d7091d251eb"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-007.bin",
+          "size": 50331648,
+          "sha256": "95f00a6ff92acaadb9b58f5eb29485e8ab9accf57ca9d65402542e8774ebafa6"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-008.bin",
+          "size": 50331648,
+          "sha256": "8f97343cafd1d9382a1f79ad43ff394d9dbe1049955d5f8aea3a4e13192d930e"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-009.bin",
+          "size": 50331648,
+          "sha256": "f0132f56898fada05732d64661cfffec7639872ecd373de97226d74ee0434dc2"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-010.bin",
+          "size": 50331648,
+          "sha256": "3d44d449048605691357950c982a95bc03210416304411413d6842a7b38ef3f3"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-011.bin",
+          "size": 50331648,
+          "sha256": "604a692f3aaf9e1fba887873f7f8661bcd0d8b83ffd93d4e6928b8f642080539"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-012.bin",
+          "size": 50331648,
+          "sha256": "15a7976bd7af39a84e45c3f26c5c877c9bd9e16cb3b81763597362e85f87b05d"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-013.bin",
+          "size": 50331648,
+          "sha256": "15cca5d6e677ab3898ee2df03f5f7eefbacfe4a402ca8bde78b949c9adb35bce"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-014.bin",
+          "size": 50331648,
+          "sha256": "ed0f5ec3b607d334a82ecb88b6c9580c18bf0e11ec565b114bd47b29bf092f1b"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-015.bin",
+          "size": 50331648,
+          "sha256": "232315efc164b2d57afe23c9c1da5f77f2d63185b032693d35f6da815144252a"
+        },
+        {
+          "name": "transfer-snapshot-cache-009-016.bin",
+          "size": 49369333,
+          "sha256": "31aad1d980bc1d9142d54ce765e0e6ee0a6e8757d367d4652fa30a9e1eb8d1a3"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-010.zip",
       "size": 804174040,
       "sha256": "b44f557387892f5cd86a61171002c16815b84210ae9df3a87a2741f5a9868784",
       "category": "cache",
-      "objects": 508
+      "objects": 508,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-010-001.bin",
+          "size": 50331648,
+          "sha256": "622520691e3558e11ef11b4c4b999649002590ac10ea7d03f063d44da74fcb75"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-002.bin",
+          "size": 50331648,
+          "sha256": "897b67a095f28c2aeec663b47d560577bbe5916c301857b98c7183ff21a55164"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-003.bin",
+          "size": 50331648,
+          "sha256": "26d330eb4eaba32db47dc935f97acb0d7326cfef0f395f892a5aa4a42632dad6"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-004.bin",
+          "size": 50331648,
+          "sha256": "fb9265b8eac092ed22cf6a6763233aa881696a2cd93e553a7f2b20d0020fcdc6"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-005.bin",
+          "size": 50331648,
+          "sha256": "2be05a00193e91825401e3dc6eab193da93d481407aa151bb852c1edba84bc45"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-006.bin",
+          "size": 50331648,
+          "sha256": "c6d73d02bd37318a74018331678a452d5f47c29d4b5d5846329a8ca19486c08a"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-007.bin",
+          "size": 50331648,
+          "sha256": "0eade244e5f4f772cf144d0fecde22e8bbc051c64a6dcee127c0e3f8039f052f"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-008.bin",
+          "size": 50331648,
+          "sha256": "22a01b91b7c825e2605e943cfc164848d51c28efc544dce4b0dd82a49b5ed2ca"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-009.bin",
+          "size": 50331648,
+          "sha256": "cee8450e0ca00dd46f722f3b85dc431f31a60a5b64b5f97e0b7ba94297c77cbd"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-010.bin",
+          "size": 50331648,
+          "sha256": "5a58ab2b6305a568766e646e8d03b6f41b264514a879df9b031a88e00f1ff569"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-011.bin",
+          "size": 50331648,
+          "sha256": "d52db5ee4d5cd8b9388b3faeeb05517982be378b9f2a4adeb27574e1b34d25e0"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-012.bin",
+          "size": 50331648,
+          "sha256": "04a2017b07a76dd8f41c91ec86dd8095b8bc3b8e0a4f3849d94da0caa434170f"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-013.bin",
+          "size": 50331648,
+          "sha256": "3d4bc99ba1dc09ab79c7fc89e032d55c0c03cbc6fecb66239499eb3d79ad4972"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-014.bin",
+          "size": 50331648,
+          "sha256": "59ada7ff60bea94daa63a8d0e919b2fb369adac4dd2cf7313da58e195cd18325"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-015.bin",
+          "size": 50331648,
+          "sha256": "db624f6d30ab9dc6e2f6fbd4d03f2ee2643828ba518b3ad8caa68fb10e7bd0f4"
+        },
+        {
+          "name": "transfer-snapshot-cache-010-016.bin",
+          "size": 49199320,
+          "sha256": "4ba8721bf3fa690922dc966277037fa1d65454925884e243934df384f7c39d47"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-011.zip",
       "size": 805276168,
       "sha256": "e20c0b78816ef94114c723df5858b8108ddd8f9d1a49bbab058a87786b7d7364",
       "category": "cache",
-      "objects": 506
+      "objects": 506,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-011-001.bin",
+          "size": 50331648,
+          "sha256": "e638ea9582783c39b7a5b8c1485e0fea7bac542b360030c47ffba1f14b299e13"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-002.bin",
+          "size": 50331648,
+          "sha256": "1879c2aa4491cacb40da3c2910783ceb61083597661f19c7d4f130c02027b5c2"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-003.bin",
+          "size": 50331648,
+          "sha256": "e6495b2f00b35a5fcece5897f053abbe5a7e2a7039b5501c70158d86ed29524f"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-004.bin",
+          "size": 50331648,
+          "sha256": "f555a1327e3f5e697538ce9d057888f8512922934abfafcb15c7ae14c12ab9cb"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-005.bin",
+          "size": 50331648,
+          "sha256": "19bca98584b245c3f56ffef820b77c461a4a72196b7add5d8422a4df4d2eb1db"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-006.bin",
+          "size": 50331648,
+          "sha256": "4df049998e14ea1948fc06f00ac6011176fc7f11a926cf5402835c8fa50320db"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-007.bin",
+          "size": 50331648,
+          "sha256": "bde63ece34d7aa0841e44c50137564fb34afb8a4e47474a6cd748b6914b916b8"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-008.bin",
+          "size": 50331648,
+          "sha256": "b22331506de96955725a95da4d230adf2b7efffeedb4ac37b8de4ec9e8a65083"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-009.bin",
+          "size": 50331648,
+          "sha256": "3737d2e34b67f621de00398361b24a60c041a1cfce0f03734e16465368ceb315"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-010.bin",
+          "size": 50331648,
+          "sha256": "bb1f98be93fb5fb9e252debbf1c18d8eff207bf524bf5e052e7b1457033c35b4"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-011.bin",
+          "size": 50331648,
+          "sha256": "e8e4924627c507ed3f49f978df918c7482bc9e9145e2d88db24caeb6f271b32d"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-012.bin",
+          "size": 50331648,
+          "sha256": "d36aa6263f51a091f584b3fd77a2383618f35892fd78e2d81fa6b3b268649042"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-013.bin",
+          "size": 50331648,
+          "sha256": "af616f93fc94b1c01e6a44714b3790c7213ee0b3214a6600edc2b7edf8b170a9"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-014.bin",
+          "size": 50331648,
+          "sha256": "f7035a9faaed0d96d908fcb56144c0ed4b6cbfd876a383abee38caf494243970"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-015.bin",
+          "size": 50331648,
+          "sha256": "aab3245bbdcd134d1fa0c81c20ab59b157fa904b8ddcea3c899b5594ebdda511"
+        },
+        {
+          "name": "transfer-snapshot-cache-011-016.bin",
+          "size": 50301448,
+          "sha256": "054479089bd763fa5455b16925305f0ae8c77aeca152c5358140daaa02d3de81"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-012.zip",
       "size": 804731953,
       "sha256": "8f8c58a92780f564399620875dc97c53b1f05b843834f421d711504113600003",
       "category": "cache",
-      "objects": 517
+      "objects": 517,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-012-001.bin",
+          "size": 50331648,
+          "sha256": "ab9b7fe2e5c6f23b2ebebeb6a2f47f2fda6e1cb894d53e5894f213719b566194"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-002.bin",
+          "size": 50331648,
+          "sha256": "d352c2300b7a42b9f536edb4d97da9dc013f39c88c271ae19237ace9d85ad7ce"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-003.bin",
+          "size": 50331648,
+          "sha256": "518a2b07583d090287e652f2225966c22f3ebcca06806d67adccd6a04682f22e"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-004.bin",
+          "size": 50331648,
+          "sha256": "11d3e43f68803d8831b8b976a73868a9c3927d48c8830ec7798e83d7e15ebdd5"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-005.bin",
+          "size": 50331648,
+          "sha256": "30544b6a5b1c1eadaf4bf8142c5ee2e78403c01535c1b02a33cc3c62bd10d8d2"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-006.bin",
+          "size": 50331648,
+          "sha256": "8f2bf82dbef1059d353dac056507ac472e3e821f18ed929d814d56477238ec30"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-007.bin",
+          "size": 50331648,
+          "sha256": "fcea2de4bf94106294f028eeb04188ff41e5d65a09e7e8de0a1440e81b1c76f1"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-008.bin",
+          "size": 50331648,
+          "sha256": "7ed4f7149dc2f9a9855729335fa9afb2a42a049a2360b2baab892d52f30ecdba"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-009.bin",
+          "size": 50331648,
+          "sha256": "a89b2b44e4e155ccb59778ed31987cdf95e0edf174b7bdb727368b065fdc436e"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-010.bin",
+          "size": 50331648,
+          "sha256": "616fdfdc70269e785f98bcd310e18cfa8542e69071b4cc54d995ab7d03e7bef6"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-011.bin",
+          "size": 50331648,
+          "sha256": "d28a17dfca1b47fce7d15b5ac4a8f5aba849772384787db37f8977af5f99a1cf"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-012.bin",
+          "size": 50331648,
+          "sha256": "b63483b3e1e3071783c34ffd9d375f0e77fd04857e279794bf2a7a6d8cea67db"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-013.bin",
+          "size": 50331648,
+          "sha256": "62083f5ccc1531e1e8e1eb4572d549b195bfa6771c9068bd3734cb11c61410e7"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-014.bin",
+          "size": 50331648,
+          "sha256": "6537a398a301fdb7661ed1396bfd9fb5f4b9c2de993524fb450f1ec14f8a0c3f"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-015.bin",
+          "size": 50331648,
+          "sha256": "9a2312f0a65cf2dad7829d94bcb0b446dce90347705e777e5fc73ff9e749a857"
+        },
+        {
+          "name": "transfer-snapshot-cache-012-016.bin",
+          "size": 49757233,
+          "sha256": "ab7bbe8ed126b183a95788a235027f81a68f4deba06d7abcc5161d146ac11e39"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-013.zip",
       "size": 803211501,
       "sha256": "6bbda61397bdefa1923c5a322f4ec7a9030ad20a48ed8ba7eba5ab01ec2778aa",
       "category": "cache",
-      "objects": 496
+      "objects": 496,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-013-001.bin",
+          "size": 50331648,
+          "sha256": "9b6628133403051abee2e344b2d735d70993220ccc7eafbf2215718f396226c0"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-002.bin",
+          "size": 50331648,
+          "sha256": "0dbf7db4840de056db42836ff5c706645f858592813532d5666a805df3f6026e"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-003.bin",
+          "size": 50331648,
+          "sha256": "350ac87555d41e2b973a6f9a0eba016cc00fa464178e2aed4872b06b6d1700e4"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-004.bin",
+          "size": 50331648,
+          "sha256": "de33905b70197c5ab866fc84d11324e539343fdaa3043e25ffc529f412fc18f0"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-005.bin",
+          "size": 50331648,
+          "sha256": "403a66fbe2d3e43ed236038acc4a85dc7eed32401a927a638d07a9afc966b630"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-006.bin",
+          "size": 50331648,
+          "sha256": "7e645b08408f33c90c5f4d1c4fc10d163bd52bda8a344d04e45cbb90df1523fc"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-007.bin",
+          "size": 50331648,
+          "sha256": "a5402a376ccc912a2ead33669c17d4e03b7d98f1330c1b96db0e749ccf6f5b64"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-008.bin",
+          "size": 50331648,
+          "sha256": "a74f622695567d01e714be078ba3b55dc245f5055037bca1de785052e7e8014c"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-009.bin",
+          "size": 50331648,
+          "sha256": "9ace9fa77f08112896dda339383244c5b014206d255d18670401808b95f22e32"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-010.bin",
+          "size": 50331648,
+          "sha256": "2e33dba37a886420478d4f6a6b23d125a84aa5c8609c48a203fc99317ef01c40"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-011.bin",
+          "size": 50331648,
+          "sha256": "6969fe9b05a8f39759e8ee6f8e79982e582733e17b59d08ee9abcef19d557456"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-012.bin",
+          "size": 50331648,
+          "sha256": "da1c4a2d77e35313ac4f2f16349a6b5ad41087f86ed9fc32874d21232e1950e5"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-013.bin",
+          "size": 50331648,
+          "sha256": "c9a6b1c037b17afed85f80e1a9564a243d28dcf8b34bc929fa65427870332364"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-014.bin",
+          "size": 50331648,
+          "sha256": "c1a803a7442381a816490ed2abf7d8083d2580470703b73692ed061b7955a870"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-015.bin",
+          "size": 50331648,
+          "sha256": "c556cdb387ca39afd5118155e50f11ace875da0867f7069458dc32e993ad7bad"
+        },
+        {
+          "name": "transfer-snapshot-cache-013-016.bin",
+          "size": 48236781,
+          "sha256": "d2ba2deb4c862db0cc674dfb090830ba381fba71e05084a66efd24b7c0b42893"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-014.zip",
       "size": 804352425,
       "sha256": "55e833f271b168e7e3151b7650a7d7030dcaf14f346593652a8c1c682f089268",
       "category": "cache",
-      "objects": 507
+      "objects": 507,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-014-001.bin",
+          "size": 50331648,
+          "sha256": "5d63f87c7e9a3dad4a0f13ed05bc8b7927695e1c41aecdbb693d07165ea7ccbc"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-002.bin",
+          "size": 50331648,
+          "sha256": "517d245b877d027d2b387fa561880bc8a09facc34a8854d59df7f794de8afde7"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-003.bin",
+          "size": 50331648,
+          "sha256": "beb2b77325ae6e9b5c2a545978c8e93328e970943bbb78fae16975ba3334e492"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-004.bin",
+          "size": 50331648,
+          "sha256": "5f3364ba3b8bb10ecd2a28c0038255e30a58f2d04b2acf1cd8502977e24a8dd5"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-005.bin",
+          "size": 50331648,
+          "sha256": "8b3da832d7b6fac6d2c0d2e79a016cc1dc7e98a581246f53e0ee34c7fcc7d78f"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-006.bin",
+          "size": 50331648,
+          "sha256": "e4605cb9e68fd7d8d53da00080c30b2c524f2137efe04f408bd5803c9805b8e4"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-007.bin",
+          "size": 50331648,
+          "sha256": "500ecc6c3dfff8787da1dd1b5dbb7f419b8b3813a5d1b744c4441c45dc3b7405"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-008.bin",
+          "size": 50331648,
+          "sha256": "2456ff27290dd8ad199801ac94a3c78d7a3184de0994f1878e47056098d6379e"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-009.bin",
+          "size": 50331648,
+          "sha256": "43bc97750bfb30652c7223fab94a69b53053085eed150a9bc425308d08b0597c"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-010.bin",
+          "size": 50331648,
+          "sha256": "21db3802d48c79cf8b6c3a50f4211acf1cc1e4b45f08eb224975720b33e88dd7"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-011.bin",
+          "size": 50331648,
+          "sha256": "c8bd006f25f3d5d28c132b51085dd2322f2f1a07507165a6cc520cf74d514473"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-012.bin",
+          "size": 50331648,
+          "sha256": "d1068984103a6c488542c9d5696ac4366858fdd36ad121f19e1715a842a4bf54"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-013.bin",
+          "size": 50331648,
+          "sha256": "2fb43ec4cbc9c2cf51520a86566ddfd21b78bd1220dd789e5919d7567a33674f"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-014.bin",
+          "size": 50331648,
+          "sha256": "ed55c6cbc5eaf018b2eaa2056fa208bf523c5ea4cbfda3bfcfd1eddeef9dffdf"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-015.bin",
+          "size": 50331648,
+          "sha256": "1a00e13901aae09b1e2936a727e999404b885b101242a2fb582d2763c24336c1"
+        },
+        {
+          "name": "transfer-snapshot-cache-014-016.bin",
+          "size": 49377705,
+          "sha256": "9067c407c7a98822b8f38a043d6bc55f93de2ee4870370407d5c549b056f1833"
+        }
+      ]
     },
     {
       "name": "snapshot-cache-015.zip",
       "size": 772475434,
       "sha256": "caf8874d47958572b6db7f9bf32de735b0cf52a275901ec09638130ef1425f67",
       "category": "cache",
-      "objects": 490
+      "objects": 490,
+      "parts": [
+        {
+          "name": "transfer-snapshot-cache-015-001.bin",
+          "size": 50331648,
+          "sha256": "20d64d9ed5bb9f1b907a280c8fef4ad897920dea935393f49fd6589c2bfeec3c"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-002.bin",
+          "size": 50331648,
+          "sha256": "1f34d998b85ee9cc4db3a1068c78fc593c1b903b2316007bf861eb4d22825846"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-003.bin",
+          "size": 50331648,
+          "sha256": "870e883b43a8aff79e0f9f8a4933f8269482e1d7be272f93797f5b5e0f59f601"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-004.bin",
+          "size": 50331648,
+          "sha256": "f1dedc9db0043c0d0f8bd8641a05a2590f6797688d1520e08b9f73ca6fd843d8"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-005.bin",
+          "size": 50331648,
+          "sha256": "8d6e7349369d36efa53ec9a2eccd0fcf4849f4ddd75b5925e4db23134266e03d"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-006.bin",
+          "size": 50331648,
+          "sha256": "9b103c464ce85ba5260b027db161841654070f0ade4c5ef7c2cf211a18e3ef87"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-007.bin",
+          "size": 50331648,
+          "sha256": "ff81413c539fd5398e242e6b95d3d8acfc1594b9cc34a899242f8f28516d4b62"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-008.bin",
+          "size": 50331648,
+          "sha256": "41a055d9ae4a1612bb5d28b288cbbb0bf006f83440996eaf9fc692ca903574c3"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-009.bin",
+          "size": 50331648,
+          "sha256": "591b58c056966aca7e78231a9e7410d95e1584f4b75a8e2f858811640f837711"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-010.bin",
+          "size": 50331648,
+          "sha256": "e34fdd099a19210600d7bbe5685c226d8bd09d4680de228063fc65929b605f89"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-011.bin",
+          "size": 50331648,
+          "sha256": "b931f0432b0f06db7e4122ef8726da7740f449d8ea5b3e0b193bdc89ba7905fc"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-012.bin",
+          "size": 50331648,
+          "sha256": "3a85d05d8d5bdaaa09cf3f270d53f1283ec0b71ccec714cd663588eb9c78cc9a"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-013.bin",
+          "size": 50331648,
+          "sha256": "b05d0bb7209b06fff6c8a8ca32cce4262b3ac71eec2c12111bf76953b6057939"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-014.bin",
+          "size": 50331648,
+          "sha256": "2f0795bf24d38182d332e9e73856a7ffaff56ed37b8294708a0b412b0fedd279"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-015.bin",
+          "size": 50331648,
+          "sha256": "3492240907d30083a21d63cd68d04ad7eb69b4376689441e28940f3bc6eb7f2e"
+        },
+        {
+          "name": "transfer-snapshot-cache-015-016.bin",
+          "size": 17500714,
+          "sha256": "874a53590efba6506c30d641d036da3d7f507b0a016663841f0c15d03f19ceac"
+        }
+      ]
     }
-  ]
+  ],
+  "transport": {
+    "kind": "ordered-binary-parts",
+    "max_part_bytes": 50331648,
+    "part_count": 286,
+    "note": "Concatenate parts in listed order, then verify the original ZIP SHA256."
+  }
 }

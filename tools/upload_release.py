@@ -8,8 +8,11 @@ import argparse
 import concurrent.futures
 import hashlib
 import json
+import os
 import subprocess
 import time
+import urllib.request
+from urllib.parse import quote
 
 
 def digest(path):
@@ -21,10 +24,22 @@ def digest(path):
 
 
 def gh(*args):
-    result = subprocess.run(['gh', *args], capture_output=True, text=True, encoding='utf-8')
-    if result.returncode:
-        raise RuntimeError(result.stderr.strip() or result.stdout.strip())
-    return result.stdout
+    environment = os.environ.copy()
+    # Go/gh does not read Windows' configured static proxy, unlike urllib.
+    # Honor the user's existing network configuration without changing it.
+    for scheme, address in urllib.request.getproxies().items():
+        key = scheme.upper() + '_PROXY'
+        if scheme in {'http', 'https', 'no'} and not environment.get(key):
+            environment[key] = address
+    for attempt in range(4):
+        result = subprocess.run(['gh', *args], capture_output=True, text=True, encoding='utf-8', env=environment)
+        if not result.returncode:
+            return result.stdout
+        if 'DELETE' in args and 'HTTP 404' in result.stderr:
+            return ''
+        if attempt == 3 or args[:2] == ('release', 'upload') or 'POST' in args:
+            raise RuntimeError(result.stderr.strip() or result.stdout.strip())
+        time.sleep(3 * (attempt + 1))
 
 
 def main():
@@ -36,13 +51,22 @@ def main():
     p.add_argument('--jobs', type=int, default=2)
     p.add_argument('--names', nargs='+', help='Upload/verify only these assets (parallel maintenance lane)')
     p.add_argument('--verify-only', action='store_true')
+    p.add_argument('--retry-own-starters', action='store_true', help='Maintainer only: retry incomplete assets when no other process uploads the SAME names')
     args = p.parse_args()
     index = json.loads((args.repository / 'manifests/archives.json').read_text(encoding='utf-8'))
     repo, tag = index['repo'], index['tag']
-    paths = [args.artifacts / a['name'] for a in index['assets']]
+    paths = []
+    required = []
+    for asset in index['assets']:
+        if asset.get('parts'):
+            paths.extend(args.artifacts / 'transport' / a['name'] for a in asset['parts'])
+            required.extend(asset['parts'])
+        else:
+            paths.append(args.artifacts / asset['name'])
+            required.append(asset)
     paths += [args.artifacts / 'snapshot.json', args.artifacts / 'archives.json', args.installer]
     expected = {path.name: {'name': path.name, 'size': path.stat().st_size, 'sha256': digest(path), 'path': path} for path in paths}
-    for asset in index['assets']:
+    for asset in required:
         assert expected[asset['name']]['sha256'] == asset['sha256']
     sums = args.artifacts / 'SHA256SUMS'
     sums.write_text(''.join(f"{a['sha256']}  {a['name']}\n" for a in expected.values()), encoding='ascii')
@@ -57,7 +81,8 @@ def main():
     release_id = release['id']
 
     def remote_assets():
-        return {a['name']: a for a in json.loads(gh('api', f'repos/{repo}/releases/{release_id}/assets?per_page=100'))}
+        pages = json.loads(gh('api', f'repos/{repo}/releases/{release_id}/assets?per_page=100', '--paginate', '--slurp'))
+        return {a['name']: a for page in pages for a in page}
 
     def matches(wanted, remote):
         return (remote.get('state') == 'uploaded' and remote['size'] == wanted['size']
@@ -66,6 +91,10 @@ def main():
     remote = remote_assets()
     for name in expected.keys() & remote.keys():
         if not matches(expected[name], remote[name]):
+            if args.retry_own_starters and remote[name].get('state') == 'starter':
+                gh('api', '-X', 'DELETE', f"repos/{repo}/releases/assets/{remote[name]['id']}")
+                del remote[name]
+                continue
             raise RuntimeError(f'Existing asset differs or lacks server checksum: {name}; not overwriting')
 
     def upload(asset):
@@ -74,30 +103,53 @@ def main():
             print(f'Already verified {name}', flush=True)
             return
         started = time.monotonic()
-        for attempt in range(1, 4):
+        for attempt in range(1, 6):
             print(f"Uploading {name} ({asset['size'] / 1024**2:.1f} MiB), attempt {attempt}", flush=True)
             try:
-                gh('release', 'upload', tag, str(asset['path']), '--repo', repo)
-                actual = remote_assets().get(name)
+                # Direct official asset API avoids resolving the draft tag and
+                # GraphQL on every part. gh still owns auth in its keyring.
+                if attempt == 1:
+                    url = f'https://uploads.github.com/repos/{repo}/releases/{release_id}/assets?name={quote(name, safe="")}'
+                    actual = json.loads(gh('api', '--hostname', 'github.com', '--method', 'POST', url,
+                                           '--header', 'Accept: application/vnd.github+json',
+                                           '--header', 'Content-Type: application/octet-stream',
+                                           '--input', str(asset['path'])))
+                else:
+                    gh('release', 'upload', tag, str(asset['path']), '--repo', repo)
+                    actual = remote_assets().get(name)
                 if not actual or not matches(asset, actual):
                     raise RuntimeError(f'Server checksum mismatch after upload: {name}')
                 print(f'Verified uploaded {name}, {time.monotonic() - started:.0f}s', flush=True)
                 return
             except Exception as exc:
+                print(f'Upload attempt failed for {name}: {exc}', flush=True)
                 actual = remote_assets().get(name)
                 if actual and matches(asset, actual):
                     print(f'Verified after transient response: {name}', flush=True)
                     return
                 if actual:
-                    raise RuntimeError(f'Incomplete/different server asset, not automatically deleting {name}: {exc}')
-                if attempt == 3:
+                    if args.retry_own_starters and actual.get('state') == 'starter':
+                        gh('api', '-X', 'DELETE', f"repos/{repo}/releases/assets/{actual['id']}")
+                    else:
+                        raise RuntimeError(f'Incomplete/different server asset, not automatically deleting {name}: {exc}')
+                if attempt == 5:
                     raise
                 print(f'Retrying {name}: {exc}', flush=True)
                 time.sleep(10 * attempt)
 
     if not args.verify_only:
+        failures = []
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.jobs) as pool:
-            list(pool.map(upload, expected.values()))
+            tasks = {pool.submit(upload, asset): name for name, asset in expected.items()}
+            for task in concurrent.futures.as_completed(tasks):
+                try:
+                    task.result()
+                except Exception as exc:
+                    failures.append({'name': tasks[task], 'error': str(exc)})
+                    print(f'FAILED after retries: {tasks[task]}: {exc}', flush=True)
+        if failures:
+            args.report.write_text(json.dumps({'status': 'incomplete', 'failures': failures}, indent=2), encoding='utf-8')
+            raise RuntimeError(f'{len(failures)} assets remain incomplete; safe to rerun for missing parts')
     remote = remote_assets()
     checks = []
     for name, asset in expected.items():
