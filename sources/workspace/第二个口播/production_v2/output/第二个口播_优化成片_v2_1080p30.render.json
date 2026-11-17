@@ -1,0 +1,43 @@
+{
+  "comp": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2\\comp.html",
+  "fps": 30,
+  "scale": 1,
+  "size": [
+    1920,
+    1080
+  ],
+  "shutter": 180.0,
+  "samples": "adaptive",
+  "gap_px": 6.0,
+  "samples_per_moving_frame": {
+    "4": 368,
+    "5": 16,
+    "6": 5,
+    "7": 8,
+    "8": 2,
+    "9": 6,
+    "10": 10,
+    "11": 10,
+    "12": 4,
+    "13": 3,
+    "14": 3,
+    "15": 1,
+    "16": 3,
+    "17": 6,
+    "18": 4,
+    "19": 2,
+    "20": 2,
+    "21": 1,
+    "23": 4,
+    "24": 25
+  },
+  "workers": 4,
+  "frames": 2118,
+  "still_frames": 1002,
+  "cut_frames": 96,
+  "captures": 5079,
+  "seconds": 702.7,
+  "final": false,
+  "exact_hold_cache_frames": 633,
+  "counter_scope": "Capture counters cover non-cached frames. Cache equality proof stored separately."
+}

@@ -1,0 +1,88 @@
+{
+  "file": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\output\\onetake_speech_edit_1080p30.mp4",
+  "sha256": "676507ed0571940fe0f215dd9fc3a564a31a0a92814a5b7ecd9bebfe8acd08c2",
+  "frames": 454,
+  "expected_frames": 454,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "duration_seconds": 15.133333,
+  "audio_codec": "aac",
+  "audio_sample_rate": 44100,
+  "source_audio_duration_seconds": 15.116009,
+  "output_audio_duration_seconds": 15.116009,
+  "source_audio_packets": 652,
+  "output_audio_packets": 652,
+  "source_audio_payload_sha256": "d372cf7e0af90ba2b0092be9da62c198c71e87815dac3010e299bbaf56e123db",
+  "output_audio_payload_sha256": "d372cf7e0af90ba2b0092be9da62c198c71e87815dac3010e299bbaf56e123db",
+  "exact_original_audio_packet_payloads": true,
+  "source_decoded_pcm_sha256": "8ec0f9607c2d6f2f3a63e0d59d1ad94d9fe4e5159f919c5a173145f27619a613",
+  "output_decoded_pcm_sha256": "8ec0f9607c2d6f2f3a63e0d59d1ad94d9fe4e5159f919c5a173145f27619a613",
+  "decoded_pcm_identical": true,
+  "source_files": [
+    {
+      "order": 0,
+      "original": "C:\\Users\\Dreamboat\\OneDrive\\文档\\WeChat Files\\wxid_tnssm99dpsea22\\FileStorage\\Video\\2026-11\\7c1fa1f1aaae6edc410a3c1471c65f4d.mp4",
+      "copy": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\assets\\source.mp4",
+      "original_exists": true,
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "order": 1,
+      "original": "C:\\Users\\Dreamboat\\OneDrive\\文档\\WeChat Files\\wxid_tnssm99dpsea22\\FileStorage\\Temp\\c6f1c46e77e1dfcf177f979469073d2.png",
+      "copy": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\assets\\image_01.png",
+      "original_exists": true,
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "order": 2,
+      "original": "C:\\Users\\Dreamboat\\OneDrive\\文档\\WeChat Files\\wxid_tnssm99dpsea22\\FileStorage\\Temp\\3240d4bc8609f9d5a923cc1c900df7e.png",
+      "copy": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\assets\\image_02.png",
+      "original_exists": true,
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "order": 3,
+      "original": "C:\\Users\\Dreamboat\\OneDrive\\文档\\WeChat Files\\wxid_tnssm99dpsea22\\FileStorage\\Temp\\4f98b2f1ce21006ccbcd93b6954cdee.png",
+      "copy": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\assets\\image_03.png",
+      "original_exists": true,
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "order": 4,
+      "original": "C:\\Users\\Dreamboat\\OneDrive\\文档\\WeChat Files\\wxid_tnssm99dpsea22\\FileStorage\\Temp\\63303cdc6b75415123b12c0590b4b7a.png",
+      "copy": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\assets\\image_04.png",
+      "original_exists": true,
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    }
+  ],
+  "black_frame_candidates": 0,
+  "empty_frame_candidates": 0,
+  "largest_adjacent_gray_change": 42.82243347167969,
+  "largest_change_frame": 300,
+  "image_order_confirmed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "confirmed_visual_meaning": "Noise accumulation / 越改越脏; user confirmed after ambiguity check.",
+  "source_video_resolution": [
+    1280,
+    720
+  ],
+  "native_1080p_source_claimed": false,
+  "ai_denoising_or_portrait_regeneration_performed": false,
+  "invented_noise_percentages": false,
+  "full_speed_perceptual_listening_verified": false,
+  "user_aesthetic_acceptance_claimed": false,
+  "caption_spatial_acceptance": "Not certified by this encoder scan; root checks composed keyframes separately.",
+  "new_paid_api_calls": 0,
+  "personal_noncommercial_test": true,
+  "pass": true
+}

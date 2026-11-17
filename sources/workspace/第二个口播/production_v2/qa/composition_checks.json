@@ -1,0 +1,4928 @@
+{
+  "pass": true,
+  "frames_expected": 2118,
+  "full_duration": 70.6,
+  "browser_errors": [],
+  "hashes": {
+    "comp.html": "87b4c6ebb8a64a4a3e804f0e6c536fd30d72e6d7dccc8802a65523f021c2b328",
+    "styles.css": "9da94df6db7a88ce52966d16321778287cee2437c2e146d51aa1ad06c394e3bd",
+    "full.css": "05cd552d3cfc802bb1aaf079e1b36adf9d39afc2a7d89c15fcc118d06821e624",
+    "full.js": "f4c09ebb8286541fbae83ee46c966682f7c0fdf66800c1516e931402f279bf55"
+  },
+  "purity": [
+    {
+      "time": 10.8,
+      "pixels_identical": true
+    },
+    {
+      "time": 18.8,
+      "pixels_identical": true
+    },
+    {
+      "time": 25.5,
+      "pixels_identical": true
+    },
+    {
+      "time": 28.55,
+      "pixels_identical": true
+    },
+    {
+      "time": 44.9,
+      "pixels_identical": true
+    },
+    {
+      "time": 50.4,
+      "pixels_identical": true
+    },
+    {
+      "time": 53.8,
+      "pixels_identical": true
+    },
+    {
+      "time": 59.0,
+      "pixels_identical": true
+    },
+    {
+      "time": 69.95,
+      "pixels_identical": true
+    }
+  ],
+  "semantic_checks": {
+    "subtitleRestoresAfterKeyword": true,
+    "pausesKept": true,
+    "endingOrdinarySubtitleHidden": true,
+    "ratioExitNoPresenter": true,
+    "comparisonVisibleUntilGroup": true,
+    "lastFrameClamped": true
+  },
+  "static_groups": [
+    {
+      "first": 201,
+      "last": 245,
+      "frames": 45
+    },
+    {
+      "first": 286,
+      "last": 294,
+      "frames": 9
+    },
+    {
+      "first": 335,
+      "last": 355,
+      "frames": 21
+    },
+    {
+      "first": 357,
+      "last": 390,
+      "frames": 34
+    },
+    {
+      "first": 481,
+      "last": 516,
+      "frames": 36
+    },
+    {
+      "first": 529,
+      "last": 532,
+      "frames": 4
+    },
+    {
+      "first": 570,
+      "last": 596,
+      "frames": 27
+    },
+    {
+      "first": 649,
+      "last": 680,
+      "frames": 32
+    },
+    {
+      "first": 720,
+      "last": 730,
+      "frames": 11
+    },
+    {
+      "first": 732,
+      "last": 734,
+      "frames": 3
+    },
+    {
+      "first": 747,
+      "last": 793,
+      "frames": 47
+    },
+    {
+      "first": 1069,
+      "last": 1079,
+      "frames": 11
+    },
+    {
+      "first": 1150,
+      "last": 1176,
+      "frames": 27
+    },
+    {
+      "first": 1177,
+      "last": 1184,
+      "frames": 8
+    },
+    {
+      "first": 1231,
+      "last": 1260,
+      "frames": 30
+    },
+    {
+      "first": 1261,
+      "last": 1341,
+      "frames": 81
+    },
+    {
+      "first": 1380,
+      "last": 1389,
+      "frames": 10
+    },
+    {
+      "first": 1427,
+      "last": 1443,
+      "frames": 17
+    },
+    {
+      "first": 1494,
+      "last": 1525,
+      "frames": 32
+    },
+    {
+      "first": 1527,
+      "last": 1547,
+      "frames": 21
+    },
+    {
+      "first": 1606,
+      "last": 1652,
+      "frames": 47
+    },
+    {
+      "first": 1653,
+      "last": 1658,
+      "frames": 6
+    },
+    {
+      "first": 1708,
+      "last": 1709,
+      "frames": 2
+    },
+    {
+      "first": 1761,
+      "last": 1814,
+      "frames": 54
+    },
+    {
+      "first": 1852,
+      "last": 1859,
+      "frames": 8
+    },
+    {
+      "first": 1895,
+      "last": 1909,
+      "frames": 15
+    }
+  ],
+  "samples": [
+    {
+      "time": 0.8,
+      "mode": "person",
+      "photo": null,
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": null,
+      "bounds": {
+        "subtitle": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "display": "none",
+          "opacity": "1",
+          "text": ""
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 0,
+          "h": 0,
+          "display": "block",
+          "opacity": "1",
+          "text": ""
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 2.6,
+      "mode": "person",
+      "photo": null,
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "Seedream 5.5这次的真实感",
+      "bounds": {
+        "subtitle": {
+          "x": 717.25,
+          "y": 992,
+          "w": 485.5,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "Seedream 5.5这次的真实感"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 0,
+          "h": 0,
+          "display": "block",
+          "opacity": "1",
+          "text": ""
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 5.18,
+      "mode": "negative",
+      "photo": null,
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "真的是下了大功夫了",
+      "bounds": {
+        "subtitle": {
+          "x": 780,
+          "y": 992,
+          "w": 360,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "真的是下了大功夫了"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.53125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，先看对照"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 5.8,
+      "mode": "negative",
+      "photo": "M09",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "说改善了这个光照、材质",
+      "bounds": {
+        "subtitle": {
+          "x": 740,
+          "y": 992,
+          "w": 440,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "说改善了这个光照、材质"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.53125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，先看对照"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 8.8,
+      "mode": "negative",
+      "photo": "M10",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "还有那个皮肤的纹理",
+      "bounds": {
+        "subtitle": {
+          "x": 780,
+          "y": 992,
+          "w": 360,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "还有那个皮肤的纹理"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.53125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，先看对照"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 10.8,
+      "mode": "negative",
+      "photo": "M11",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "减少了过度的油亮",
+      "bounds": {
+        "subtitle": {
+          "x": 800,
+          "y": 992,
+          "w": 320,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "减少了过度的油亮"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.53125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，先看对照"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 13.5,
+      "mode": "negative",
+      "photo": "M11",
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "我对比了一下",
+      "bounds": {
+        "subtitle": {
+          "x": 840,
+          "y": 992,
+          "w": 240,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "我对比了一下"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.53125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，先看对照"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 14.9,
+      "mode": "positive",
+      "photo": "M02",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "确实是5.5去生成人像",
+      "bounds": {
+        "subtitle": {
+          "x": 772.421875,
+          "y": 992,
+          "w": 375.15625,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "确实是5.5去生成人像"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 687.96875,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，让细节说话"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 16.4,
+      "mode": "positive",
+      "photo": "M02",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "确实是5.5去生成人像",
+      "bounds": {
+        "subtitle": {
+          "x": 772.421875,
+          "y": 992,
+          "w": 375.15625,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "确实是5.5去生成人像"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 687.96875,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，让细节说话"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 18.8,
+      "mode": "positive",
+      "photo": "M03",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "你看皮肤的纹理是清楚了",
+      "bounds": {
+        "subtitle": {
+          "x": 740,
+          "y": 992,
+          "w": 440,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "你看皮肤的纹理是清楚了"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 687.96875,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，让细节说话"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 20.65,
+      "mode": "positive",
+      "photo": "M04",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "光影的过渡也是那种很自然的",
+      "bounds": {
+        "subtitle": {
+          "x": 700,
+          "y": 992,
+          "w": 520,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "光影的过渡也是那种很自然的"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 687.96875,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，让细节说话"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 21.85,
+      "mode": "positive",
+      "photo": "M05",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "光影的过渡也是那种很自然的",
+      "bounds": {
+        "subtitle": {
+          "x": 700,
+          "y": 992,
+          "w": 520,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "光影的过渡也是那种很自然的"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 687.96875,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，让细节说话"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 23.65,
+      "mode": "positive",
+      "photo": "M06",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "不是说那种塑料感",
+      "bounds": {
+        "subtitle": {
+          "x": 800,
+          "y": 992,
+          "w": 320,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "不是说那种塑料感"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 687.96875,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，让细节说话"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 25.5,
+      "mode": "positive",
+      "photo": "M07",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "一眼看上去就很假的那种假脸",
+      "bounds": {
+        "subtitle": {
+          "x": 700,
+          "y": 992,
+          "w": 520,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "一眼看上去就很假的那种假脸"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 687.96875,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，让细节说话"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 26.85,
+      "mode": "positive",
+      "photo": "M07",
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "还有更重要的是它的改图能力强",
+      "bounds": {
+        "subtitle": {
+          "x": 658,
+          "y": 971,
+          "w": 604,
+          "h": 81,
+          "display": "block",
+          "opacity": "1",
+          "text": "还有更重要的是它的改图能力强"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 687.96875,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "真实感，让细节说话"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 28.55,
+      "mode": "person",
+      "photo": "M07",
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": null,
+      "bounds": {
+        "subtitle": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "display": "none",
+          "opacity": "1",
+          "text": ""
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 0,
+          "h": 0,
+          "display": "block",
+          "opacity": "1",
+          "text": ""
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 30.8,
+      "mode": "person",
+      "photo": "M07",
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "你用别的工具先给它去出一张图",
+      "bounds": {
+        "subtitle": {
+          "x": 680,
+          "y": 992,
+          "w": 560,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "你用别的工具先给它去出一张图"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 0,
+          "h": 0,
+          "display": "block",
+          "opacity": "1",
+          "text": ""
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "1",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 33.35,
+      "mode": "person",
+      "photo": "M07",
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "然后我们丢给5.5",
+      "bounds": {
+        "subtitle": {
+          "x": 812.421875,
+          "y": 992,
+          "w": 295.15625,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "然后我们丢给5.5"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 0,
+          "h": 0,
+          "display": "block",
+          "opacity": "1",
+          "text": ""
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "1",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "1",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 34.8,
+      "mode": "edit",
+      "photo": "M19",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "让它去改一个三视图",
+      "bounds": {
+        "subtitle": {
+          "x": 780,
+          "y": 992,
+          "w": 360,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "让它去改一个三视图"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 764.40625,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力，直接看结果"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 36.65,
+      "mode": "edit",
+      "photo": "M24",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "你看改服装",
+      "bounds": {
+        "subtitle": {
+          "x": 860,
+          "y": 992,
+          "w": 200,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "你看改服装"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 764.40625,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力，直接看结果"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 38.4,
+      "mode": "edit",
+      "photo": "M23",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": -0.0,
+      "caption": "全都没有问题",
+      "bounds": {
+        "subtitle": {
+          "x": 840,
+          "y": 992,
+          "w": 240,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "全都没有问题"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 764.40625,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "改图能力，直接看结果"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 39.85,
+      "mode": "ratio",
+      "photo": "M23",
+      "personVisible": false,
+      "carrierOpacity": 0.4081252410917017,
+      "comparisonOpacity": 0.5918747589082983,
+      "caption": "以前的Seedream有一个老毛病",
+      "bounds": {
+        "subtitle": {
+          "x": 689.5703125,
+          "y": 992,
+          "w": 540.859375,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "以前的Seedream有一个老毛病"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.15625,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "三视图 · 头身比例"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 44.9,
+      "mode": "ratio",
+      "photo": "M23",
+      "personVisible": false,
+      "carrierOpacity": 0,
+      "comparisonOpacity": 1,
+      "caption": "它要么就变矮了",
+      "bounds": {
+        "subtitle": {
+          "x": 820,
+          "y": 992,
+          "w": 280,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "它要么就变矮了"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.15625,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "三视图 · 头身比例"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 47.6,
+      "mode": "ratio",
+      "photo": "M23",
+      "personVisible": false,
+      "carrierOpacity": 0,
+      "comparisonOpacity": 1,
+      "caption": "要么就是头身的比例不对",
+      "bounds": {
+        "subtitle": {
+          "x": 740,
+          "y": 992,
+          "w": 440,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "要么就是头身的比例不对"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.15625,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "三视图 · 头身比例"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 96,
+          "y": 202,
+          "w": 1360,
+          "h": 765,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1118,
+          "y": 361.8999938964844,
+          "w": 564,
+          "h": 686.199951171875,
+          "display": "block",
+          "opacity": "0",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 48.65,
+      "mode": "ratio",
+      "photo": "M23",
+      "personVisible": false,
+      "carrierOpacity": 0,
+      "comparisonOpacity": 1,
+      "caption": "这次的5.5完全解决了",
+      "bounds": {
+        "subtitle": {
+          "x": 772.421875,
+          "y": 992,
+          "w": 375.15625,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "这次的5.5完全解决了"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.15625,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "三视图 · 头身比例"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 164.421875,
+          "y": 216.65625,
+          "w": 740.921875,
+          "h": 736.484375,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100.51904296875,
+          "y": 224.09646606445312,
+          "w": 598.9619140625,
+          "h": 728.737060546875,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 50.4,
+      "mode": "ratio",
+      "photo": "M23",
+      "personVisible": false,
+      "carrierOpacity": 0,
+      "comparisonOpacity": 1,
+      "caption": "这次的5.5完全解决了",
+      "bounds": {
+        "subtitle": {
+          "x": 772.421875,
+          "y": 992,
+          "w": 375.15625,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "这次的5.5完全解决了"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.15625,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "三视图 · 头身比例"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 52.9,
+      "mode": "ratio",
+      "photo": "M23",
+      "personVisible": false,
+      "carrierOpacity": 0,
+      "comparisonOpacity": 1,
+      "caption": "正常的1:7、1:8的头身",
+      "bounds": {
+        "subtitle": {
+          "x": 770.75,
+          "y": 992,
+          "w": 378.5,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "正常的1:7、1:8的头身"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.15625,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "三视图 · 头身比例"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 55.27,
+      "mode": "ratio",
+      "photo": "M23",
+      "personVisible": false,
+      "carrierOpacity": 0,
+      "comparisonOpacity": 1,
+      "caption": null,
+      "bounds": {
+        "subtitle": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "display": "none",
+          "opacity": "1",
+          "text": ""
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.15625,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "三视图 · 头身比例"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 55.65,
+      "mode": "group",
+      "photo": "M18",
+      "personVisible": false,
+      "carrierOpacity": 0.3887395330218339,
+      "comparisonOpacity": 0.611260466978166,
+      "caption": "群像的话还是那个老问题",
+      "bounds": {
+        "subtitle": {
+          "x": 740,
+          "y": 992,
+          "w": 440,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "群像的话还是那个老问题"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.53125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "群像，仍有老问题"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 56.3,
+      "mode": "group",
+      "photo": "M18",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": 0,
+      "caption": "群像的话还是那个老问题",
+      "bounds": {
+        "subtitle": {
+          "x": 740,
+          "y": 992,
+          "w": 440,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "群像的话还是那个老问题"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.53125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "群像，仍有老问题"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 58.6,
+      "mode": "group",
+      "photo": "M18",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": 0,
+      "caption": "双胞胎的效应比较严重的",
+      "bounds": {
+        "subtitle": {
+          "x": 740,
+          "y": 992,
+          "w": 440,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "双胞胎的效应比较严重的"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.53125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "群像，仍有老问题"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 60.9,
+      "mode": "group",
+      "photo": "M17",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": 0,
+      "caption": "多人同框的那个脸还是容易去撞",
+      "bounds": {
+        "subtitle": {
+          "x": 680,
+          "y": 992,
+          "w": 560,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "多人同框的那个脸还是容易去撞"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.53125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "群像，仍有老问题"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 63.3,
+      "mode": "group",
+      "photo": "M17",
+      "personVisible": false,
+      "carrierOpacity": 1,
+      "comparisonOpacity": 0,
+      "caption": "多人同框的那个脸还是容易去撞",
+      "bounds": {
+        "subtitle": {
+          "x": 680,
+          "y": 992,
+          "w": 560,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "多人同框的那个脸还是容易去撞"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 611.53125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "群像，仍有老问题"
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 64.3,
+      "mode": "person",
+      "photo": "M17",
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": 0,
+      "caption": "总结一下",
+      "bounds": {
+        "subtitle": {
+          "x": 880,
+          "y": 992,
+          "w": 160,
+          "h": 60,
+          "display": "block",
+          "opacity": "1",
+          "text": "总结一下"
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 0,
+          "h": 0,
+          "display": "block",
+          "opacity": "1",
+          "text": ""
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 742,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "0",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 67.2,
+      "mode": "person",
+      "photo": "M17",
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": 0,
+      "caption": null,
+      "bounds": {
+        "subtitle": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "display": "none",
+          "opacity": "1",
+          "text": ""
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 0,
+          "h": 0,
+          "display": "block",
+          "opacity": "1",
+          "text": ""
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 720.0020141601562,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 888,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "0",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 881,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 875,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 68.95,
+      "mode": "person",
+      "photo": "M17",
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": 0,
+      "caption": null,
+      "bounds": {
+        "subtitle": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "display": "none",
+          "opacity": "1",
+          "text": ""
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 0,
+          "h": 0,
+          "display": "block",
+          "opacity": "1",
+          "text": ""
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 720,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 870,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "1",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 853,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "1",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 833.3729858398438,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "1",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 935,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "0",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 70.3,
+      "mode": "person",
+      "photo": "M17",
+      "personVisible": true,
+      "carrierOpacity": 1,
+      "comparisonOpacity": 0,
+      "caption": null,
+      "bounds": {
+        "subtitle": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "display": "none",
+          "opacity": "1",
+          "text": ""
+        },
+        "title": {
+          "x": 92,
+          "y": 50,
+          "w": 0,
+          "h": 0,
+          "display": "block",
+          "opacity": "1",
+          "text": ""
+        },
+        "aPlate": {
+          "x": 84,
+          "y": 790,
+          "w": 598,
+          "h": 150,
+          "display": "block",
+          "opacity": "0",
+          "text": "改图能力强"
+        },
+        "chapterPlate": {
+          "x": 84,
+          "y": 774,
+          "w": 388,
+          "h": 148,
+          "display": "block",
+          "opacity": "0",
+          "text": "真实性"
+        },
+        "flow1": {
+          "x": 84,
+          "y": 741,
+          "w": 231.609375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "先出图"
+        },
+        "flow2": {
+          "x": 84,
+          "y": 866,
+          "w": 268.09375,
+          "h": 113.390625,
+          "display": "block",
+          "opacity": "0",
+          "text": "交给 5.5"
+        },
+        "oldCard": {
+          "x": 180,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "4.5"
+        },
+        "newCard": {
+          "x": 1100,
+          "y": 220,
+          "w": 600,
+          "h": 730,
+          "display": "block",
+          "opacity": "1",
+          "text": "5.5"
+        },
+        "endTop": {
+          "x": 690,
+          "y": 720,
+          "w": 382.203125,
+          "h": 93.59375,
+          "display": "block",
+          "opacity": "1",
+          "text": "没那么聪明"
+        },
+        "endBut": {
+          "x": 560,
+          "y": 870,
+          "w": 94,
+          "h": 92,
+          "display": "block",
+          "opacity": "1",
+          "text": "但"
+        },
+        "endPicture": {
+          "x": 686,
+          "y": 853,
+          "w": 211.6875,
+          "h": 124.1875,
+          "display": "block",
+          "opacity": "1",
+          "text": "画面"
+        },
+        "endClean": {
+          "x": 930,
+          "y": 833,
+          "w": 326.40625,
+          "h": 163.1875,
+          "display": "block",
+          "opacity": "1",
+          "text": "更干净"
+        },
+        "endGPT": {
+          "x": 1444,
+          "y": 917.9979858398438,
+          "w": 149.796875,
+          "h": 68.1875,
+          "display": "block",
+          "opacity": "1",
+          "text": "的 GPT"
+        }
+      }
+    }
+  ]
+}

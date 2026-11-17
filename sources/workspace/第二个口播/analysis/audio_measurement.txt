@@ -1,0 +1,47 @@
+[in#0 @ 0000023721a17540] Unknown cover type: 0x1.
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'E:\Agent员工\研究自动剪辑\第二个口播\原视频.mp4':
+  Metadata:
+    minor_version   : 512;512
+    major_brand     : isom;isom
+    compatible_brands: isomiso2avc1mp41;isomiso2mp41
+    te_is_reencode  : 1
+    Hw              : 1
+    bitrate         : 35000000
+    maxrate         : 0
+    encoder         : Lavf58.20.100
+  Duration: 00:01:10.59, start: 0.000000, bitrate: 1683 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720, 1604 kb/s, SAR 1:1 DAR 16:9, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 72 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+[Parsed_volumedetect_0 @ 00000237238e1440] n_samples: 0
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    minor_version   : 512;512
+    major_brand     : isom;isom
+    compatible_brands: isomiso2avc1mp41;isomiso2mp41
+    te_is_reencode  : 1
+    Hw              : 1
+    bitrate         : 35000000
+    maxrate         : 0
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.102 pcm_s16le
+      handler_name    : SoundHandler
+[Parsed_volumedetect_0 @ 0000023721ae43c0] n_samples: 6225920
+[Parsed_volumedetect_0 @ 0000023721ae43c0] mean_volume: -18.5 dB
+[Parsed_volumedetect_0 @ 0000023721ae43c0] max_volume: -0.1 dB
+[Parsed_volumedetect_0 @ 0000023721ae43c0] histogram_0db: 49
+[Parsed_volumedetect_0 @ 0000023721ae43c0] histogram_1db: 112
+[Parsed_volumedetect_0 @ 0000023721ae43c0] histogram_2db: 203
+[Parsed_volumedetect_0 @ 0000023721ae43c0] histogram_3db: 543
+[Parsed_volumedetect_0 @ 0000023721ae43c0] histogram_4db: 1789
+[Parsed_volumedetect_0 @ 0000023721ae43c0] histogram_5db: 5804
+[out#0/null @ 0000023721a39940] video:0KiB audio:12160KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:01:10.58 bitrate=N/A speed=1.06e+03x elapsed=0:00:00.06    

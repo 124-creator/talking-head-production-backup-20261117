@@ -1,0 +1,124 @@
+{
+  "cases": [
+    {
+      "case": "a",
+      "title": "人物关键词",
+      "file": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\测试A_人物关键词.mp4",
+      "offset": 26.4,
+      "duration": 4.0,
+      "frames": 120,
+      "sha256": "5d303c33086c6b43549756ac57a80a017ef041314ec3b883e939023b5f8ea6b9",
+      "render_metadata": {
+        "comp": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\test_a.html",
+        "fps": 30,
+        "scale": 1,
+        "size": [
+          1920,
+          1080
+        ],
+        "shutter": 180.0,
+        "samples": "adaptive",
+        "gap_px": 6.0,
+        "samples_per_moving_frame": {
+          "4": 25,
+          "7": 1,
+          "14": 1,
+          "24": 1
+        },
+        "workers": 4,
+        "frames": 120,
+        "still_frames": 92,
+        "cut_frames": 7,
+        "captures": 329,
+        "seconds": 58.5,
+        "final": false
+      }
+    },
+    {
+      "case": "b",
+      "title": "递进标签",
+      "file": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\测试B_递进标签.mp4",
+      "offset": 17.3,
+      "duration": 7.2,
+      "frames": 216,
+      "sha256": "ba4e3ce78ac02e31ebd2877eb6abb8774cb0f8d632562f55054cd7a9a66cacfa",
+      "render_metadata": {
+        "comp": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\test_b.html",
+        "fps": 30,
+        "scale": 1,
+        "size": [
+          1920,
+          1080
+        ],
+        "shutter": 180.0,
+        "samples": "adaptive",
+        "gap_px": 6.0,
+        "samples_per_moving_frame": {
+          "4": 32,
+          "5": 1,
+          "7": 1,
+          "9": 1,
+          "10": 2,
+          "13": 1,
+          "16": 2,
+          "17": 2,
+          "23": 2,
+          "24": 6
+        },
+        "workers": 4,
+        "frames": 216,
+        "still_frames": 166,
+        "cut_frames": 10,
+        "captures": 770,
+        "seconds": 107.9,
+        "final": false
+      }
+    },
+    {
+      "case": "c",
+      "title": "新旧对照",
+      "file": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\测试C_新旧对照.mp4",
+      "offset": 47.0,
+      "duration": 8.5,
+      "frames": 255,
+      "sha256": "bf4c1ae631c42cacb3d5a1e0a324da1d40579004152ff89b4dd6e39cefb49ee6",
+      "render_metadata": {
+        "comp": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\test_c.html",
+        "fps": 30,
+        "scale": 1,
+        "size": [
+          1920,
+          1080
+        ],
+        "shutter": 180.0,
+        "samples": "adaptive",
+        "gap_px": 6.0,
+        "samples_per_moving_frame": {
+          "4": 57,
+          "6": 2,
+          "11": 2,
+          "20": 1
+        },
+        "workers": 4,
+        "frames": 255,
+        "still_frames": 193,
+        "cut_frames": 21,
+        "captures": 668,
+        "seconds": 42.7,
+        "final": false
+      }
+    }
+  ],
+  "comparisons": [
+    "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\对照A_人物关键词.mp4",
+    "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\对照B_递进标签.mp4",
+    "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\对照C_新旧对照.mp4"
+  ],
+  "summary": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\V1_V2_优化测试对照合集.mp4",
+  "summary_sha256": "3f64ac9c63d221cb58bbb96c7830974f89a7b4c3f5ab671467500783acdb0fd6",
+  "expected_total_seconds": 19.7,
+  "v1_unchanged": true,
+  "full_v2_rendered": false,
+  "audio_note": "Original speech segments decoded and re-encoded for bounded tests; no generated voice/music",
+  "elapsed_seconds": 229.36
+}

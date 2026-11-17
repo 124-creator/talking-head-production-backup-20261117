@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-14T14:40:04+08:00",
+  "ffmpeg": {
+    "path": "C:\\Users\\Dreamboat\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe",
+    "available": true,
+    "returncode": 0,
+    "version_line": "ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "file_bytes": 227823104,
+    "encoders_verified": {
+      "libx264": true,
+      "aac": true,
+      "libmp3lame": true
+    },
+    "filters_verified": {
+      "amix": true,
+      "loudnorm": true,
+      "alimiter": true,
+      "fade": true
+    }
+  },
+  "ffprobe": {
+    "path": "C:\\Users\\Dreamboat\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffprobe.exe",
+    "available": true,
+    "returncode": 0,
+    "version_line": "ffprobe version 9.0.2-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+    "file_bytes": 227621376
+  },
+  "remotion": {
+    "found": false,
+    "searched": [
+      "current workspace",
+      "D:/javawebnodejs/node_modules",
+      "C:/Users/Dreamboat/.codex/packages",
+      "C:/Users/Dreamboat/.codex/node_repl",
+      "C:/Users/Dreamboat/.agents/skills"
+    ],
+    "note": "No resolvable remotion or @remotion/renderer in checked installed modules; not a whole-disk absence claim. No npm packages installed."
+  },
+  "python_modules": {
+    "PIL": {
+      "available": true,
+      "version": "12.0.0"
+    },
+    "cv2": {
+      "available": true,
+      "version": "4.13.0"
+    },
+    "playwright": {
+      "available": true,
+      "version": "1.58.0"
+    }
+  },
+  "browser": {
+    "cdp_url": "http://127.0.0.1:9333",
+    "connected": true,
+    "version": "157.0.8103.52",
+    "context_count": 1,
+    "page_count_at_check": 6,
+    "read_only_check": true
+  },
+  "recommendation": {
+    "minimum_dependency_route": "Use installed Python Pillow for code-driven frames (or installed Python Playwright to render HTML scenes), pipe frames into existing FFmpeg, then mux narration WAV and optional generated audio. No Remotion installation required for this pilot.",
+    "existing_tools_only": true
+  },
+  "downloaded_files": [],
+  "system_changes": []
+}

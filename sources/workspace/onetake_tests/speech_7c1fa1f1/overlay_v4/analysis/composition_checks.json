@@ -1,0 +1,754 @@
+{
+  "pass": true,
+  "composition_sha256": "30bef4fde5d153e63089bef400e9486dc6e1714767a440822e8275d365e2c4ab",
+  "unchanged_prefix_sample_times": [
+    0,
+    1.8,
+    3.6,
+    4.5,
+    5.8,
+    7.8,
+    9.9,
+    10.8,
+    11.5,
+    12.04
+  ],
+  "prefix_samples_pixel_identical": true,
+  "ending_presenter_full_frame": true,
+  "verb_font_size": 84,
+  "main_model_font_size": 210,
+  "caption_left_edge_px": 84,
+  "left_caption_applies_from_seconds": 12.4,
+  "ending_samples": [
+    {
+      "time": 12.06,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "今天这条视频可能会直接换掉",
+      "captionRect": {
+        "x": 635.59375,
+        "y": 956.59375,
+        "w": 648.8125,
+        "h": 95.390625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": -0.0,
+      "captionMix": 0,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 1050,
+        "w": 780,
+        "h": 226.796875
+      }
+    },
+    {
+      "time": 12.2,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "今天这条视频可能会直接换掉",
+      "captionRect": {
+        "x": 560.515625,
+        "y": 950.234375,
+        "w": 634.96875,
+        "h": 93.796875
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": 0.49999999999999495,
+      "captionMix": 0.1467984133141098,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 1050,
+        "w": 780,
+        "h": 226.796875
+      }
+    },
+    {
+      "time": 12.3,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "今天这条视频可能会直接换掉",
+      "captionRect": {
+        "x": 100.921875,
+        "y": 905.78125,
+        "w": 557.8125,
+        "h": 84.890625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": 0.9504844339512113,
+      "captionMix": 0.9716578020429059,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 1050,
+        "w": 780,
+        "h": 226.796875
+      }
+    },
+    {
+      "time": 12.4,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "今天这条视频可能会直接换掉",
+      "captionRect": {
+        "x": 84,
+        "y": 904,
+        "w": 555.203125,
+        "h": 84.59375
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": 1,
+      "captionMix": 1,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 1050,
+        "w": 780,
+        "h": 226.796875
+      }
+    },
+    {
+      "time": 12.65,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "今天这条视频可能会直接换掉",
+      "captionRect": {
+        "x": 84,
+        "y": 904,
+        "w": 555.203125,
+        "h": 84.59375
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": 1,
+      "captionMix": 1,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 1050,
+        "w": 780,
+        "h": 226.796875
+      }
+    },
+    {
+      "time": 12.9,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "你手里面的主力模型",
+      "captionRect": {
+        "x": 84,
+        "y": 904,
+        "w": 401.609375,
+        "h": 84.59375
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": 1,
+      "captionMix": 1,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 1050,
+        "w": 780,
+        "h": 226.796875
+      }
+    },
+    {
+      "time": 13.2,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "你手里面的主力模型",
+      "captionRect": {
+        "x": 84,
+        "y": 904,
+        "w": 401.609375,
+        "h": 84.59375
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": 1,
+      "captionMix": 1,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 877.3690185546875,
+        "w": 780,
+        "h": 226.796875
+      }
+    },
+    {
+      "time": 13.65,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "你手里面的主力模型",
+      "captionRect": {
+        "x": 84,
+        "y": 904,
+        "w": 401.609375,
+        "h": 84.59375
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": 1,
+      "captionMix": 1,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 800.2139892578125,
+        "w": 780,
+        "h": 226.796875
+      }
+    },
+    {
+      "time": 14.2,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "你手里面的主力模型",
+      "captionRect": {
+        "x": 84,
+        "y": 904,
+        "w": 401.609375,
+        "h": 84.59375
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": 1,
+      "captionMix": 1,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 226.796875
+      }
+    },
+    {
+      "time": 14.8,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "",
+      "captionRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": 1,
+      "captionMix": 1,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 226.796875
+      }
+    },
+    {
+      "time": 15.1,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "",
+      "captionRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 740,
+        "y": 688,
+        "w": 134.40625,
+        "h": 90.71875
+      },
+      "endingModelRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 250
+      },
+      "endingOpacity": 1,
+      "captionMix": 1,
+      "modelFontSize": 210,
+      "verbFontSize": 84,
+      "endingModelTextRect": {
+        "x": 730,
+        "y": 800,
+        "w": 780,
+        "h": 226.796875
+      }
+    }
+  ],
+  "javascript_errors": [],
+  "deterministic_seek_checked_at": [
+    12.65,
+    14.2,
+    15.1
+  ],
+  "model_hidden_before_cue_seconds": 13.1,
+  "post_leak_fix_pixel_identical_sample_times": [
+    13.133333,
+    13.2,
+    13.65,
+    14.2,
+    15.1
+  ],
+  "user_aesthetic_acceptance_claimed": false
+}

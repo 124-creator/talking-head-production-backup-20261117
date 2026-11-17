@@ -1,0 +1,27 @@
+{
+ "comp": "E:\\Agent\u5458\u5de5\\\u7814\u7a76\u81ea\u52a8\u526a\u8f91\\onetake_tests\\speech_7c1fa1f1\\overlay_v4\\comp.html",
+ "fps": 30,
+ "scale": 1,
+ "size": [
+  1920,
+  1080
+ ],
+ "shutter": 180.0,
+ "samples": "adaptive",
+ "gap_px": 6.0,
+ "samples_per_moving_frame": {
+  "4": 82,
+  "5": 4,
+  "6": 2,
+  "13": 1,
+  "18": 1,
+  "32": 1
+ },
+ "workers": 4,
+ "frames": 454,
+ "still_frames": 1,
+ "cut_frames": 85,
+ "captures": 425,
+ "seconds": 161.1,
+ "final": false
+}

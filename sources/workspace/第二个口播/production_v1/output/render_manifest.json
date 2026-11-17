@@ -1,0 +1,62 @@
+{
+  "file": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v1\\output\\第二个口播_成片_v1_1080p30.mp4",
+  "sha256": "1adec70431e227866ebadd9f36755d57b75eca05e2be7df7bd56051f91ede412",
+  "source_sha256": "ea2eb6cebb0a7c98c8d83514289c54c196ac6ff5b0fef75cca13badf8b1328cf",
+  "composition_sha256": "4e41af526c7c0e66f735c944872496d7c40689e508c7a0111233d218cddf4b8f",
+  "data_sha256": "a15b541c9d83bfbe8814a1bb915e669804f22539b26a6164a9b5a696db24051f",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "source_resolution": [
+    1280,
+    720
+  ],
+  "output_is_native_4k": false,
+  "original_aac_stream_copied": true,
+  "generated_voice": false,
+  "background_music_added": false,
+  "source_audio_edited": false,
+  "frames": 2118,
+  "duration_seconds": 70.6,
+  "visual_pause_treatment": "Shared photo stage held over natural 0.44s/0.42s audio pauses; no speech removed",
+  "renderer": "Installed onetake render.py; deterministic HTML; adaptive 180-degree temporal shutter",
+  "render_directory": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v1\\output\\render_20261116_182334",
+  "render_metadata": {
+    "comp": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v1\\comp.html",
+    "fps": 30,
+    "scale": 1,
+    "size": [
+      1920,
+      1080
+    ],
+    "shutter": 180.0,
+    "samples": "adaptive",
+    "gap_px": 6.0,
+    "samples_per_moving_frame": {
+      "4": 1203,
+      "5": 8,
+      "6": 4,
+      "7": 7,
+      "8": 2,
+      "9": 2,
+      "10": 11,
+      "11": 2,
+      "12": 2,
+      "13": 6,
+      "14": 1,
+      "16": 3,
+      "18": 6,
+      "24": 32
+    },
+    "workers": 4,
+    "frames": 2118,
+    "still_frames": 829,
+    "cut_frames": 736,
+    "captures": 7789,
+    "seconds": 1658.9,
+    "final": false
+  },
+  "elapsed_seconds": 1708.62,
+  "new_paid_api_calls": 0
+}

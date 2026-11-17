@@ -1,0 +1,938 @@
+{
+  "pass": true,
+  "source_native_resolution": [
+    3840,
+    2160
+  ],
+  "decoded_png_resolution": [
+    1920,
+    1080
+  ],
+  "output_resolution": [
+    1920,
+    1080
+  ],
+  "no_720p_intermediate": true,
+  "composition_sha256": "4c98c83c4a836fadd4e388af032ba9ae59f91c8a16956175f4758ab76e51cb85",
+  "javascript_errors": [],
+  "samples": [
+    {
+      "seconds": 0,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000000.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 0,
+        "phase": 1,
+        "visiblePhotoReveals": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "returnProgress": 0,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "你有没有那种感觉",
+        "captionRect": {
+          "x": 749.59375,
+          "y": 956.609375,
+          "w": 420.8125,
+          "h": 95.390625
+        },
+        "stageTitle": "起始\n画面",
+        "stageRect": {
+          "x": 1558,
+          "y": 380,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 209,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingModelRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingOpacity": -0.0
+      }
+    },
+    {
+      "seconds": 0.5,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000015.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 0.5,
+        "phase": 1,
+        "visiblePhotoReveals": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "returnProgress": 0,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "你有没有那种感觉",
+        "captionRect": {
+          "x": 749.59375,
+          "y": 956.609375,
+          "w": 420.8125,
+          "h": 95.390625
+        },
+        "stageTitle": "起始\n画面",
+        "stageRect": {
+          "x": 1558,
+          "y": 380,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 209,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingModelRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingOpacity": -0.0
+      }
+    },
+    {
+      "seconds": 1.8,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000054.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 1.8,
+        "phase": 1,
+        "visiblePhotoReveals": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "returnProgress": 0,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "用AI去做图生图",
+        "captionRect": {
+          "x": 767.125,
+          "y": 956.609375,
+          "w": 385.75,
+          "h": 95.390625
+        },
+        "stageTitle": "起始\n画面",
+        "stageRect": {
+          "x": 1558,
+          "y": 380,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 191.8452911376953,
+          "w": 252,
+          "h": 123.89060974121094
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingModelRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingOpacity": -0.0
+      }
+    },
+    {
+      "seconds": 3.6,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000108.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 3.6,
+        "phase": 1,
+        "visiblePhotoReveals": [
+          0.8532015866858847,
+          0,
+          0,
+          0
+        ],
+        "returnProgress": 0,
+        "carrier": {
+          "x": 86.15693664550781,
+          "y": 140.9840850830078,
+          "w": 1418.71875,
+          "h": 798.03125
+        },
+        "caption": "改个两三次",
+        "captionRect": {
+          "x": 818,
+          "y": 956.609375,
+          "w": 284,
+          "h": 95.390625
+        },
+        "stageTitle": "起始\n画面",
+        "stageRect": {
+          "x": 1558,
+          "y": 374.1893615722656,
+          "w": 176,
+          "h": 272.7812194824219
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingModelRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingOpacity": -0.0
+      }
+    },
+    {
+      "seconds": 4.5,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000135.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 4.5,
+        "phase": 2,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "returnProgress": 0,
+        "carrier": {
+          "x": 91.8219985961914,
+          "y": 145.6479949951172,
+          "w": 1416.447998046875,
+          "h": 796.7520141601562
+        },
+        "caption": "改个两三次",
+        "captionRect": {
+          "x": 818,
+          "y": 956.609375,
+          "w": 284,
+          "h": 95.390625
+        },
+        "stageTitle": "反复\n修改",
+        "stageRect": {
+          "x": 1570.6419677734375,
+          "y": 360.64703369140625,
+          "w": 177.0560302734375,
+          "h": 274.41796875
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingModelRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingOpacity": -0.0
+      }
+    },
+    {
+      "seconds": 5.8,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000174.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 5.8,
+        "phase": 3,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "returnProgress": 0,
+        "carrier": {
+          "x": 90,
+          "y": 143,
+          "w": 1408,
+          "h": 792
+        },
+        "caption": "画面全是那种噪点",
+        "captionRect": {
+          "x": 749.59375,
+          "y": 956.609375,
+          "w": 420.8125,
+          "h": 95.390625
+        },
+        "stageTitle": "出现\n噪点",
+        "stageRect": {
+          "x": 1560,
+          "y": 356.9888610839844,
+          "w": 176,
+          "h": 272.7812805175781
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingModelRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingOpacity": -0.0
+      }
+    },
+    {
+      "seconds": 7.8,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000234.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 7.8,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 0,
+        "carrier": {
+          "x": 92.11199951171875,
+          "y": 144.86399841308594,
+          "w": 1419.263916015625,
+          "h": 798.3359985351562
+        },
+        "caption": "然后你是越改越脏",
+        "captionRect": {
+          "x": 749.59375,
+          "y": 956.609375,
+          "w": 420.8125,
+          "h": 95.390625
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1573.8719482421875,
+          "y": 360.5771484375,
+          "w": 177.4080810546875,
+          "h": 274.96343994140625
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingModelRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingOpacity": -0.0
+      }
+    },
+    {
+      "seconds": 9.9,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000297.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 9.9,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 0.34701338466212556,
+        "carrier": {
+          "x": 81.9977798461914,
+          "y": 132.88864135742188,
+          "w": 1450.6600341796875,
+          "h": 815.9903564453125
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1561.5084228515625,
+          "y": 358.5679016113281,
+          "w": 176.31201171875,
+          "h": 273.2646789550781
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingModelRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingOpacity": -0.0
+      }
+    },
+    {
+      "seconds": 10.8,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000324.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 10.8,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "今天这条视频可能会直接换掉",
+        "captionRect": {
+          "x": 635.59375,
+          "y": 956.609375,
+          "w": 648.8125,
+          "h": 95.390625
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingModelRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingOpacity": -0.0
+      }
+    },
+    {
+      "seconds": 12.3,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000369.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 12.3,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 91.50543212890625,
+          "y": 23.316287994384766,
+          "w": 1821.453125,
+          "h": 1024.5625
+        },
+        "caption": "今天这条视频可能会直接换掉",
+        "captionRect": {
+          "x": 635.59375,
+          "y": 956.609375,
+          "w": 648.8125,
+          "h": 95.390625
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 100,
+          "y": 300,
+          "w": 576,
+          "h": 378
+        },
+        "endingModelRect": {
+          "x": 100,
+          "y": 763,
+          "w": 820,
+          "h": 162
+        },
+        "endingOpacity": 0.9504844339512113
+      }
+    },
+    {
+      "seconds": 12.65,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000379.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 12.65,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 1039.0069580078125,
+          "y": 264.7469482421875,
+          "w": 801.0625,
+          "h": 450.59375
+        },
+        "caption": "今天这条视频可能会直接换掉",
+        "captionRect": {
+          "x": 635.59375,
+          "y": 956.609375,
+          "w": 648.8125,
+          "h": 95.390625
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 100,
+          "y": 300,
+          "w": 576,
+          "h": 378
+        },
+        "endingModelRect": {
+          "x": 100,
+          "y": 763,
+          "w": 820,
+          "h": 162
+        },
+        "endingOpacity": 1
+      }
+    },
+    {
+      "seconds": 13.3,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000399.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 13.3,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 1040,
+          "y": 265,
+          "w": 800,
+          "h": 450
+        },
+        "caption": "你手里面的主力模型",
+        "captionRect": {
+          "x": 726.796875,
+          "y": 956.609375,
+          "w": 466.40625,
+          "h": 95.390625
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 100,
+          "y": 300,
+          "w": 576,
+          "h": 378
+        },
+        "endingModelRect": {
+          "x": 100,
+          "y": 763,
+          "w": 820,
+          "h": 162
+        },
+        "endingOpacity": 1
+      }
+    },
+    {
+      "seconds": 14.2,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000426.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 14.2,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 1040,
+          "y": 265,
+          "w": 800,
+          "h": 450
+        },
+        "caption": "你手里面的主力模型",
+        "captionRect": {
+          "x": 726.796875,
+          "y": 956.609375,
+          "w": 466.40625,
+          "h": 95.390625
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 100,
+          "y": 300,
+          "w": 576,
+          "h": 378
+        },
+        "endingModelRect": {
+          "x": 100,
+          "y": 763,
+          "w": 820,
+          "h": 162
+        },
+        "endingOpacity": 1
+      }
+    },
+    {
+      "seconds": 15.1,
+      "layout_and_caption_timeline_equal_to_v2": true,
+      "decoded_source": {
+        "src": "assets/speech_frames/000452.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "time": 15.1,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 1040,
+          "y": 265,
+          "w": 800,
+          "h": 450
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 100,
+          "y": 300,
+          "w": 576,
+          "h": 378
+        },
+        "endingModelRect": {
+          "x": 100,
+          "y": 763,
+          "w": 820,
+          "h": 162
+        },
+        "endingOpacity": 1
+      }
+    }
+  ],
+  "motion_type_and_timing_unchanged": true,
+  "seek_determinism_checked_at": [
+    0,
+    7.8,
+    14.2,
+    15.1
+  ],
+  "user_aesthetic_acceptance_claimed": false
+}

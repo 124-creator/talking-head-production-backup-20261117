@@ -1,0 +1,18 @@
+{
+  "url": "file:///E:/Agent%E5%91%98%E5%B7%A5/%E7%A0%94%E7%A9%B6%E8%87%AA%E5%8A%A8%E5%89%AA%E8%BE%91/onetake_tests/speech_7c1fa1f1/index.html",
+  "file_sha256": "676507ed0571940fe0f215dd9fc3a564a31a0a92814a5b7ecd9bebfe8acd08c2",
+  "validation_surface": "existing_local_browser",
+  "user_browser_opened": true,
+  "chinese_intact": true,
+  "main_playback_advanced_seconds": 1.02794,
+  "seek_times": [
+    3.7,
+    4.5,
+    5.8,
+    7.8,
+    11.2
+  ],
+  "missing_local_links": [],
+  "javascript_errors": [],
+  "pass": true
+}

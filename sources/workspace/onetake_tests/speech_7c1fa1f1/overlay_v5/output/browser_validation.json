@@ -1,0 +1,41 @@
+{
+  "url": "file:///E:/Agent%E5%91%98%E5%B7%A5/%E7%A0%94%E7%A9%B6%E8%87%AA%E5%8A%A8%E5%89%AA%E8%BE%91/onetake_tests/speech_7c1fa1f1/overlay_v5/index.html",
+  "file_sha256": "aaf606e5a03a4d927763e5272d3767e6598bd84ebe8dc06f29ffe546b6f658a4",
+  "surface": "existing_local_browser",
+  "user_browser_opened": true,
+  "chinese_intact": true,
+  "main_playback_advanced_seconds": 0.822348,
+  "ending_playback_position": 12.622735,
+  "seek_times": [
+    13.2,
+    14.2
+  ],
+  "aligned_v5_v4_times": [
+    12,
+    12
+  ],
+  "layout_aligned_v5_v4_times": [
+    13.65,
+    13.65
+  ],
+  "v4_playback_pauses_v5": true,
+  "v5_playback_pauses_v4": true,
+  "download_link_correct": true,
+  "chinese_font_available": true,
+  "display_state": "paused poster, no automatic sound; comparison collapsed",
+  "missing_local_links": [],
+  "javascript_errors": [],
+  "pass": true,
+  "oracle_note_refresh": {
+    "at_utc": "2026-11-16T06:56:23.208046+00:00",
+    "aac_pcm_preservation_pass_distinct_from_automatic_audio_fail": true,
+    "report_and_interpretation_links_exist": true,
+    "display_state": {
+      "paused": true,
+      "comparisonPaused": true,
+      "folded": true
+    },
+    "new_preview_tab_preserving_existing_tabs": true,
+    "video_sha256_unchanged": "aaf606e5a03a4d927763e5272d3767e6598bd84ebe8dc06f29ffe546b6f658a4"
+  }
+}

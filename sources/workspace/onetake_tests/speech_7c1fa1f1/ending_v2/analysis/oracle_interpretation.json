@@ -1,0 +1,21 @@
+{
+  "official_oracle_verdict": "FAIL",
+  "passed_legs": ["cadence", "rest", "burst", "continuity", "curves", "framing"],
+  "warnings": ["not-flat"],
+  "failed_legs": ["audio"],
+  "audio": {
+    "peak_dbfs": -0.7,
+    "clipped_samples": 0,
+    "quiet_ratio": 0.044,
+    "explanation": "The original continuous speech is stream-copied. The promo oracle requires peak <= -3 dBFS and >=15% quiet windows; the input fails these genre thresholds. No silence or gain changes were inserted to manufacture a pass. Exact packet and decoded-PCM preservation are checked independently in output/final_qa.json."
+  },
+  "cadence_cv": 0.79,
+  "still_ratio": 0.335,
+  "longest_quiet_picture_seconds": 2.25,
+  "continuity_limit": "Score 1.00 over one detected identity boundary is an implementation heuristic, not proof of aesthetic acceptance or every visual transition.",
+  "framing": "All declared protected elements passed: carrier 455 samples; photoFace 177; subtitleSafe 429; endingType 39.",
+  "render_scope": "362 original V1 PNGs reused and hash-checked; 92 ending frames newly rendered using official onetake temporal-shutter renderer. New resume run made 455 captures, with 69 frames classified as cuts and one still frame. Counters do not describe a full-film rerender.",
+  "source_audio_unchanged": true,
+  "user_aesthetic_acceptance_claimed": false,
+  "full_speed_perceptual_listening_verified": false
+}

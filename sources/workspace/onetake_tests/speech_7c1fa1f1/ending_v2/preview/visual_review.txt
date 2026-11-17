@@ -1,0 +1,61 @@
+Ending V2 — independent sampled visual review
+
+Actually viewed
+- Root previews ending_12.30.jpg, ending_12.65.jpg, ending_13.20.jpg,
+  ending_13.65.jpg, ending_14.20.jpg, ending_15.10.jpg in full contact-sheet
+  coverage (review_ending_contact.jpg, all6tiles).
+- ending_13.65.jpg separately at full1920x1080 resolution.
+- Read the ending-specific layout/timing in ending_v2/comp.html to cross-check
+  photo/video ratio and protected regions. No composition was modified here.
+
+Verdict: PASS for the checked preview layout; no blocking crop, face/mouth,
+hand or subtitle collision was apparent. This is not a final encoded-film or
+normal-speed audiovisual acceptance verdict.
+
+Concrete observations
+1. Stronger hierarchy than the earlier small overlaid ending text:
+   the small '这条视频，可能会' qualifier is followed by the dominant, warm
+   rust-coloured360px '换掉'; '你的主力模型' follows as a separate125px line.
+   It reads as a deliberate closing statement rather than another small badge.
+
+2. The source-presenter frame remains the same visual object while it shrinks
+   into the right-side window. At the settled state it is800x450, exactly16:9,
+   so no additional inside-image cover crop is required. Face, mouth, raised
+   hand/fingers and microphone remain visible in the sampled later frames.
+
+3. Settled right window isx1040..1840,y265..715, leaving80px right canvas margin
+   and substantial clearance above the subtitle band near956px. The right-side
+   label near207px sits above, rather than over, the subject window.
+
+4. Large closing text stays to the left. The '换掉' block ends well before the
+   vertical dividerx945; no character intrudes into the presenter window.
+   The qualifier, headline, rule and model name have distinct vertical lanes.
+
+5. Model-name mask spansy763..925; subtitle begins aroundy956.6, giving at least
+   about31.6px separation at the mask boundary. The visible text itself ends
+   around910px, so the optical gap is larger. No line is clipped or hidden by
+   the caption in13.65/14.20 samples.
+
+6. At12.30s, the ending is still entering: a faint partial first large character
+   sits over the left of the receding original frame. This is a brief transient,
+   not a settled-state overlap, and it does not obstruct face/mouth or hands in
+   that sample. By12.65s the right-window/left-title relationship is clear.
+
+7. At13.20s the model-name entrance is in progress and becomes fully settled
+   by13.65s. The current source phrasing and caption still include the original
+   '你手里面的主力模型'; the big callout is a concise visual summary.
+
+8. At15.10s, the main closing statement is still held rather than already fading
+   away. Caption is absent after the spoken phrase has ended, without removing
+   the ending's visual conclusion too early.
+
+Limits and checks still owned elsewhere
+- The six preview images do not prove frame-by-frame temporal smoothness,
+  deterministic Chromium text rasterization, or absence of one-frame artifacts.
+- Parent reports a Chromium cross-seek text-raster cache difference under active
+  investigation; this review does not declare that issue solved.
+- First12.06seconds preservation, final render, exact audio packet/PCM retention,
+  and a normal-speed perceptual listening pass require separate evidence.
+- No claim that user aesthetics have passed or that all reference effects are
+  reproduced. No new noise metric, denoising operation or voice generation was
+  introduced by this review.

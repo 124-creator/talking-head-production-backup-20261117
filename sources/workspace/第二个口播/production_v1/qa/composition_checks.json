@@ -1,0 +1,976 @@
+{
+  "pass": true,
+  "composition_sha256": "4e41af526c7c0e66f735c944872496d7c40689e508c7a0111233d218cddf4b8f",
+  "data_sha256": "a15b541c9d83bfbe8814a1bb915e669804f22539b26a6164a9b5a696db24051f",
+  "browser_errors": [],
+  "determinism": [
+    {
+      "time": 18.8,
+      "pixel_screenshot_identical": true
+    },
+    {
+      "time": 50.8,
+      "pixel_screenshot_identical": true
+    },
+    {
+      "time": 69.95,
+      "pixel_screenshot_identical": true
+    }
+  ],
+  "samples": [
+    {
+      "time": 0.8,
+      "bounds": {
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 699,
+          "y": 962.609375,
+          "w": 522,
+          "h": 89.390625,
+          "display": "block",
+          "text": "第二个维度，真实性"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 0,
+          "display": "block",
+          "text": ""
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 0,
+          "display": "block",
+          "text": ""
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 5.8,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 647,
+          "y": 962.609375,
+          "w": 626,
+          "h": 89.390625,
+          "display": "block",
+          "text": "说改善了这个光照、材质"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315.1789855957031,
+          "w": 310,
+          "h": 247.99996948242188,
+          "display": "block",
+          "text": "光照\n材质"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "办公室样图\n先看整体观感"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 10.8,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 725,
+          "y": 962.609375,
+          "w": 470,
+          "h": 89.390625,
+          "display": "block",
+          "text": "减少了过度的油亮"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "油亮\n过曝"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "网球场样图\n观察高光"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 15.5,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 688.2421875,
+          "y": 962.609375,
+          "w": 543.515625,
+          "h": 89.390625,
+          "display": "block",
+          "text": "确实是5.5去生成人像"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "自然\n人像"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "室内侧光\n保留原始纹理"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 18.8,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 647,
+          "y": 962.609375,
+          "w": 626,
+          "h": 89.390625,
+          "display": "block",
+          "text": "你看皮肤的纹理是清楚了"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "皮肤\n纹理"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "近景观察\n眼下与脸颊"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 21.8,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 595,
+          "y": 962.609375,
+          "w": 730,
+          "h": 89.390625,
+          "display": "block",
+          "text": "光影的过渡也是那种很自然的"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315.0509948730469,
+          "w": 310,
+          "h": 248.00003051757812,
+          "display": "block",
+          "text": "室外\n光照"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "网球场\n侧向日光"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 25.2,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 595,
+          "y": 962.609375,
+          "w": 730,
+          "h": 89.390625,
+          "display": "block",
+          "text": "一眼看上去就很假的那种假脸"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 314.9880065917969,
+          "w": 310,
+          "h": 248.00003051757812,
+          "display": "block",
+          "text": "空间\n层次"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "球拍前景\n室外人像"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 28.0,
+      "bounds": {
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 569,
+          "y": 962.609375,
+          "w": 782,
+          "h": 89.390625,
+          "display": "block",
+          "text": "还有更重要的是它的改图能力强"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "空间\n层次"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "球拍前景\n室外人像"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 35.0,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 699,
+          "y": 962.609375,
+          "w": 522,
+          "h": 89.390625,
+          "display": "block",
+          "text": "让它去改一个三视图"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 314.9949951171875,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "改\n三视图"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "正面 · 侧面 · 背面\n完整展示"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 36.8,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 803,
+          "y": 962.609375,
+          "w": 314,
+          "h": 89.390625,
+          "display": "block",
+          "text": "你看改服装"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "换\n服装"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "衬衫裤装 → 旗袍\n观察服装变化"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 38.4,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 777,
+          "y": 962.609375,
+          "w": 366,
+          "h": 89.390625,
+          "display": "block",
+          "text": "全都没有问题"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "改\n分镜"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "按所供样图展示\n保留原始版式"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 44.8,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 751,
+          "y": 962.609375,
+          "w": 418,
+          "h": 89.390625,
+          "display": "block",
+          "text": "它要么就变矮了"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "旧版\n比例"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "完整全身\n观察头身关系"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 50.8,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 688.2421875,
+          "y": 962.609375,
+          "w": 543.515625,
+          "h": 89.390625,
+          "display": "block",
+          "text": "这次的5.5完全解决了"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "新版\n比例"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "同类样图对照\n非定量测量"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 56.2,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 647,
+          "y": 962.609375,
+          "w": 626,
+          "h": 89.390625,
+          "display": "block",
+          "text": "群像的话还是那个老问题"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 314.9880065917969,
+          "w": 310,
+          "h": 248.00003051757812,
+          "display": "block",
+          "text": "群像\n表现"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "先看完整合照\n再观察局部"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 59.0,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 647,
+          "y": 962.609375,
+          "w": 626,
+          "h": 89.390625,
+          "display": "block",
+          "text": "双胞胎的效应比较严重的"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "群像\n表现"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "先看完整合照\n再观察局部"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 61.1,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 569,
+          "y": 962.609375,
+          "w": 782,
+          "h": 89.390625,
+          "display": "block",
+          "text": "多人同框的那个脸还是容易去撞"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315.00201416015625,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "多人\n同框"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "来自同一张原图\n观察面部多样性"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 63.1,
+      "bounds": {
+        "carrier": {
+          "x": 88,
+          "y": 144,
+          "w": 1408,
+          "h": 792,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 569,
+          "y": 962.609375,
+          "w": 782,
+          "h": 89.390625,
+          "display": "block",
+          "text": "多人同框的那个脸还是容易去撞"
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "多人\n同框"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "来自同一张原图\n观察面部多样性"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 906,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 920,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    },
+    {
+      "time": 69.95,
+      "bounds": {
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080,
+          "display": "block",
+          "text": ""
+        },
+        "subtitle": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "display": "none",
+          "text": ""
+        },
+        "stage-title": {
+          "x": 1555,
+          "y": 315,
+          "w": 310,
+          "h": 248,
+          "display": "block",
+          "text": "多人\n同框"
+        },
+        "stage-note": {
+          "x": 1560,
+          "y": 655,
+          "w": 285,
+          "h": 99,
+          "display": "block",
+          "text": "来自同一张原图\n观察面部多样性"
+        },
+        "quote-main": {
+          "x": 680,
+          "y": 851,
+          "w": 568,
+          "h": 163.296875,
+          "display": "block",
+          "text": "画面更干净"
+        },
+        "quote-gpt": {
+          "x": 1430,
+          "y": 901.8779907226562,
+          "w": 164.296875,
+          "h": 74.796875,
+          "display": "block",
+          "text": "的 GPT"
+        }
+      }
+    }
+  ]
+}

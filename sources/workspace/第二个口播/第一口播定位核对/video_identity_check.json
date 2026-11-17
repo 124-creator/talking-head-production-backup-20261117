@@ -1,0 +1,199 @@
+{
+  "approved_reference": "C:\\Users\\Dreamboat\\OneDrive\\文档\\WeChat Files\\wxid_tnssm99dpsea22\\FileStorage\\Video\\2026-11\\a7a87b4c54f8a1abe5efd6f6834decef_raw.mp4",
+  "candidate_v5": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\overlay_v5\\output\\onetake_overlay_v5_1080p30.mp4",
+  "source_original": "C:\\Users\\Dreamboat\\OneDrive\\文档\\WeChat Files\\wxid_tnssm99dpsea22\\FileStorage\\Video\\2026-11\\7c1fa1f1aaae6edc410a3c1471c65f4d_raw.mp4",
+  "source_working_copy": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\raw_v3\\assets\\source.mp4",
+  "checks": {
+    "reference": {
+      "exists": true,
+      "bytes": 23674624,
+      "file_sha256": "231c8a62698e661429a2dce67120edc8acfd6e96a882ab0da2b4dfa8777f2a83",
+      "streams": {
+        "0": {
+          "packet_count": 454,
+          "encoded_payload_sequence_sha256": "fcbd83f2acb1624e1c214ea4198fe0385a29c29f5a8ed472cb7d84781f2adee0",
+          "packet_timing_and_payload_sha256": "e96afed5c4adfcbfde12229e8b1029d2a0b874a55e5f558beaccc8122c569df8"
+        },
+        "1": {
+          "packet_count": 652,
+          "encoded_payload_sequence_sha256": "3eda701cb2323b9eadc44d73427f3ac7b6bae129d1b1f7ee0c4d98f40089f3bf",
+          "packet_timing_and_payload_sha256": "84f22da79e899a353a8d2b4ff7d2177b076d8f5b066b878a1749feadb7662fea"
+        }
+      },
+      "media_metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/90000",
+            "start_time": "0.000000",
+            "duration": "15.133333",
+            "nb_frames": "454"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_time": "0.000000",
+            "duration": "15.116009",
+            "nb_frames": "652"
+          }
+        ],
+        "format": {
+          "duration": "15.133333",
+          "size": "23674624",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf58.20.100"
+          }
+        }
+      },
+      "decoded_frame_count": 454,
+      "decoded_frame_sequence_sha256": "c9e823484c592781cb337824fb125145cc8f118c03f05c294160feb3c96ca069"
+    },
+    "v5": {
+      "exists": true,
+      "bytes": 23674663,
+      "file_sha256": "aaf606e5a03a4d927763e5272d3767e6598bd84ebe8dc06f29ffe546b6f658a4",
+      "streams": {
+        "0": {
+          "packet_count": 454,
+          "encoded_payload_sequence_sha256": "fcbd83f2acb1624e1c214ea4198fe0385a29c29f5a8ed472cb7d84781f2adee0",
+          "packet_timing_and_payload_sha256": "71592c0b4381cb0f4828a85091989105656de56775c6302bf85a5b9227fa4b08"
+        },
+        "1": {
+          "packet_count": 652,
+          "encoded_payload_sequence_sha256": "3eda701cb2323b9eadc44d73427f3ac7b6bae129d1b1f7ee0c4d98f40089f3bf",
+          "packet_timing_and_payload_sha256": "84f22da79e899a353a8d2b4ff7d2177b076d8f5b066b878a1749feadb7662fea"
+        }
+      },
+      "media_metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/15360",
+            "start_time": "0.000000",
+            "duration": "15.133333",
+            "nb_frames": "454"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_time": "0.000000",
+            "duration": "15.116009",
+            "nb_frames": "652"
+          }
+        ],
+        "format": {
+          "duration": "15.133333",
+          "size": "23674663",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf63.1.102"
+          }
+        }
+      },
+      "decoded_frame_count": 454,
+      "decoded_frame_sequence_sha256": "c9e823484c592781cb337824fb125145cc8f118c03f05c294160feb3c96ca069"
+    },
+    "source_original": {
+      "exists": true,
+      "bytes": 47098520,
+      "file_sha256": "93dfe4aeddead66652af44422e2b643a9b6f258deaf683874f700955b2e03bd1",
+      "streams": {
+        "0": {
+          "packet_count": 453,
+          "encoded_payload_sequence_sha256": "d6b013ddce21fe5857d56fada124b5e5df44cd9df5bcb8761ea02c42e62bd5d0",
+          "packet_timing_and_payload_sha256": "4c0eda38e52fc03cca580a966ec012553f85909b3ac7997cceb47d24b0332b7d"
+        },
+        "1": {
+          "packet_count": 652,
+          "encoded_payload_sequence_sha256": "3eda701cb2323b9eadc44d73427f3ac7b6bae129d1b1f7ee0c4d98f40089f3bf",
+          "packet_timing_and_payload_sha256": "84f22da79e899a353a8d2b4ff7d2177b076d8f5b066b878a1749feadb7662fea"
+        }
+      }
+    },
+    "source_working_copy": {
+      "exists": true,
+      "bytes": 47098520,
+      "file_sha256": "93dfe4aeddead66652af44422e2b643a9b6f258deaf683874f700955b2e03bd1",
+      "streams": {
+        "0": {
+          "packet_count": 453,
+          "encoded_payload_sequence_sha256": "d6b013ddce21fe5857d56fada124b5e5df44cd9df5bcb8761ea02c42e62bd5d0",
+          "packet_timing_and_payload_sha256": "4c0eda38e52fc03cca580a966ec012553f85909b3ac7997cceb47d24b0332b7d"
+        },
+        "1": {
+          "packet_count": 652,
+          "encoded_payload_sequence_sha256": "3eda701cb2323b9eadc44d73427f3ac7b6bae129d1b1f7ee0c4d98f40089f3bf",
+          "packet_timing_and_payload_sha256": "84f22da79e899a353a8d2b4ff7d2177b076d8f5b066b878a1749feadb7662fea"
+        }
+      }
+    }
+  },
+  "new_source": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\原视频.mp4",
+  "matching_v5_video_payloads": true,
+  "matching_v5_audio_payloads": true,
+  "matching_source_file": true,
+  "reference_preserves_source_aac": true,
+  "approved_reference_contact": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第一口播定位核对\\approved_reference_contact.jpg",
+  "second_source_contact": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第一口播定位核对\\second_source_contact.jpg",
+  "matching_v5_decoded_frames": true,
+  "skills_verified_from_historical_tool_calls": [
+    {
+      "name": "onetake",
+      "role": "local motion composition and rendering",
+      "log_lines": [
+        338,
+        339,
+        384
+      ]
+    },
+    {
+      "name": "chatcut-desktop:talking-head-guide",
+      "role": "speech-led editing guidance, not ChatCut editor execution",
+      "log_lines": [
+        338,
+        341,
+        342
+      ]
+    },
+    {
+      "name": "skill-installer",
+      "role": "prior installation of onetake, not video rendering",
+      "log_lines": [
+        223,
+        224,
+        269,
+        270
+      ]
+    }
+  ],
+  "skill_evidence_log": "C:\\Users\\Dreamboat\\.codex\\sessions\\2026\\11\\16\\rollout-2026-11-16T11-46-40-01a1e276-d2a0-7302-af74-d12b5dcb157b.jsonl"
+}

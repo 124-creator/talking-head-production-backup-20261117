@@ -1,0 +1,38 @@
+{
+  "source_sha256": "ea2eb6cebb0a7c98c8d83514289c54c196ac6ff5b0fef75cca13badf8b1328cf",
+  "source_bytes": 14854854,
+  "script_sha256": "e6643b9abe8deec3315d1418bd8db26d3d5618df4cc5ba8fa5d7569bd5afef71",
+  "asset_file_count": 24,
+  "unique_asset_count": 23,
+  "duplicate_assets": [
+    {
+      "first": "M11",
+      "duplicate": "M12",
+      "sha256": "4a2a98e1db3a3a459418da053071d3e1ffdaf73677505467ad0c2c4ee57a9444"
+    }
+  ],
+  "asr_segment_count": 30,
+  "asr_segments_gaps_over_250ms": [
+    {
+      "start": 39.22,
+      "end": 39.660000000000004,
+      "duration": 0.44
+    },
+    {
+      "start": 55.08,
+      "end": 55.5,
+      "duration": 0.42
+    }
+  ],
+  "audio_analysis_only": true,
+  "source_modified": false,
+  "edited_video_created": false,
+  "source_and_script_hashes_unchanged": true,
+  "all_24_asset_hashes_unchanged": true,
+  "proposal_segment_count": 24,
+  "proposal_covers_source_without_gaps": true,
+  "planned_unique_images": 16,
+  "six_positive_images_in_order": true,
+  "proposal_only_not_applied": true,
+  "transcript_listening_review_complete": false
+}

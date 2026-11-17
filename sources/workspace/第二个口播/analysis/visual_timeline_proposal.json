@@ -1,0 +1,339 @@
+{
+  "status": "analysis_only_not_applied",
+  "source": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\原视频.mp4",
+  "source_sha256": "ea2eb6cebb0a7c98c8d83514289c54c196ac6ff5b0fef75cca13badf8b1328cf",
+  "timebase": "source_seconds",
+  "duration_seconds": 70.589002,
+  "timing_note": "ASR-derived candidate anchors, not frame-accurate applied edit points; transcript needs listening review.",
+  "preserve_source_audio": true,
+  "voiceover_generated": false,
+  "background_music_planned": false,
+  "external_product_claims_verified": false,
+  "visual_reference": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\overlay_v5\\output\\onetake_overlay_v5_1080p30.mp4",
+  "segments": [
+    {
+      "id": 1,
+      "source_start": 0,
+      "source_end": 1.7,
+      "visual_mode": "presenter",
+      "asset_ids": [],
+      "asset_paths": [],
+      "speech_topic": "第二个维度，真实性",
+      "proposal": "保留人物；章节小标识"
+    },
+    {
+      "id": 2,
+      "source_start": 1.7,
+      "source_end": 5.32,
+      "visual_mode": "presenter",
+      "asset_ids": [],
+      "asset_paths": [],
+      "speech_topic": "真实感下功夫",
+      "proposal": "人物建立判断，不先铺大量图片"
+    },
+    {
+      "id": 3,
+      "source_start": 5.32,
+      "source_end": 8.2,
+      "visual_mode": "comparison_sample",
+      "asset_ids": [
+        "M09"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\AI感重的对比图\\jimeng-2026-11-13-4908-室内办公室，中景，28岁女性，大波浪，看着镜头，.png"
+      ],
+      "speech_topic": "光照、材质",
+      "proposal": "提供的对照样例，不标严格A/B"
+    },
+    {
+      "id": 4,
+      "source_start": 8.2,
+      "source_end": 9.84,
+      "visual_mode": "comparison_sample",
+      "asset_ids": [
+        "M10"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\AI感重的对比图\\jimeng-2026-11-13-5259-室内办公室，中景，28岁女性，大波浪，看着镜头，.png"
+      ],
+      "speech_topic": "皮肤纹理",
+      "proposal": "短展示；暖逆光本身不是缺陷证据"
+    },
+    {
+      "id": 5,
+      "source_start": 9.84,
+      "source_end": 13.2,
+      "visual_mode": "comparison_sample",
+      "asset_ids": [
+        "M11"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\AI感重的对比图\\jimeng-2026-11-13-5421-特写亚洲18岁女生，直视镜头,, 扎马尾，在网球场.png"
+      ],
+      "speech_topic": "油亮与过曝",
+      "proposal": "网球场对照；M12为重复文件不用"
+    },
+    {
+      "id": 6,
+      "source_start": 13.2,
+      "source_end": 14.54,
+      "visual_mode": "presenter",
+      "asset_ids": [],
+      "asset_paths": [],
+      "speech_topic": "我对比了一下",
+      "proposal": "回人物，明确观点转折"
+    },
+    {
+      "id": 7,
+      "source_start": 14.54,
+      "source_end": 17.22,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M02"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\5.5出图1.png"
+      ],
+      "speech_topic": "5.5人像",
+      "proposal": "出图1，保持原始图像"
+    },
+    {
+      "id": 8,
+      "source_start": 17.22,
+      "source_end": 19.9,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M03"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\5.5出图2.png"
+      ],
+      "speech_topic": "皮肤纹理清楚",
+      "proposal": "出图2近景，留足观察时间"
+    },
+    {
+      "id": 9,
+      "source_start": 19.9,
+      "source_end": 21.24,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M04"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\5.5出图3.png"
+      ],
+      "speech_topic": "光影过渡自然",
+      "proposal": "出图3，室内组收尾"
+    },
+    {
+      "id": 10,
+      "source_start": 21.24,
+      "source_end": 22.68,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M05"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\5.5出图4.png"
+      ],
+      "speech_topic": "光影过渡自然",
+      "proposal": "出图4，室内转室外"
+    },
+    {
+      "id": 11,
+      "source_start": 22.68,
+      "source_end": 24.5,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M06"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\5.5出图5.png"
+      ],
+      "speech_topic": "没有塑料感",
+      "proposal": "出图5，保留发丝与光影"
+    },
+    {
+      "id": 12,
+      "source_start": 24.5,
+      "source_end": 26.62,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M07"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\5.5出图6.png"
+      ],
+      "speech_topic": "不是假脸",
+      "proposal": "出图6，球拍前景，六图收尾"
+    },
+    {
+      "id": 13,
+      "source_start": 26.62,
+      "source_end": 29.4,
+      "visual_mode": "presenter",
+      "asset_ids": [],
+      "asset_paths": [],
+      "speech_topic": "改图能力强",
+      "proposal": "人物关键词，不沿用无关人像图"
+    },
+    {
+      "id": 14,
+      "source_start": 29.4,
+      "source_end": 34.26,
+      "visual_mode": "presenter",
+      "asset_ids": [],
+      "asset_paths": [],
+      "speech_topic": "其他工具先出图，交给5.5",
+      "proposal": "不虚构软件操作界面或原始输入"
+    },
+    {
+      "id": 15,
+      "source_start": 34.26,
+      "source_end": 36.02,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M19"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\人物三视图.png"
+      ],
+      "speech_topic": "改三视图",
+      "proposal": "完整肖像与正侧背三视图"
+    },
+    {
+      "id": 16,
+      "source_start": 36.02,
+      "source_end": 37.12,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M24"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\换服装.png"
+      ],
+      "speech_topic": "改服装",
+      "proposal": "白衬衫裤装到旗袍，沿用画框"
+    },
+    {
+      "id": 17,
+      "source_start": 37.12,
+      "source_end": 39.22,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M23"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\换分镜.png"
+      ],
+      "speech_topic": "改分镜；全都没有问题",
+      "proposal": "实为肖像加三视图，不夸大为连续叙事分镜"
+    },
+    {
+      "id": 18,
+      "source_start": 39.22,
+      "source_end": 39.66,
+      "visual_mode": "presenter",
+      "asset_ids": [],
+      "asset_paths": [],
+      "speech_topic": "自然换气",
+      "proposal": "保留0.44秒，不自动删停顿"
+    },
+    {
+      "id": 19,
+      "source_start": 39.66,
+      "source_end": 48.36,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M08"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\AI感重的对比图\\4.5三视图对比，人物比例不对.png"
+      ],
+      "speech_topic": "旧三视图变矮、头身不对",
+      "proposal": "完整全身；不拉伸，不混到皮肤段"
+    },
+    {
+      "id": 20,
+      "source_start": 48.36,
+      "source_end": 55.08,
+      "visual_mode": "comparison_sample",
+      "asset_ids": [
+        "M01",
+        "M08"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\5.5三视图.png",
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\AI感重的对比图\\4.5三视图对比，人物比例不对.png"
+      ],
+      "speech_topic": "5.5；1:7、1:8",
+      "proposal": "M01为主，M08参考；不是受控A/B，不画伪精确比例尺"
+    },
+    {
+      "id": 21,
+      "source_start": 55.08,
+      "source_end": 55.5,
+      "visual_mode": "presenter",
+      "asset_ids": [],
+      "asset_paths": [],
+      "speech_topic": "自然换气",
+      "proposal": "保留0.42秒，转群像"
+    },
+    {
+      "id": 22,
+      "source_start": 55.5,
+      "source_end": 60.5,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M18"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\jimeng-2026-11-13-6461-高中毕业照，中景.png"
+      ],
+      "speech_topic": "群像；双胞胎效应",
+      "proposal": "6461先全图再同图局部，只说明观感相似"
+    },
+    {
+      "id": 23,
+      "source_start": 60.5,
+      "source_end": 63.82,
+      "visual_mode": "sample",
+      "asset_ids": [
+        "M17"
+      ],
+      "asset_paths": [
+        "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二部分人物\\第二部分人物\\jimeng-2026-11-13-5921-高中毕业照，中景.png"
+      ],
+      "speech_topic": "多人同框撞脸",
+      "proposal": "5921后出；不跨图拼接相似脸"
+    },
+    {
+      "id": 24,
+      "source_start": 63.82,
+      "source_end": 70.589002,
+      "visual_mode": "presenter",
+      "asset_ids": [],
+      "asset_paths": [],
+      "speech_topic": "没那么聪明，但画面更干净的GPT",
+      "proposal": "回人物；黄色强调画面更干净，保留尾音"
+    }
+  ],
+  "unique_planned_asset_ids": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M17",
+    "M18",
+    "M19",
+    "M23",
+    "M24"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "file": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\ending_v2\\output\\onetake_ending_v2_1080p30.mp4",
+  "sha256": "bde655d067c74935a8312ce4c45d39570c99f5cb1ee74bcc0e0c79241035598d",
+  "render_manifest_hash_matches": true,
+  "frames": 454,
+  "expected_frames": 454,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "duration_seconds": 15.133333,
+  "audio_codec": "aac",
+  "audio_sample_rate": 44100,
+  "source_audio_duration_seconds": 15.116009,
+  "output_audio_duration_seconds": 15.116009,
+  "source_audio_packets": 652,
+  "output_audio_packets": 652,
+  "original_aac_packet_payloads_identical": true,
+  "source_pcm_sha256": "8ec0f9607c2d6f2f3a63e0d59d1ad94d9fe4e5159f919c5a173145f27619a613",
+  "output_pcm_sha256": "8ec0f9607c2d6f2f3a63e0d59d1ad94d9fe4e5159f919c5a173145f27619a613",
+  "decoded_pcm_identical": true,
+  "old_v1_sha256": "676507ed0571940fe0f215dd9fc3a564a31a0a92814a5b7ecd9bebfe8acd08c2",
+  "old_v1_unchanged": true,
+  "old_v1_comp_unchanged": true,
+  "source_files": [
+    {
+      "order": 0,
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "order": 1,
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "order": 2,
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "order": 3,
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "order": 4,
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    }
+  ],
+  "prefix_pngs_reused_from_render_record": 362,
+  "composition_check_pass": true,
+  "composition_check_hash_current": true,
+  "encoded_prefix_pixel_identity_claimed": false,
+  "black_frame_candidates": 0,
+  "empty_frame_candidates": 0,
+  "source_video_resolution": [
+    1280,
+    720
+  ],
+  "full_speed_perceptual_listening_verified": false,
+  "user_aesthetic_acceptance_claimed": false,
+  "all_oracle_legs_pass_claimed": false,
+  "new_paid_api_calls": 0,
+  "personal_noncommercial_test": true,
+  "pass": true
+}

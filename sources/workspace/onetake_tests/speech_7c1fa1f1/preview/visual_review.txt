@@ -1,0 +1,55 @@
+Independent composition preview review
+
+Actually viewed:
+- preview/initial_stills.jpg:12sampled moments (1,2.7,3.4,3.9,4.7,5.8,7.8,
+  9.4,10,10.7,12.9,14.2 seconds). Official stills tool includes debug HUD;
+  this is a preview detail, not evidence that the final render includes HUD.
+- preview/review_7.8.png and preview/review_12.9.png: actual1920x1080 browser
+  captures loaded from comp.html without HUD, after __ready and __seek.
+- Fresh reload after root fixes: review_4.8.png, review_7.8.png, review_12.9.png;
+  measured boxes saved in preview/review_boxes.json. Reviewed comp SHA256:
+  99901061a5c12ee87b7b703680ea49fe01466db91b17571b1dcab9de6c658ef3.
+- All4 original photo assets and source presenter overview/native3s frame.
+
+Observed PASS items in these samples:
+- Image order is1->2->3->4, aligned with approved noise-accumulation direction.
+  Photo1 is present at3.9, photo2 at4.7, photo3 at5.8, photo4 at7.8/9.4.
+- Same photo container carries through the sequence; this is not4separate
+  decorative photo cards cycling in a fixed carousel.
+- Photo4's fullhat, both eyes, face, shoulders and source aspect ratio survive.
+  The full-image fit is used, not a generic inside-image push that cuts its hat.
+- At7.8, the actual image4hat crown has about20display pixels to its photo top.
+- Right-side process labels sit outside the photo; no fabricated percentages,
+  synthetic-noise field or claimed measured denoising result is visible.
+- Presenter returns in the10s transition and is full-frame again by10.7;
+  closing word group is clearly visible at12.9/14.2, outside the face/mouth.
+- Actual12.9closing word group bboxx90..466,y220..442 leaves the raisedleft
+  hand (roughlyx510andrightwards), face and mouth unblocked in the checked shot.
+- Subtitles are readable, single-line and independent of the process labels.
+- No page JavaScript errors occurred in the direct browser capture.
+
+Resolved small layout issue:
+The first7.8capture had carrierbottom967.392/subtitleTop956.609,10.783px
+overlap. Root moved PHOTOy168->144 while preserving1408x792aspect.
+On a fresh-loaded7.8capture, carrierbottom943.200/subtitleTop956.609 yields
+13.409px clear gap. Fullhat/eyes and the independent caption still fit.
+At4.8, carrierbottom942.400 gives14.209px gap. No new collision was apparent.
+
+Fresh-checked root refinements:
+- At4.8the caption reads'画面全是那种噪点', not the isolated'画面'.
+- At12.9presenter carrier is exactly1920x1080,x0/y0, and closingword bbox
+  remainsx90..466,y220..442; face/mouth and raisedleft hand remain clear.
+- Workspace fade timing was updated in source to3.58-3.87; the first initial
+  board predates that change, so do not cite that board as proof of its new
+  transient timing. Final encoded/transient review is still separate.
+
+Limits:
+This is a sampled preview-layout review, not final encodedMP4 verification,
+not an independent normal-speed audiovisual listening pass, and not user
+aesthetic acceptance. Precise noiselevels cannot be inferred from the4different
+photos; the sequence is the user's supplied illustration, not a controlled
+same-pixel noise measurement. No need to reverse assets or alter original audio.
+
+Verdict for the checked updated preview layout: PASS; no remaining blocking
+crop/caption/face/hat collision in these selected states. Final encoded output,
+audio preservation and normal-speed quality need their own checks.

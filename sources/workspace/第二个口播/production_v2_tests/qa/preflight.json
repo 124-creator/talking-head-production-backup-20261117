@@ -1,0 +1,663 @@
+{
+  "pass": true,
+  "cases": {
+    "a": {
+      "pass": true,
+      "browser_errors": [],
+      "deterministic": true,
+      "samples": [
+        {
+          "time": 0.5,
+          "elements": {
+            "aPlate": {
+              "x": 84,
+              "y": 790,
+              "w": 598,
+              "h": 150,
+              "opacity": "1",
+              "display": "block",
+              "text": "改图能力强"
+            },
+            "subtitle": {
+              "x": 680,
+              "y": 992,
+              "w": 560,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "还有更重要的是它的改图能力强"
+            }
+          }
+        },
+        {
+          "time": 1.6,
+          "elements": {
+            "aPlate": {
+              "x": 84,
+              "y": 790,
+              "w": 598,
+              "h": 150,
+              "opacity": "1",
+              "display": "block",
+              "text": "改图能力强"
+            },
+            "subtitle": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "opacity": "1",
+              "display": "none",
+              "text": ""
+            }
+          }
+        },
+        {
+          "time": 1.96,
+          "elements": {
+            "aPlate": {
+              "x": 84,
+              "y": 790,
+              "w": 598,
+              "h": 150,
+              "opacity": "1",
+              "display": "block",
+              "text": "改图能力强"
+            },
+            "subtitle": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "opacity": "1",
+              "display": "none",
+              "text": ""
+            }
+          }
+        },
+        {
+          "time": 2.4,
+          "elements": {
+            "aPlate": {
+              "x": 84,
+              "y": 790,
+              "w": 598,
+              "h": 150,
+              "opacity": "1",
+              "display": "block",
+              "text": "改图能力强"
+            },
+            "subtitle": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "opacity": "1",
+              "display": "none",
+              "text": ""
+            }
+          }
+        },
+        {
+          "time": 3.2,
+          "elements": {
+            "aPlate": {
+              "x": 84,
+              "y": 790,
+              "w": 598,
+              "h": 150,
+              "opacity": "0.277131",
+              "display": "block",
+              "text": "改图能力强"
+            },
+            "subtitle": {
+              "x": 680,
+              "y": 992,
+              "w": 560,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "你用别的工具先给它去出一张图"
+            }
+          }
+        },
+        {
+          "time": 3.8,
+          "elements": {
+            "aPlate": {
+              "x": 84,
+              "y": 790,
+              "w": 598,
+              "h": 150,
+              "opacity": "0",
+              "display": "block",
+              "text": "改图能力强"
+            },
+            "subtitle": {
+              "x": 680,
+              "y": 992,
+              "w": 560,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "你用别的工具先给它去出一张图"
+            }
+          }
+        }
+      ]
+    },
+    "b": {
+      "pass": true,
+      "browser_errors": [],
+      "deterministic": true,
+      "samples": [
+        {
+          "time": 0.3,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 705.609375,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "真实感，让细节说话"
+            },
+            "fact0": {
+              "x": 1518,
+              "y": 258,
+              "w": 320,
+              "h": 158,
+              "opacity": "0",
+              "display": "block",
+              "text": "01皮肤近景纹理清楚"
+            },
+            "fact1": {
+              "x": 1518,
+              "y": 475,
+              "w": 320,
+              "h": 158,
+              "opacity": "0",
+              "display": "block",
+              "text": "02明暗过渡光影自然"
+            },
+            "fact2": {
+              "x": 1518,
+              "y": 692,
+              "w": 320,
+              "h": 158,
+              "opacity": "0",
+              "display": "block",
+              "text": "03样图观感少塑料感"
+            },
+            "subtitle": {
+              "x": 740,
+              "y": 992,
+              "w": 440,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "你看皮肤的纹理是清楚了"
+            }
+          }
+        },
+        {
+          "time": 1.0,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 705.609375,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "真实感，让细节说话"
+            },
+            "fact0": {
+              "x": 1518,
+              "y": 258,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "01皮肤近景纹理清楚"
+            },
+            "fact1": {
+              "x": 1518,
+              "y": 475,
+              "w": 320,
+              "h": 158,
+              "opacity": "0",
+              "display": "block",
+              "text": "02明暗过渡光影自然"
+            },
+            "fact2": {
+              "x": 1518,
+              "y": 692,
+              "w": 320,
+              "h": 158,
+              "opacity": "0",
+              "display": "block",
+              "text": "03样图观感少塑料感"
+            },
+            "subtitle": {
+              "x": 740,
+              "y": 992,
+              "w": 440,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "你看皮肤的纹理是清楚了"
+            }
+          }
+        },
+        {
+          "time": 2.7,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 705.609375,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "真实感，让细节说话"
+            },
+            "fact0": {
+              "x": 1518,
+              "y": 258,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "01皮肤近景纹理清楚"
+            },
+            "fact1": {
+              "x": 1518,
+              "y": 475,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "02明暗过渡光影自然"
+            },
+            "fact2": {
+              "x": 1518,
+              "y": 692,
+              "w": 320,
+              "h": 158,
+              "opacity": "0",
+              "display": "block",
+              "text": "03样图观感少塑料感"
+            },
+            "subtitle": {
+              "x": 700,
+              "y": 992,
+              "w": 520,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "光影的过渡也是那种很自然的"
+            }
+          }
+        },
+        {
+          "time": 3.2,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 705.609375,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "真实感，让细节说话"
+            },
+            "fact0": {
+              "x": 1518,
+              "y": 258,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "01皮肤近景纹理清楚"
+            },
+            "fact1": {
+              "x": 1518,
+              "y": 475,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "02明暗过渡光影自然"
+            },
+            "fact2": {
+              "x": 1518,
+              "y": 692,
+              "w": 320,
+              "h": 158,
+              "opacity": "0",
+              "display": "block",
+              "text": "03样图观感少塑料感"
+            },
+            "subtitle": {
+              "x": 700,
+              "y": 992,
+              "w": 520,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "光影的过渡也是那种很自然的"
+            }
+          }
+        },
+        {
+          "time": 5.6,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 705.609375,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "真实感，让细节说话"
+            },
+            "fact0": {
+              "x": 1518,
+              "y": 258,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "01皮肤近景纹理清楚"
+            },
+            "fact1": {
+              "x": 1518,
+              "y": 475,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "02明暗过渡光影自然"
+            },
+            "fact2": {
+              "x": 1518,
+              "y": 692,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "03样图观感少塑料感"
+            },
+            "subtitle": {
+              "x": 800,
+              "y": 992,
+              "w": 320,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "不是说那种塑料感"
+            }
+          }
+        },
+        {
+          "time": 6.8,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 705.609375,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "真实感，让细节说话"
+            },
+            "fact0": {
+              "x": 1518,
+              "y": 258,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "01皮肤近景纹理清楚"
+            },
+            "fact1": {
+              "x": 1518,
+              "y": 475,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "02明暗过渡光影自然"
+            },
+            "fact2": {
+              "x": 1518,
+              "y": 692,
+              "w": 320,
+              "h": 158,
+              "opacity": "1",
+              "display": "block",
+              "text": "03样图观感少塑料感"
+            },
+            "subtitle": {
+              "x": 800,
+              "y": 992,
+              "w": 320,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "不是说那种塑料感"
+            }
+          }
+        }
+      ]
+    },
+    "c": {
+      "pass": true,
+      "browser_errors": [],
+      "deterministic": true,
+      "samples": [
+        {
+          "time": 0.4,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 626.828125,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "三视图 · 头身比例"
+            },
+            "newCard": {
+              "x": 1118,
+              "y": 361.8999938964844,
+              "w": 564,
+              "h": 686.199951171875,
+              "opacity": "0",
+              "display": "block",
+              "text": "5.5"
+            },
+            "subtitle": {
+              "x": 740,
+              "y": 992,
+              "w": 440,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "要么就是头身的比例不对"
+            }
+          }
+        },
+        {
+          "time": 1.5,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 626.828125,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "三视图 · 头身比例"
+            },
+            "newCard": {
+              "x": 1118,
+              "y": 361.8999938964844,
+              "w": 564,
+              "h": 686.199951171875,
+              "opacity": "0",
+              "display": "block",
+              "text": "5.5"
+            },
+            "subtitle": {
+              "x": 772.421875,
+              "y": 992,
+              "w": 375.15625,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "这次的5.5完全解决了"
+            }
+          }
+        },
+        {
+          "time": 2.4,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 626.828125,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "三视图 · 头身比例"
+            },
+            "newCard": {
+              "x": 1100,
+              "y": 220.00601196289062,
+              "w": 600,
+              "h": 730,
+              "opacity": "1",
+              "display": "block",
+              "text": "5.5"
+            },
+            "subtitle": {
+              "x": 772.421875,
+              "y": 992,
+              "w": 375.15625,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "这次的5.5完全解决了"
+            }
+          }
+        },
+        {
+          "time": 3.8,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 626.828125,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "三视图 · 头身比例"
+            },
+            "newCard": {
+              "x": 1100,
+              "y": 220,
+              "w": 600,
+              "h": 730,
+              "opacity": "1",
+              "display": "block",
+              "text": "5.5"
+            },
+            "subtitle": {
+              "x": 772.421875,
+              "y": 992,
+              "w": 375.15625,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "这次的5.5完全解决了"
+            }
+          }
+        },
+        {
+          "time": 5.7,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 626.828125,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "三视图 · 头身比例"
+            },
+            "newCard": {
+              "x": 1100,
+              "y": 220,
+              "w": 600,
+              "h": 730,
+              "opacity": "1",
+              "display": "block",
+              "text": "5.5"
+            },
+            "subtitle": {
+              "x": 770.75,
+              "y": 992,
+              "w": 378.5,
+              "h": 60,
+              "opacity": "1",
+              "display": "block",
+              "text": "正常的1:7、1:8的头身"
+            }
+          }
+        },
+        {
+          "time": 8.2,
+          "elements": {
+            "title": {
+              "x": 92,
+              "y": 50,
+              "w": 626.828125,
+              "h": 96,
+              "opacity": "1",
+              "display": "block",
+              "text": "三视图 · 头身比例"
+            },
+            "newCard": {
+              "x": 1100,
+              "y": 220,
+              "w": 600,
+              "h": 730,
+              "opacity": "1",
+              "display": "block",
+              "text": "5.5"
+            },
+            "subtitle": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "opacity": "1",
+              "display": "none",
+              "text": ""
+            }
+          }
+        }
+      ]
+    }
+  },
+  "hashes": {
+    "tests.js": "a6f8097c1c570687d4ccfc9536f22f4d695f4dc07f4861cb8014a5f089747366",
+    "tests.css": "9da94df6db7a88ce52966d16321778287cee2437c2e146d51aa1ad06c394e3bd",
+    "test_a.html": "6f34dacda478eb8746cc9b9827a00eccae1735817c51f5e53ab813ed1097a8fb",
+    "test_b.html": "f90b0bc4f5a17fe64b4eb5d63f7c8602c131d9da9df27b948072510ee7e58259",
+    "test_c.html": "247526f750a72637b6371505d5a3c8b3f4e55d22dbc1b3472df52fe44f079087"
+  }
+}

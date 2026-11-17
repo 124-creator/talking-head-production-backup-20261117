@@ -1,0 +1,12 @@
+{
+  "scope": "Root actually viewed the encoded same-time 0.5-second V2/V3 comparison and the sequentially decoded ending contact sheet (F360..453 sampled every three frames plus last frame).",
+  "quality_comparison": "At matching display scale, V3 retains clearer eyebrow/hair, face and fabric/chair detail than V2. Both retain original moving-finger blur; this is not an AI deblurring claim.",
+  "ending": "The same presenter plane moves to the right panel, large 换掉 leads, model noun rises after the rule, and the final title holds. No observed new face/hand/caption obstruction in inspected samples.",
+  "actual_last_frame": "Frame453 at15.1s holds the heading and right presenter panel; ordinary speech caption has ended.",
+  "source_file_resolution": [3840,2160],
+  "output_resolution": [1920,1080],
+  "output_is_4k": false,
+  "full_frame_by_frame_perceptual_review_claimed": false,
+  "full_speed_perceptual_listening_verified": false,
+  "user_aesthetic_acceptance_claimed": false
+}

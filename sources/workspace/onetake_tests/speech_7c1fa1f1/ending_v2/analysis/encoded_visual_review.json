@@ -1,0 +1,13 @@
+{
+  "scope": "Root actually viewed 12 encoded ending samples on a contact sheet and the full-size actual final encoded frame. Complete sequential decoding was used to validate the end frame.",
+  "sample_frames": [362,367,370,374,380,386,393,400,410,426,444,453],
+  "sample_time_range_seconds": [12.066667,15.1],
+  "ending_hierarchy": "Rust-colored large 换掉 enters on the spoken words; green rule and model noun follow. Presenter moves continuously from full frame into the right-hand panel.",
+  "last_frame": "Headline and model noun remain held; normal subtitle has ended; presenter source frame remains visible in full 16:9 panel.",
+  "last_frame_mae_vs_renderer_png": 1.088684,
+  "no_observed_blocking_layout_defect_in_samples": true,
+  "source_face_and_hand_protection": "No new overlay obstructs face, mouth or hand gesture after the right-panel transition.",
+  "frame_by_frame_perceptual_review_claimed": false,
+  "full_speed_perceptual_listening_verified": false,
+  "user_aesthetic_acceptance_claimed": false
+}

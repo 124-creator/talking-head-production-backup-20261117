@@ -1,0 +1,54 @@
+{
+  "pass": true,
+  "case_results": [
+    {
+      "case": "a",
+      "file": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\测试A_人物关键词.mp4",
+      "pass": true,
+      "frames": 120,
+      "duration": 4.0,
+      "speech_pcm_correlation_zero_lag": 0.9999593,
+      "audio_note": "One AAC re-encode for tests; aligned original speech, not byte-identical source AAC",
+      "empty_frames": []
+    },
+    {
+      "case": "b",
+      "file": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\测试B_递进标签.mp4",
+      "pass": true,
+      "frames": 216,
+      "duration": 7.2,
+      "speech_pcm_correlation_zero_lag": 0.9999811,
+      "audio_note": "One AAC re-encode for tests; aligned original speech, not byte-identical source AAC",
+      "empty_frames": []
+    },
+    {
+      "case": "c",
+      "file": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\测试C_新旧对照.mp4",
+      "pass": true,
+      "frames": 255,
+      "duration": 8.5,
+      "speech_pcm_correlation_zero_lag": 0.9999512,
+      "audio_note": "One AAC re-encode for tests; aligned original speech, not byte-identical source AAC",
+      "empty_frames": []
+    }
+  ],
+  "summary": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2_tests\\output\\V1_V2_优化测试对照合集.mp4",
+  "summary_frames": 591,
+  "summary_duration": 19.7,
+  "summary_size": [
+    1920,
+    660
+  ],
+  "comparison_has_single_audio_track": true,
+  "v1_unchanged": true,
+  "reference_unchanged": true,
+  "source_video_and_script_unchanged": true,
+  "all_original_images_unchanged": true,
+  "front_crops_exact_original_pixels": true,
+  "full_v2_completed": false,
+  "human_full_speed_listening_verified": false,
+  "user_aesthetic_acceptance_claimed": false,
+  "delivery": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二个口播_V2动画字体测试_左右对照.mp4",
+  "delivery_sha256": "3f64ac9c63d221cb58bbb96c7830974f89a7b4c3f5ab671467500783acdb0fd6",
+  "encoded_contact_sheets_visually_reviewed": true
+}

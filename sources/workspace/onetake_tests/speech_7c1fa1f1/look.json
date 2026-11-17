@@ -1,0 +1,32 @@
+{
+  "name": "warm-photo-observation",
+  "from": "user-provided four portraits; warm-white fabric, deep green garden; chosen for confirmed concept A",
+  "mood": "warm photographic editing table; one persistent picture; no sci-fi wallpaper",
+  "color": {
+    "ground": "#F5F3ED",
+    "deep": "#E8E8DE",
+    "card": "#FCFBF7",
+    "line": "#C9CCC1",
+    "mute": "#687363",
+    "ink": "#243329",
+    "accent": "#436C50",
+    "accent2": "#9A4C35"
+  },
+  "type": {
+    "display": {
+      "face": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.01
+    },
+    "text": {
+      "face": "Instrument Sans",
+      "weight": 500,
+      "tracking": 0
+    },
+    "mono": {
+      "face": "Geist Mono",
+      "weight": 400,
+      "tracking": 0
+    }
+  }
+}

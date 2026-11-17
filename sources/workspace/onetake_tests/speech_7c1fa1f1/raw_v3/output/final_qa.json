@@ -1,0 +1,106 @@
+{
+  "file": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\raw_v3\\output\\onetake_raw_v3_1080p30.mp4",
+  "sha256": "55b11dbb0c063ca0ed050481e919c71403b4ccebcef0b03eb1fd2509ecff3ef7",
+  "render_manifest_hash_matches": true,
+  "frames": 454,
+  "expected_frames": 454,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "duration_seconds": 15.133333,
+  "audio_codec": "aac",
+  "audio_sample_rate": 44100,
+  "source_audio_duration_seconds": 15.116009,
+  "output_audio_duration_seconds": 15.116009,
+  "source_audio_packets": 652,
+  "output_audio_packets": 652,
+  "original_aac_packet_payloads_identical": true,
+  "new_source_audio_pts_dts_identical": true,
+  "source_pcm_sha256": "059f1a260773e9b3107a9755cdf52f529262d84006f5eb4e87729095a95bf2e1",
+  "output_pcm_sha256": "059f1a260773e9b3107a9755cdf52f529262d84006f5eb4e87729095a95bf2e1",
+  "decoded_pcm_identical": true,
+  "audio_reference": "NEW raw_v3/assets/source.mp4, not the previous compressed AAC encoding",
+  "new_source_pcm_matches_alignment": true,
+  "old_v1_sha256": "676507ed0571940fe0f215dd9fc3a564a31a0a92814a5b7ecd9bebfe8acd08c2",
+  "old_v1_unchanged": true,
+  "old_v2_sha256": "bde655d067c74935a8312ce4c45d39570c99f5cb1ee74bcc0e0c79241035598d",
+  "old_v2_unchanged": true,
+  "old_v2_comp_unchanged": true,
+  "source_files": [
+    {
+      "group": "sources",
+      "order": 0,
+      "file": "7c1fa1f1aaae6edc410a3c1471c65f4d_raw.mp4",
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "group": "sources",
+      "order": 1,
+      "file": "c6f1c46e77e1dfcf177f979469073d2.png",
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "group": "sources",
+      "order": 2,
+      "file": "3240d4bc8609f9d5a923cc1c900df7e.png",
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "group": "sources",
+      "order": 3,
+      "file": "4f98b2f1ce21006ccbcd93b6954cdee.png",
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "group": "sources",
+      "order": 4,
+      "file": "63303cdc6b75415123b12c0590b4b7a.png",
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    },
+    {
+      "group": "previous_sources",
+      "order": 0,
+      "file": "7c1fa1f1aaae6edc410a3c1471c65f4d.mp4",
+      "original_hash_matches": true,
+      "copy_hash_matches": true
+    }
+  ],
+  "composition_check_pass": true,
+  "composition_check_hash_current": true,
+  "encoded_prefix_pixel_identity_claimed": false,
+  "black_frame_candidates": 0,
+  "empty_frame_candidates": 0,
+  "source_video_resolution": [
+    3840,
+    2160
+  ],
+  "source_video_frames": 453,
+  "decoded_png_sample_dimensions": {
+    "0": [
+      1920,
+      1080
+    ],
+    "226": [
+      1920,
+      1080
+    ],
+    "452": [
+      1920,
+      1080
+    ]
+  },
+  "frame_pipeline": "4K HEVC -> one Lanczos reduction to output-native 1080p -> lossless RGB PNG; no 720p intermediary, added sharpening or AI upscaling",
+  "output_is_4k_claimed": false,
+  "ai_upscaling_or_added_sharpening_claimed": false,
+  "full_speed_perceptual_listening_verified": false,
+  "user_aesthetic_acceptance_claimed": false,
+  "all_oracle_legs_pass_claimed": false,
+  "new_paid_api_calls": 0,
+  "personal_noncommercial_test": true,
+  "pass": true
+}

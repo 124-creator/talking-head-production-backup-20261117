@@ -1,0 +1,28 @@
+#carrier{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;background:var(--paper);transform-origin:0 0}
+#presenter,#photos,.photo,.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.photo{overflow:hidden;opacity:0}.photo img{display:block;transform-origin:49% 64%}#photos{overflow:hidden}
+#wipe{position:absolute;top:0;bottom:0;width:3px;background:#fff9e8;opacity:0}
+#workspace,#comparison,#humanOverlay,#ending{position:absolute;inset:0;pointer-events:none}
+#workspace,#comparison{opacity:0}
+#title{font-size:78px;white-space:nowrap}
+#brand{font-size:26px}
+#sequence{position:absolute;left:1520px;top:204px;font:33px/1.2 Smiley,sans-serif;color:var(--muted)}
+#comparisonNote{top:171px;font-size:25px;line-height:1.2}
+.fact{height:158px}
+#chapterLead{position:absolute;left:86px;top:678px;font-size:50px;color:#fffdf8;text-shadow:0 4px 12px #0009}
+#chapterPlate{position:absolute;left:84px;top:774px;width:388px;height:148px;border-radius:11px;overflow:hidden;background:var(--yellow)}
+#chapterWord{position:absolute;inset:0;text-align:center;font:112px/148px Smiley,sans-serif;color:var(--ink)}
+#flowLead{position:absolute;left:86px;top:652px;font-size:49px;color:#fffdf8;text-shadow:0 4px 12px #0009}
+.flow{position:absolute;left:84px;padding:16px 27px;border-radius:10px;font:74px/1.1 Smiley,sans-serif;white-space:nowrap;overflow:hidden;transform-origin:0 0}
+#flow1{top:741px;background:var(--orange);color:#fffdf8}#flow2{top:866px;background:var(--yellow);color:var(--ink)}
+#shade{opacity:0}
+#ending{opacity:0;color:#fffdf8;text-shadow:0 4px 5px #000b,0 9px 23px #0008}
+#ending:before{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#050a0855,transparent 43%)}
+#endTop{position:absolute;left:690px;top:720px;font-size:78px;line-height:1.2}
+#endBut{position:absolute;left:560px;top:870px;width:94px;height:92px;border-radius:9px;background:var(--orange);text-align:center;font:72px/92px Smiley,sans-serif}
+#endPicture{position:absolute;left:686px;top:853px;font-size:108px;line-height:1.15}
+#endClean{position:absolute;left:930px;top:833px;font:136px/1.2 Smiley,sans-serif;color:var(--yellow)}
+#endGPT{position:absolute;left:1444px;top:918px;font:62px/1.1 Smiley,sans-serif}
+#subtitle{padding:0;border-radius:0;background:none;letter-spacing:0;font:50px/1.2 Smiley,sans-serif;white-space:nowrap;color:var(--ink)}
+#subtitle.person{color:#fffdf8;-webkit-text-stroke:1px #17221c;text-shadow:0 3px 8px #000a}
+#subtitle.transition{padding:9px 22px 12px;background:#071009dc;color:#fffdf8;border-radius:13px;text-shadow:none}

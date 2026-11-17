@@ -1,0 +1,10 @@
+{
+  "base_video": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\output\\onetake_speech_edit_1080p30.mp4",
+  "base_sha256": "676507ed0571940fe0f215dd9fc3a564a31a0a92814a5b7ecd9bebfe8acd08c2",
+  "base_comp_sha256": "99901061a5c12ee87b7b703680ea49fe01466db91b17571b1dcab9de6c658ef3",
+  "base_render_folder": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\output\\render_20261116_115753",
+  "change_starts_seconds": 12.06,
+  "first_unchanged_render_frames": 362,
+  "audio_source": "../assets/source.mp4",
+  "test_before_change": "Base has passed full original AAC payload and source preservation checks; must retain them in ending revision."
+}

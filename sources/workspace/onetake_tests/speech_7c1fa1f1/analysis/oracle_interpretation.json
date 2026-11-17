@@ -1,0 +1,19 @@
+{
+  "official_oracle_verdict": "FAIL",
+  "passed_legs": ["cadence", "rest", "burst", "continuity", "curves", "framing"],
+  "warnings": ["not-flat"],
+  "failed_legs": ["audio"],
+  "audio": {
+    "peak_dbfs": -0.7,
+    "clipped_samples": 0,
+    "quiet_ratio": 0.044,
+    "explanation": "Original continuous speech is preserved by exact AAC packet copy. The promo oracle requires peak <= -3 dBFS and >=15% quiet audio windows. These genre thresholds are not met by the input recording; silence and gain processing were not inserted to manufacture a pass."
+  },
+  "continuity_limit": "A persistent carrier produced zero detected identity boundaries. The numerical score 1.00 does not establish a meaningful per-boundary carry score or aesthetic acceptance.",
+  "framing": "carrier, protected photo/hat region and actual subtitle bounds were in frame at all 455 composition samples.",
+  "shutter": "Actual official renderer metadata: 180 degrees, adaptive samples, 1984 captures for 454 frames; not Gaussian blur.",
+  "source_audio_unchanged": true,
+  "technical_delivery_and_audio_preservation_verified_separately": true,
+  "user_aesthetic_acceptance_claimed": false,
+  "full_speed_perceptual_listening_verified": false
+}

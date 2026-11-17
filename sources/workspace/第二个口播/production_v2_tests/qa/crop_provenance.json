@@ -1,0 +1,24 @@
+[
+  {
+    "source": "../production_v1/assets/M08.png",
+    "output": "assets/M08_front.png",
+    "box": [
+      865,
+      40,
+      1320,
+      1400
+    ],
+    "method": "Unmodified RGB pixel crop, complete front head/body/shoes, no resizing in asset"
+  },
+  {
+    "source": "../production_v1/assets/M01.png",
+    "output": "assets/M01_front.png",
+    "box": [
+      1050,
+      40,
+      1500,
+      1400
+    ],
+    "method": "Unmodified RGB pixel crop, complete front head/body/shoes, no resizing in asset"
+  }
+]

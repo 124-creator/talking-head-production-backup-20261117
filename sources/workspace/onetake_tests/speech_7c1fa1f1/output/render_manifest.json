@@ -1,0 +1,69 @@
+{
+  "file": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\output\\onetake_speech_edit_1080p30.mp4",
+  "sha256": "676507ed0571940fe0f215dd9fc3a564a31a0a92814a5b7ecd9bebfe8acd08c2",
+  "frames": 454,
+  "fps": 30,
+  "duration_seconds": 15.133333333333333,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "source_video_resolution": [
+    1280,
+    720
+  ],
+  "native_1080_source_claimed": false,
+  "image_order": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "concept": "confirmed A: same persistent frame, accumulated noise, return to original speaker",
+  "original_speech_preserved_by": "AAC stream copy, no speech edits or new voice",
+  "source_audio_file": "assets/source.mp4",
+  "new_paid_api_calls": 0,
+  "new_images_or_synthetic_noise_generated": false,
+  "renderer": "Installed onetake render.py + motion.js + generated look.js; HTML/JS; real temporal shutter samples",
+  "render_metadata": {
+    "comp": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\comp.html",
+    "fps": 30,
+    "scale": 1,
+    "size": [
+      1920,
+      1080
+    ],
+    "shutter": 180.0,
+    "samples": "adaptive",
+    "gap_px": 6.0,
+    "samples_per_moving_frame": {
+      "4": 313,
+      "5": 5,
+      "6": 2,
+      "7": 1,
+      "9": 3,
+      "10": 3,
+      "11": 1,
+      "13": 2,
+      "16": 1,
+      "18": 1,
+      "19": 1,
+      "22": 2,
+      "25": 1,
+      "28": 1,
+      "32": 7
+    },
+    "workers": 4,
+    "frames": 454,
+    "still_frames": 110,
+    "cut_frames": 260,
+    "captures": 1984,
+    "seconds": 364.6,
+    "final": false
+  },
+  "composition_sha256": "99901061a5c12ee87b7b703680ea49fe01466db91b17571b1dcab9de6c658ef3",
+  "render_folder": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\output\\render_20261116_115753",
+  "elapsed_seconds": 375.8936205999926,
+  "full_speed_perceptual_listening_verified": false,
+  "user_aesthetic_acceptance_claimed": false
+}

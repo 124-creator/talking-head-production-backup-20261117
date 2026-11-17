@@ -1,0 +1,674 @@
+{
+  "pass": true,
+  "prefix_comparison": [
+    {
+      "seconds": 0,
+      "pixel_identical": true
+    },
+    {
+      "seconds": 1.7,
+      "pixel_identical": true
+    },
+    {
+      "seconds": 3.5,
+      "pixel_identical": true
+    },
+    {
+      "seconds": 3.9,
+      "pixel_identical": true
+    },
+    {
+      "seconds": 4.7,
+      "pixel_identical": true
+    },
+    {
+      "seconds": 5.8,
+      "pixel_identical": true
+    },
+    {
+      "seconds": 7.8,
+      "pixel_identical": true
+    },
+    {
+      "seconds": 9.9,
+      "pixel_identical": true
+    },
+    {
+      "seconds": 10.5,
+      "pixel_identical": true
+    },
+    {
+      "seconds": 11.5,
+      "pixel_identical": true
+    },
+    {
+      "seconds": 12.04,
+      "pixel_identical": true
+    }
+  ],
+  "base_version_preserved": true,
+  "ending_hold_to_last_frame": true,
+  "presenter_full_16by9_preserved": true,
+  "conditional_wording_present": true,
+  "javascript_errors": [],
+  "composition_sha256": "352db02b511183897fa122ffa6fe5ffbaf4bf27d8a066e3f163118c838cc9583",
+  "ending_keyframes": [
+    {
+      "time": 12.06,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "caption": "今天这条视频可能会直接换掉",
+      "captionRect": {
+        "x": 635.59375,
+        "y": 956.609375,
+        "w": 648.8125,
+        "h": 95.390625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": -0.0
+    },
+    {
+      "time": 12.2,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 10.038812637329102,
+        "y": 2.557966709136963,
+        "w": 1909.1875,
+        "h": 1073.90625
+      },
+      "caption": "今天这条视频可能会直接换掉",
+      "captionRect": {
+        "x": 635.59375,
+        "y": 956.609375,
+        "w": 648.8125,
+        "h": 95.390625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": 0.49999999999999495
+    },
+    {
+      "time": 12.3,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 91.50543212890625,
+        "y": 23.316287994384766,
+        "w": 1821.453125,
+        "h": 1024.5625
+      },
+      "caption": "今天这条视频可能会直接换掉",
+      "captionRect": {
+        "x": 635.59375,
+        "y": 956.609375,
+        "w": 648.8125,
+        "h": 95.390625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": 0.9504844339512113
+    },
+    {
+      "time": 12.45,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 926.2403564453125,
+        "y": 236.01315307617188,
+        "w": 922.5,
+        "h": 518.90625
+      },
+      "caption": "今天这条视频可能会直接换掉",
+      "captionRect": {
+        "x": 635.59375,
+        "y": 956.609375,
+        "w": 648.8125,
+        "h": 95.390625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": 1
+    },
+    {
+      "time": 12.65,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 1039.0069580078125,
+        "y": 264.7469482421875,
+        "w": 801.0625,
+        "h": 450.59375
+      },
+      "caption": "今天这条视频可能会直接换掉",
+      "captionRect": {
+        "x": 635.59375,
+        "y": 956.609375,
+        "w": 648.8125,
+        "h": 95.390625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": 1
+    },
+    {
+      "time": 12.9,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 1040,
+        "y": 265,
+        "w": 800,
+        "h": 450
+      },
+      "caption": "你手里面的主力模型",
+      "captionRect": {
+        "x": 726.796875,
+        "y": 956.609375,
+        "w": 466.40625,
+        "h": 95.390625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": 1
+    },
+    {
+      "time": 13.2,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 1040,
+        "y": 265,
+        "w": 800,
+        "h": 450
+      },
+      "caption": "你手里面的主力模型",
+      "captionRect": {
+        "x": 726.796875,
+        "y": 956.609375,
+        "w": 466.40625,
+        "h": 95.390625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": 1
+    },
+    {
+      "time": 13.65,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 1040,
+        "y": 265,
+        "w": 800,
+        "h": 450
+      },
+      "caption": "你手里面的主力模型",
+      "captionRect": {
+        "x": 726.796875,
+        "y": 956.609375,
+        "w": 466.40625,
+        "h": 95.390625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": 1
+    },
+    {
+      "time": 14.2,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 1040,
+        "y": 265,
+        "w": 800,
+        "h": 450
+      },
+      "caption": "你手里面的主力模型",
+      "captionRect": {
+        "x": 726.796875,
+        "y": 956.609375,
+        "w": 466.40625,
+        "h": 95.390625
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": 1
+    },
+    {
+      "time": 14.8,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 1040,
+        "y": 265,
+        "w": 800,
+        "h": 450
+      },
+      "caption": "",
+      "captionRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": 1
+    },
+    {
+      "time": 15.1,
+      "phase": 4,
+      "visiblePhotoReveals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "returnProgress": 1,
+      "carrier": {
+        "x": 1040,
+        "y": 265,
+        "w": 800,
+        "h": 450
+      },
+      "caption": "",
+      "captionRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "stageTitle": "越改\n越脏",
+      "stageRect": {
+        "x": 1558,
+        "y": 358,
+        "w": 176,
+        "h": 272.78125
+      },
+      "openingRect": {
+        "x": 100,
+        "y": 184,
+        "w": 252,
+        "h": 123.890625
+      },
+      "closingRect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "endingRect": {
+        "x": 100,
+        "y": 300,
+        "w": 576,
+        "h": 378
+      },
+      "endingModelRect": {
+        "x": 100,
+        "y": 763,
+        "w": 820,
+        "h": 162
+      },
+      "endingOpacity": 1
+    }
+  ],
+  "not_aesthetic_acceptance": true
+}

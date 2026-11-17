@@ -1,0 +1,445 @@
+{
+  "engine": "faster-whisper 1.2.1 / cached Systran faster-whisper-small / CPU int8",
+  "model_path": "C:\\Users\\Dreamboat\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "language": "zh",
+  "language_probability": 1,
+  "network_requests_for_recognition": 0,
+  "paid_api_calls": 0,
+  "seconds": 4.587158299982548,
+  "note": "Machine transcript; do not silently substitute inferred copy for spoken content.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.34,
+      "text": "你有没有那种感觉",
+      "avg_logprob": -0.28828084505185847,
+      "no_speech_prob": 0.010320470668375492,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.42,
+          "word": "你有",
+          "probability": 0.7007763981819153
+        },
+        {
+          "start": 0.42,
+          "end": 0.56,
+          "word": "没有",
+          "probability": 0.9875811338424683
+        },
+        {
+          "start": 0.56,
+          "end": 0.78,
+          "word": "那",
+          "probability": 0.8147918581962585
+        },
+        {
+          "start": 0.78,
+          "end": 0.92,
+          "word": "种",
+          "probability": 0.9986679553985596
+        },
+        {
+          "start": 0.92,
+          "end": 1.1,
+          "word": "感",
+          "probability": 0.9925004839897156
+        },
+        {
+          "start": 1.1,
+          "end": 1.34,
+          "word": "觉",
+          "probability": 0.9996664524078369
+        }
+      ]
+    },
+    {
+      "start": 1.34,
+      "end": 3.42,
+      "text": "用AI去做图生图",
+      "avg_logprob": -0.28828084505185847,
+      "no_speech_prob": 0.010320470668375492,
+      "words": [
+        {
+          "start": 1.34,
+          "end": 1.54,
+          "word": "用",
+          "probability": 0.7569404244422913
+        },
+        {
+          "start": 1.54,
+          "end": 1.92,
+          "word": "AI",
+          "probability": 0.14952103793621063
+        },
+        {
+          "start": 1.92,
+          "end": 2.34,
+          "word": "去",
+          "probability": 0.6497804522514343
+        },
+        {
+          "start": 2.34,
+          "end": 2.58,
+          "word": "做",
+          "probability": 0.9657678008079529
+        },
+        {
+          "start": 2.58,
+          "end": 2.9,
+          "word": "图",
+          "probability": 0.7904694974422455
+        },
+        {
+          "start": 2.9,
+          "end": 3.06,
+          "word": "生",
+          "probability": 0.41792556643486023
+        },
+        {
+          "start": 3.06,
+          "end": 3.42,
+          "word": "图",
+          "probability": 0.9915592074394226
+        }
+      ]
+    },
+    {
+      "start": 3.42,
+      "end": 5.14,
+      "text": "改个两三次画面",
+      "avg_logprob": -0.28828084505185847,
+      "no_speech_prob": 0.010320470668375492,
+      "words": [
+        {
+          "start": 3.42,
+          "end": 3.74,
+          "word": "改",
+          "probability": 0.843834638595581
+        },
+        {
+          "start": 3.74,
+          "end": 3.9,
+          "word": "个",
+          "probability": 0.954537570476532
+        },
+        {
+          "start": 3.9,
+          "end": 4.06,
+          "word": "两",
+          "probability": 0.970344066619873
+        },
+        {
+          "start": 4.06,
+          "end": 4.3,
+          "word": "三",
+          "probability": 0.9874804615974426
+        },
+        {
+          "start": 4.3,
+          "end": 4.58,
+          "word": "次",
+          "probability": 0.99689781665802
+        },
+        {
+          "start": 4.58,
+          "end": 4.9,
+          "word": "画",
+          "probability": 0.7188444137573242
+        },
+        {
+          "start": 4.9,
+          "end": 5.14,
+          "word": "面",
+          "probability": 0.9998255372047424
+        }
+      ]
+    },
+    {
+      "start": 5.14,
+      "end": 6.42,
+      "text": "全是那种造点",
+      "avg_logprob": -0.28828084505185847,
+      "no_speech_prob": 0.010320470668375492,
+      "words": [
+        {
+          "start": 5.14,
+          "end": 5.52,
+          "word": "全",
+          "probability": 0.8235213756561279
+        },
+        {
+          "start": 5.52,
+          "end": 5.7,
+          "word": "是",
+          "probability": 0.9925128221511841
+        },
+        {
+          "start": 5.7,
+          "end": 5.78,
+          "word": "那",
+          "probability": 0.8946330547332764
+        },
+        {
+          "start": 5.78,
+          "end": 5.92,
+          "word": "种",
+          "probability": 0.997546374797821
+        },
+        {
+          "start": 5.92,
+          "end": 6.2,
+          "word": "造",
+          "probability": 0.3829336166381836
+        },
+        {
+          "start": 6.2,
+          "end": 6.42,
+          "word": "点",
+          "probability": 0.2729722559452057
+        }
+      ]
+    },
+    {
+      "start": 6.42,
+      "end": 7.9,
+      "text": "然后你是越改越脏",
+      "avg_logprob": -0.28828084505185847,
+      "no_speech_prob": 0.010320470668375492,
+      "words": [
+        {
+          "start": 6.42,
+          "end": 6.68,
+          "word": "然后",
+          "probability": 0.9117172360420227
+        },
+        {
+          "start": 6.68,
+          "end": 6.96,
+          "word": "你是",
+          "probability": 0.6950358152389526
+        },
+        {
+          "start": 6.96,
+          "end": 7.36,
+          "word": "越",
+          "probability": 0.9896893501281738
+        },
+        {
+          "start": 7.36,
+          "end": 7.58,
+          "word": "改",
+          "probability": 0.976353108882904
+        },
+        {
+          "start": 7.58,
+          "end": 7.7,
+          "word": "越",
+          "probability": 0.9989991784095764
+        },
+        {
+          "start": 7.7,
+          "end": 7.9,
+          "word": "脏",
+          "probability": 0.7301234602928162
+        }
+      ]
+    },
+    {
+      "start": 7.9,
+      "end": 9.62,
+      "text": "最后根本就没法用了",
+      "avg_logprob": -0.28828084505185847,
+      "no_speech_prob": 0.010320470668375492,
+      "words": [
+        {
+          "start": 7.9,
+          "end": 8.22,
+          "word": "最",
+          "probability": 0.8406925201416016
+        },
+        {
+          "start": 8.22,
+          "end": 8.38,
+          "word": "后",
+          "probability": 0.9982656836509705
+        },
+        {
+          "start": 8.38,
+          "end": 8.78,
+          "word": "根",
+          "probability": 0.7413056492805481
+        },
+        {
+          "start": 8.78,
+          "end": 8.98,
+          "word": "本",
+          "probability": 0.9996874332427979
+        },
+        {
+          "start": 8.98,
+          "end": 9.06,
+          "word": "就",
+          "probability": 0.9959391355514526
+        },
+        {
+          "start": 9.06,
+          "end": 9.16,
+          "word": "没",
+          "probability": 0.9762551188468933
+        },
+        {
+          "start": 9.16,
+          "end": 9.3,
+          "word": "法",
+          "probability": 0.9778569936752319
+        },
+        {
+          "start": 9.3,
+          "end": 9.46,
+          "word": "用",
+          "probability": 0.9968149065971375
+        },
+        {
+          "start": 9.46,
+          "end": 9.62,
+          "word": "了",
+          "probability": 0.9802734851837158
+        }
+      ]
+    },
+    {
+      "start": 10.120000000000001,
+      "end": 12.7,
+      "text": "今天这条视频可能会直接换掉",
+      "avg_logprob": -0.28828084505185847,
+      "no_speech_prob": 0.010320470668375492,
+      "words": [
+        {
+          "start": 10.120000000000001,
+          "end": 10.42,
+          "word": "今天",
+          "probability": 0.9774283766746521
+        },
+        {
+          "start": 10.42,
+          "end": 10.64,
+          "word": "这",
+          "probability": 0.9855190515518188
+        },
+        {
+          "start": 10.64,
+          "end": 10.76,
+          "word": "条",
+          "probability": 0.9579200148582458
+        },
+        {
+          "start": 10.76,
+          "end": 10.9,
+          "word": "视",
+          "probability": 0.9949706196784973
+        },
+        {
+          "start": 10.9,
+          "end": 11.08,
+          "word": "频",
+          "probability": 0.9992115497589111
+        },
+        {
+          "start": 11.08,
+          "end": 11.72,
+          "word": "可能",
+          "probability": 0.8258043527603149
+        },
+        {
+          "start": 11.72,
+          "end": 11.96,
+          "word": "会",
+          "probability": 0.9970494508743286
+        },
+        {
+          "start": 11.96,
+          "end": 12.28,
+          "word": "直接",
+          "probability": 0.9988449811935425
+        },
+        {
+          "start": 12.28,
+          "end": 12.54,
+          "word": "换",
+          "probability": 0.9900290369987488
+        },
+        {
+          "start": 12.54,
+          "end": 12.7,
+          "word": "掉",
+          "probability": 0.9949191212654114
+        }
+      ]
+    },
+    {
+      "start": 12.7,
+      "end": 14.8,
+      "text": "你手里面的阻力模型",
+      "avg_logprob": -0.28828084505185847,
+      "no_speech_prob": 0.010320470668375492,
+      "words": [
+        {
+          "start": 12.7,
+          "end": 12.92,
+          "word": "你",
+          "probability": 0.9892411828041077
+        },
+        {
+          "start": 12.92,
+          "end": 13.18,
+          "word": "手",
+          "probability": 0.9995245933532715
+        },
+        {
+          "start": 13.18,
+          "end": 13.32,
+          "word": "里",
+          "probability": 0.9982981085777283
+        },
+        {
+          "start": 13.32,
+          "end": 13.46,
+          "word": "面",
+          "probability": 0.9680303335189819
+        },
+        {
+          "start": 13.46,
+          "end": 13.58,
+          "word": "的",
+          "probability": 0.9988729357719421
+        },
+        {
+          "start": 13.58,
+          "end": 14.08,
+          "word": "阻",
+          "probability": 0.7221744805574417
+        },
+        {
+          "start": 14.08,
+          "end": 14.26,
+          "word": "力",
+          "probability": 0.9931682348251343
+        },
+        {
+          "start": 14.26,
+          "end": 14.58,
+          "word": "模",
+          "probability": 0.94090336561203
+        },
+        {
+          "start": 14.58,
+          "end": 14.8,
+          "word": "型",
+          "probability": 0.9935488104820251
+        }
+      ]
+    }
+  ],
+  "text": "你有没有那种感觉用AI去做图生图改个两三次画面全是那种造点然后你是越改越脏最后根本就没法用了今天这条视频可能会直接换掉你手里面的阻力模型"
+}

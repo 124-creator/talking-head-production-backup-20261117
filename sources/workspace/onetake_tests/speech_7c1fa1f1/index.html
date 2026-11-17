@@ -1,0 +1,43 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>图生图口播｜onetake 个人测试</title>
+<style>
+:root{--paper:#f7f5ef;--ink:#252d27;--mute:#6d756e;--line:#d7ddd3;--green:#385b42}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.8 "Microsoft YaHei",sans-serif}
+main{max-width:1360px;margin:auto;padding:25px 30px 48px}.eyebrow{font-size:11px;letter-spacing:.16em;color:var(--mute)}
+h1{font-size:30px;line-height:1.4;margin:9px 0}h2{font-size:22px;margin:0 0 10px}p{margin:8px 0 15px}.quiet{color:var(--mute);font-size:13px}
+.row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.meta{margin-left:auto;color:var(--mute);font-size:13px}
+button,.button{font:inherit;border:1px solid #98a694;border-radius:999px;padding:8px 17px;background:transparent;color:var(--ink);cursor:pointer;text-decoration:none}
+button:hover,.button:hover{background:#e9eee4}button:focus-visible,a:focus-visible{outline:3px solid #6b8d69;outline-offset:3px}
+button.primary{background:var(--green);border-color:var(--green);color:white}a{color:var(--green);text-underline-offset:4px}
+video{display:block;width:100%;aspect-ratio:16/9;background:#202420;border-radius:14px}.movie{margin:16px 0 12px}
+.seek{margin:12px 0}.seek button{font-size:13px;padding:6px 13px}section,details{margin-top:25px;padding-top:20px;border-top:1px solid var(--line)}
+.photos{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.photos figure{margin:0}.photos img{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;border-radius:7px;background:#e6e6df}
+figcaption{font-size:12px;color:var(--mute);padding-top:5px}.note{border-left:3px solid #799477;padding-left:13px}.links{font-size:13px;display:flex;gap:18px;flex-wrap:wrap}summary{cursor:pointer}.source{max-width:800px;margin-top:15px}
+@media(max-width:720px){main{padding:18px 12px 35px}h1{font-size:25px}.photos{grid-template-columns:repeat(2,1fr)}.meta{margin-left:0}}
+</style></head><body><main>
+<div class="eyebrow">ONETAKE / SPEECH-LED EDIT / PERSONAL TEST</div>
+<div class="row"><h1>图生图：为什么越改越脏？</h1><span class="meta">15.13 秒 · 1080p30 输出</span></div>
+<p class="quiet">按已确认的图1 → 图4表现噪点累积；用同一画框连续衔接，结尾回到主讲人。原口播完整保留。</p>
+<div class="row"><button class="primary" id="play">从头播放测试版</button><a class="button" href="output/onetake_speech_edit_1080p30.mp4" download>下载 MP4</a></div>
+<video class="movie" id="movie" controls preload="metadata" poster="preview/encoded_poster.jpg" src="output/onetake_speech_edit_1080p30.mp4"></video>
+<div class="row seek"><button data-t="3.7">进入配图</button><button data-t="4.5">连续修改</button><button data-t="5.8">噪点</button><button data-t="7.8">越改越脏</button><button data-t="11.2">回到口播</button></div>
+<p class="quiet note">这是个人非商业用途的 onetake 测试。照片按用户提供的阶段顺序呈现，未对照片执行 AI 降噪、加噪或人像重生成，也没有捏造噪点百分比。</p>
+<section><h2>四张原图顺序</h2><div class="photos">
+<figure><img src="assets/image_01.png" alt="图1：起始照片"><figcaption>图1 / 起始</figcaption></figure>
+<figure><img src="assets/image_02.png" alt="图2：下一阶段"><figcaption>图2 / 连续修改</figcaption></figure>
+<figure><img src="assets/image_03.png" alt="图3：下一阶段"><figcaption>图3 / 连续修改</figcaption></figure>
+<figure><img src="assets/image_04.png" alt="图4：最后阶段"><figcaption>图4 / 最后阶段</figcaption></figure>
+</div></section>
+<details><summary>查看原口播对照与检查记录</summary>
+<p class="quiet">原视频为 1280×720；1080p 是合成输出尺寸，不代表原口播变成了原生 1080p。没有替换声音或额外生成配音，没有添加背景音乐。</p>
+<p class="quiet note">编码与原声保留检查单独通过；宣传片自动音频阈值未通过。原片是连续口播，本版保留原声，未为了自动分数插入静音或降低音量，因此不宣称所有自动验收项目通过。</p>
+<video class="source" id="source" controls preload="none" src="assets/source.mp4"></video>
+<div class="links"><a href="preview/encoded_per_second.jpg" target="_blank">成片逐秒图</a><a href="output/final_qa.json">文件与原声检查</a><a href="output/browser_validation.json">播放检查</a><a href="analysis/oracle_report.txt">宣传片自动验收原始报告</a><a href="analysis/input_manifest.json">原素材记录</a></div>
+</details>
+<p class="quiet">技术检查与审美验收分开记录；未冒称完整听审或已达到某条参考成片的质量。</p>
+</main><script>
+const movie=document.getElementById('movie'), source=document.getElementById('source');
+document.getElementById('play').onclick=async()=>{source.pause();movie.currentTime=0;await movie.play();};
+document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{movie.pause();movie.currentTime=Number(b.dataset.t);});
+source.addEventListener('play',()=>movie.pause());movie.addEventListener('play',()=>source.pause());
+</script></body></html>

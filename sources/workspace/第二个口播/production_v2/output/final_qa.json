@@ -1,0 +1,122 @@
+{
+  "pass": true,
+  "full_video": true,
+  "file": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v2\\output\\第二个口播_优化成片_v2_1080p30.mp4",
+  "delivery": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二个口播_优化成片_v2_1080p30.mp4",
+  "sha256": "bdb63a29a513195bd5bdd6529f4463b0ef48f1509332ffc145bf2bcf2da55fb1",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 2118,
+  "duration_seconds": 70.6,
+  "source_audio_packets": 3041,
+  "output_audio_packets": 3041,
+  "original_aac_packets_and_timing_identical": true,
+  "decoded_pcm_identical": true,
+  "source_pcm_hash": "SHA256=0a3fa03e24b7604bc6a9d5c1b67bcb4a59d8276c6d6c1317cbca61f3b09b9b40",
+  "output_pcm_hash": "SHA256=0a3fa03e24b7604bc6a9d5c1b67bcb4a59d8276c6d6c1317cbca61f3b09b9b40",
+  "v1_preserved": true,
+  "source_video_script_and_images_preserved": true,
+  "decode_errors": [],
+  "black_frames": [],
+  "empty_frames": [],
+  "photo_sequence_checks": [
+    {
+      "time": 5.8,
+      "asset": "M09",
+      "correlation": 0.999931
+    },
+    {
+      "time": 8.8,
+      "asset": "M10",
+      "correlation": 0.999916
+    },
+    {
+      "time": 10.8,
+      "asset": "M11",
+      "correlation": 0.999915
+    },
+    {
+      "time": 16.4,
+      "asset": "M02",
+      "correlation": 0.99984
+    },
+    {
+      "time": 18.8,
+      "asset": "M03",
+      "correlation": 0.999872
+    },
+    {
+      "time": 20.65,
+      "asset": "M04",
+      "correlation": 0.999811
+    },
+    {
+      "time": 21.85,
+      "asset": "M05",
+      "correlation": 0.999843
+    },
+    {
+      "time": 23.65,
+      "asset": "M06",
+      "correlation": 0.999879
+    },
+    {
+      "time": 25.5,
+      "asset": "M07",
+      "correlation": 0.999873
+    },
+    {
+      "time": 34.8,
+      "asset": "M19",
+      "correlation": 0.999808
+    },
+    {
+      "time": 36.65,
+      "asset": "M24",
+      "correlation": 0.999753
+    },
+    {
+      "time": 38.4,
+      "asset": "M23",
+      "correlation": 0.999814
+    },
+    {
+      "time": 56.3,
+      "asset": "M18",
+      "correlation": 0.999869
+    },
+    {
+      "time": 60.9,
+      "asset": "M17",
+      "correlation": 0.999807
+    },
+    {
+      "time": 44.9,
+      "asset": "M08 full comparison source",
+      "correlation": 0.998815
+    },
+    {
+      "time": 50.4,
+      "asset": "M08_front",
+      "correlation": 0.999952
+    },
+    {
+      "time": 50.4,
+      "asset": "M01_front",
+      "correlation": 0.999883
+    }
+  ],
+  "front_crops_exact_original_pixels": true,
+  "source_resolution": [
+    1280,
+    720
+  ],
+  "native_4k_claimed": false,
+  "cached_frames_verified": 633,
+  "test_audio_used": false,
+  "full_speed_human_listening_verified": false,
+  "user_aesthetic_acceptance_claimed": false,
+  "encoded_visual_review_passed": true,
+  "review_scope": "27 encoded sample frames; full-film independent review and critical settled frames"
+}

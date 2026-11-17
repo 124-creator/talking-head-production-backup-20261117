@@ -1,0 +1,33 @@
+{
+  "comp": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\ending_v2\\comp.html",
+  "fps": 30,
+  "scale": 1,
+  "size": [
+    1920,
+    1080
+  ],
+  "shutter": 180.0,
+  "samples": "adaptive",
+  "gap_px": 6.0,
+  "samples_per_moving_frame": {
+    "4": 82,
+    "5": 1,
+    "7": 1,
+    "8": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "22": 2,
+    "25": 1
+  },
+  "workers": 4,
+  "frames": 454,
+  "still_frames": 1,
+  "cut_frames": 69,
+  "captures": 455,
+  "seconds": 56.5,
+  "final": false,
+  "reused_prefix_pngs": 362,
+  "newly_rendered_frames": 92,
+  "counters_scope": "Capture/still counters cover ending-only resume run; prefix PNGs retain V1 shutter rendering"
+}

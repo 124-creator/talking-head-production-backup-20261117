@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>Seedream 5.5 · 第二个维度：真实</title>
+<style>
+@font-face{font-family:Smiley;src:url('assets/SmileySans-Oblique.otf')}
+:root{--paper:#f5f3ed;--ink:#243329;--green:#436c50;--mute:#687363;--line:#c9ccc1;--yellow:#ffd84d}
+*{box-sizing:border-box}html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:var(--paper);color:var(--ink)}
+body{font-family:'Microsoft YaHei',sans-serif}#carrier{position:absolute;overflow:hidden;background:#171b16;transform-origin:0 0}
+#presenter,#photos,.photo,.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.photo{overflow:hidden;opacity:0}.photo img{display:block;transform-origin:49% 64%}#photos{overflow:hidden}
+#wipe{position:absolute;top:0;bottom:0;width:3px;background:#fff9e8;box-shadow:0 0 14px #fff7;opacity:0}
+#workspace{position:absolute;inset:0;pointer-events:none;opacity:0}
+#heading{position:absolute;left:88px;top:64px;font-size:32px;letter-spacing:.02em;font-weight:600}
+#heading span{color:var(--mute);font-size:28px;font-weight:400;margin-left:24px}
+#source-note{position:absolute;right:78px;top:76px;font-size:25px;color:var(--mute)}
+#rule{position:absolute;left:88px;right:78px;top:116px;height:1px;background:var(--line)}
+#counter{position:absolute;left:1560px;top:205px;color:var(--green);font:64px Smiley,sans-serif}
+#stage-title{position:absolute;left:1555px;top:315px;width:310px;font:100px/1.24 Smiley,sans-serif;white-space:pre-line}
+#stage-note{position:absolute;left:1560px;top:655px;width:285px;font-size:30px;line-height:1.65;color:var(--mute);white-space:pre-line}
+#rail{position:absolute;left:1558px;top:906px;width:260px;height:3px;background:#d2d7ca}
+#progress{height:3px;width:0;background:var(--green);transform-origin:0 50%}
+#subtitle{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);padding:12px 27px 15px;background:rgba(7,10,8,.87);color:#fffdf8;border-radius:16px;font-size:52px;font-weight:500;line-height:1.2;white-space:nowrap;max-width:1780px}
+.floatword{position:absolute;left:90px;top:744px;font-family:Smiley,sans-serif;font-size:100px;line-height:1.1;color:var(--yellow);text-shadow:0 4px 8px #000c,0 8px 22px #0008;opacity:0}
+#chapter small{display:block;font:35px/1.8 'Microsoft YaHei',sans-serif;color:#fffdf8;letter-spacing:.12em}
+#ending{position:absolute;inset:0;pointer-events:none;opacity:0;color:#fffdf8;text-shadow:0 4px 5px #000c,0 9px 26px #0009}
+#ending:before{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#050a0860,transparent 40%)}
+#quote-top{position:absolute;left:690px;top:740px;font:78px/1.2 Smiley,sans-serif}
+#quote-but{position:absolute;left:590px;top:904px;font:72px/1.1 Smiley,sans-serif}
+#quote-main{position:absolute;left:680px;top:851px;font:142px/1.15 Smiley,sans-serif;color:var(--yellow);white-space:nowrap}
+#quote-gpt{position:absolute;left:1430px;top:902px;font:68px/1.1 Smiley,sans-serif}
+#hud{position:absolute;left:12px;top:12px;padding:8px;background:#000b;color:#fff;font:18px monospace;display:none}
+</style><script src="motion.js"></script><script src="data.js"></script></head>
+<body>
+<div id="carrier"><img id="presenter" src="assets/speech_frames/000000.png" alt="原口播人物"><div id="photos"></div><div id="wipe"></div></div>
+<div id="workspace"><div id="heading">SEEDREAM 5.5<span id="section"></span></div><div id="source-note">用户提供样图</div><div id="rule"></div><div id="counter"></div><div id="stage-title"></div><div id="stage-note"></div><div id="rail"><div id="progress"></div></div></div>
+<div class="floatword" id="chapter"><small>第二个维度</small>真实感</div><div class="floatword" id="edit-word">改图能力</div>
+<div id="subtitle"></div><div id="ending"><div id="quote-top">没那么聪明</div><div id="quote-but">但</div><div id="quote-main">画面更干净</div><div id="quote-gpt">的 GPT</div></div><div id="hud"></div>
+<script>
+'use strict';
+const $=id=>document.getElementById(id),DUR=2118/30,FULL={x:0,y:0,w:1920,h:1080,r:0},PANEL={x:88,y:144,w:1408,h:792,r:27};
+const WINDOWS=[[5.32,13.20],[14.54,26.62],[34.26,63.82]];
+const P=DATA.photos,photos=$('photos');
+for(const id of [...new Set(P.map(s=>s.id))]){const div=document.createElement('div');div.id='p'+id;div.className='photo';const im=document.createElement('img');im.src='assets/'+id+'.png';im.alt=id;div.appendChild(im);photos.appendChild(div);}
+const clamp=OM.clamp,phase=(t,a,b,c=OM.ease.sineInOut)=>c(clamp((t-a)/(b-a)));
+function windowAt(t){return WINDOWS.find(([a,b])=>t>=a-.30&&t<=b+.42)||null;}
+function geometry(t){const w=windowAt(t);if(!w)return {...FULL};const [a,b]=w;if(t<a+.28)return OM.morphRect(t,a-.30,a+.28,FULL,PANEL,{curve:OM.ease.expoInOut});if(t>b-.08)return OM.morphRect(t,b-.08,b+.42,PANEL,FULL,{curve:OM.ease.expoInOut});return {...PANEL};}
+function workspaceAt(t){const w=windowAt(t);return w?phase(t,w[0]-.02,w[0]+.35)*(1-phase(t,w[1]-.08,w[1]+.24)):0;}
+function pictureAt(t){let s=null;for(const row of P){if(t>=row.start)s=row;else break;}return s;}
+function zoomAt(s,t){if(!s||!s.group)return 1;return 1+.34*phase(t,s.start+1.55,s.start+2.55,OM.ease.sineInOut);}
+function rise(id,t,start,fadeEnd,dist=24){const e=$(id),m=OM.wordRise(t,start,{dist});let op=m.op;if(fadeEnd!==undefined)op*=1-phase(t,fadeEnd,fadeEnd+.28);e.style.opacity=op;const y=+m.y.toFixed(3);e.style.transform=y===0?'none':`translateY(${y}px)`;}
+function stageState(t){const w=windowAt(t),s=pictureAt(t),q=w?phase(t,w[0],w[0]+.36,OM.ease.expoInOut)*(1-phase(t,w[1]-.08,w[1]+.25)):0;return {w,s,q,r:geometry(t),work:workspaceAt(t)};}
+let frame=-1;
+async function seek(t){
+ t=clamp(t,0,DUR-1e-7);const {w,s,q,r,work}=stageState(t),c=$('carrier');
+ c.style.left=r.x+'px';c.style.top=r.y+'px';c.style.width=r.w+'px';c.style.height=r.h+'px';c.style.borderRadius=r.r+'px';c.style.boxShadow=work>.001?`0 24px 48px -18px rgba(32,43,30,${.19*work})`:'none';
+ photos.style.opacity=q;let edge=-1;const ix=s?P.indexOf(s):-1,prev=ix>0?P[ix-1]:null;
+ for(const el of photos.children){el.style.opacity=0;el.style.clipPath='none';el.style.zIndex='0';el.firstElementChild.style.transform='none';}
+ if(s){
+   const reveal=phase(t,s.start,s.start+.30,OM.ease.expoInOut),cur=$('p'+s.id);
+   if(prev&&reveal<1&&prev.id!==s.id){const old=$('p'+prev.id);old.style.opacity=1;old.firstElementChild.style.transform=`scale(${zoomAt(prev,Math.min(t,s.start-.001)).toFixed(5)})`;}
+   cur.style.opacity=1;cur.style.zIndex='1';cur.style.clipPath=`inset(0 ${100*(1-reveal)}% 0 0)`;cur.firstElementChild.style.transform=`scale(${zoomAt(s,t).toFixed(5)})`;
+   if(reveal>0&&reveal<1)edge=reveal;
+ }
+ $('wipe').style.opacity=edge>=0?q*.7:0;$('wipe').style.left=Math.max(0,edge)*100+'%';
+ $('workspace').style.opacity=work;
+ if(s){$('section').textContent=s.section;$('counter').textContent=s.counter;$('stage-title').textContent=s.title;$('stage-note').textContent=s.note;const m=OM.wordRise(t,s.start+.12,{dist:20});$('stage-title').style.opacity=m.op;$('stage-title').style.transform=`translateY(${m.y.toFixed(3)}px)`;$('progress').style.width=(260*clamp((t-s.start)/(s.end-s.start)))+'px';}
+ rise('chapter',t,.10,1.44,22);rise('edit-word',t,27.16,29.20,28);
+ const showQuote=t>=66.65;$('ending').style.opacity=showQuote?phase(t,66.65,66.95):0;
+ rise('quote-top',t,66.72,undefined,20);rise('quote-but',t,67.72,undefined,18);rise('quote-main',t,68.44,undefined,55);rise('quote-gpt',t,69.66,undefined,18);
+ const sub=t<65.78?DATA.subtitles.find(row=>t>=row.start&&t<row.end):null;$('subtitle').textContent=sub?sub.text:'';$('subtitle').style.display=sub?'block':'none';
+ const visible=q<.999;$('presenter').style.visibility=visible?'visible':'hidden';
+ if(visible){const n=Math.min(2116,Math.floor(t*30+.5));if(n!==frame){frame=n;$('presenter').src=`assets/speech_frames/${String(n).padStart(6,'0')}.png`;}await $('presenter').decode();}
+ $('hud').textContent=`${t.toFixed(3)}s | ${s?s.id:'presenter'} | ${frame}`;return true;
+}
+window.__seek=seek;
+window.__meta={dur:DUR,fps:30,sourceResolution:[1280,720],sourceFrames:2117,sourceAudioSeconds:70.589002,concept:'Approved speech-led reference: one photo carrier, semantic photo sequences, full presenter ending',cuts:P.map(s=>s.start),inFrame:{carrier:[0,DUR,'whole'],subtitle:[0,65.78,'whole']}};
+window.__track=t=>{const r=geometry(t);return{carrier:{...r,op:1}};};
+window.__motion=(a,b)=>{const A=stageState(a),B=stageState(b);let d=Math.max(Math.abs(A.r.x-B.r.x),Math.abs(A.r.y-B.r.y),Math.abs(A.r.w-B.r.w),Math.abs(A.r.h-B.r.h));if(A.s&&B.s&&A.s===B.s){d=Math.max(d,1408*Math.abs(phase(a,A.s.start,A.s.start+.30,OM.ease.expoInOut)-phase(b,B.s.start,B.s.start+.30,OM.ease.expoInOut)),1408*Math.abs(zoomAt(A.s,a)-zoomAt(B.s,b)));}return Math.max(d,55*Math.abs(phase(a,68.44,69.02)-phase(b,68.44,69.02)));};
+window.__ready=document.fonts.ready.then(async()=>{await Promise.all([...document.images].map(im=>im.decode()));await seek(0);});
+const query=new URLSearchParams(location.search);if(query.has('hud'))$('hud').style.display='block';if(query.has('t'))__ready.then(()=>seek(Number(query.get('t'))));
+if(query.has('play'))__ready.then(()=>{const start=performance.now();const tick=()=>seek((performance.now()-start)/1000%DUR).then(()=>requestAnimationFrame(tick));tick();});
+</script></body></html>

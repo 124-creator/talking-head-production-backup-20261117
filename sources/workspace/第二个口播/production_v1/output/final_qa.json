@@ -1,0 +1,111 @@
+{
+  "pass": true,
+  "file": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\production_v1\\output\\第二个口播_成片_v1_1080p30.mp4",
+  "delivery": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二个口播_成片_v1_1080p30.mp4",
+  "sha256": "1adec70431e227866ebadd9f36755d57b75eca05e2be7df7bd56051f91ede412",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 2118,
+  "duration_seconds": 70.6,
+  "source_audio_packets": 3041,
+  "output_audio_packets": 3041,
+  "original_aac_packets_and_timing_identical": true,
+  "decoded_pcm_identical": true,
+  "source_pcm_hash": "SHA256=0a3fa03e24b7604bc6a9d5c1b67bcb4a59d8276c6d6c1317cbca61f3b09b9b40",
+  "output_pcm_hash": "SHA256=0a3fa03e24b7604bc6a9d5c1b67bcb4a59d8276c6d6c1317cbca61f3b09b9b40",
+  "source_video_and_script_unchanged": true,
+  "all_original_images_unchanged": true,
+  "full_decode_errors": [],
+  "black_frames": [],
+  "empty_frames": [],
+  "photo_sequence_checks": [
+    {
+      "time": 5.8,
+      "asset": "M09",
+      "image_correlation": 0.99993
+    },
+    {
+      "time": 8.9,
+      "asset": "M10",
+      "image_correlation": 0.99992
+    },
+    {
+      "time": 10.8,
+      "asset": "M11",
+      "image_correlation": 0.99992
+    },
+    {
+      "time": 15.5,
+      "asset": "M02",
+      "image_correlation": 0.99984
+    },
+    {
+      "time": 18.8,
+      "asset": "M03",
+      "image_correlation": 0.99987
+    },
+    {
+      "time": 20.8,
+      "asset": "M04",
+      "image_correlation": 0.99982
+    },
+    {
+      "time": 22.0,
+      "asset": "M05",
+      "image_correlation": 0.99984
+    },
+    {
+      "time": 23.7,
+      "asset": "M06",
+      "image_correlation": 0.99988
+    },
+    {
+      "time": 25.2,
+      "asset": "M07",
+      "image_correlation": 0.99987
+    },
+    {
+      "time": 35.0,
+      "asset": "M19",
+      "image_correlation": 0.99977
+    },
+    {
+      "time": 36.8,
+      "asset": "M24",
+      "image_correlation": 0.99972
+    },
+    {
+      "time": 38.4,
+      "asset": "M23",
+      "image_correlation": 0.99977
+    },
+    {
+      "time": 44.8,
+      "asset": "M08",
+      "image_correlation": 0.99996
+    },
+    {
+      "time": 50.8,
+      "asset": "M01",
+      "image_correlation": 0.99994
+    },
+    {
+      "time": 56.2,
+      "asset": "M18",
+      "image_correlation": 0.99989
+    },
+    {
+      "time": 61.1,
+      "asset": "M17",
+      "image_correlation": 0.99981
+    }
+  ],
+  "source_resolution": [
+    1280,
+    720
+  ],
+  "native_4k_claimed": false,
+  "full_speed_human_listening_verified": false,
+  "aesthetic_acceptance_claimed": false
+}

@@ -1,0 +1,16 @@
+{
+  "python_ast_valid": true,
+  "javascript_syntax_valid": true,
+  "source_analysis": "15.08s sampled source / no cuts / quiet .42s / still .006 / peak23pxf; this is original A-roll not an aesthetic target.",
+  "probe_continuity": {
+    "score": 1.0,
+    "events": [],
+    "considered": 0,
+    "bare": 0,
+    "cuts": 0,
+    "bursts": []
+  },
+  "important_limit": "The persistent carrier yields zero detected identity boundaries. Its score1.0 is not evidence that meaningful scene boundaries were independently scored or that aesthetic quality passed. Separate visual handoff and framing checks are required.",
+  "composition_sha256": "99901061a5c12ee87b7b703680ea49fe01466db91b17571b1dcab9de6c658ef3",
+  "no_audio_silence_added_for_oracle": true
+}

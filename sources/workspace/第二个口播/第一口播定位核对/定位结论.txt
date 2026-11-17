@@ -1,0 +1,81 @@
+第一条口播：正确成片、工程与 skill 定位
+核对日期：2026-11-16
+
+一、已核实的结论
+用户认可的微信成片：
+C:\Users\Dreamboat\OneDrive\文档\WeChat Files\wxid_tnssm99dpsea22\FileStorage\Video\2026-11\a7a87b4c54f8a1abe5efd6f6834decef_raw.mp4
+
+它对应的本地工程成片：
+E:\Agent员工\研究自动剪辑\onetake_tests\speech_7c1fa1f1\overlay_v5\output\onetake_overlay_v5_1080p30.mp4
+
+不是仅凭文件名或观看判断：
+- 分辨率1920×1080，30fps，15.133333秒，454个视频帧。
+- 两个文件的454个视频编码包内容序列一致；全部454帧解码图像哈希序列一致。
+- 两个文件的652个AAC音频包内容与时序均一致。
+- 两个文件不是逐字节相同：文件SHA256不同，大小相差39字节，视频时间基和封装器标记不同。
+- 因此可以确认两者画面、原声音轨对应同一V5成片，不能声称两个MP4文件整体哈希一致。
+- 机器核对证据保存在同目录 video_identity_check.json。
+
+二、正确原视频
+微信4K原片：
+C:\Users\Dreamboat\OneDrive\文档\WeChat Files\wxid_tnssm99dpsea22\FileStorage\Video\2026-11\7c1fa1f1aaae6edc410a3c1471c65f4d_raw.mp4
+
+工程内的4K原片副本：
+E:\Agent员工\研究自动剪辑\onetake_tests\speech_7c1fa1f1\raw_v3\assets\source.mp4
+
+两份文件SHA256完全一致：
+93dfe4aeddead66652af44422e2b643a9b6f258deaf683874f700955b2e03bd1
+规格：3840×2160、30fps、HEVC、47,098,520字节。
+成片的652个AAC音频包也与此4K原片一致，保留了原人声。
+
+注意：工程顶层 assets\source.mp4 是1280×720旧压缩版，不是最终使用的高清原片。
+
+三、制作经过
+工程根目录：E:\Agent员工\研究自动剪辑\onetake_tests\speech_7c1fa1f1
+- V1：人物口播、图1→图4渐进展示、字幕。
+- V2：强化12.06秒之后结尾，人物缩至右侧，关键词落字。
+- V3（raw_v3）：换用4K源，直接一次缩放到1080p无损PNG，不经过720p中间片。
+- V4（overlay_v4）：结尾回到全幅人物，关键词叠在人物画面上，主标题白色。
+- V5（overlay_v5）：去掉结尾左侧引导和重复字幕，保留“换掉 / 你的 / 主力模型”，主标题黄色#FFD84D。
+- 用户认可的成片是V5，不能拿V1、V2或V3当最终参考。
+
+四、已经证实实际参与制作的 skills
+1. 核心制作/渲染 skill：onetake。
+安装入口：C:\Users\Dreamboat\.codex\skills\onetake\SKILL.md
+执行证据：
+- overlay_v5\run_render.py:15 指向 ~/.codex/skills/onetake。
+- overlay_v5\run_render.py:50–51 调用该skill的 scripts/render.py。
+- overlay_v5\comp.html:55 加载 motion.js 与 look.js。
+- overlay_v5\run_render.py:59–61 将4K原片的AAC音轨以stream-copy方式封装回成片。
+技术路线：HTML确定性时间合成 + onetake动效库和逐帧渲染 + FFmpeg合流。
+2. 口播剪辑规范：chatcut-desktop:talking-head-guide。
+实际读取入口：C:\Users\Dreamboat\.codex\plugins\cache\openai-curated-remote\chatcut-desktop\1.10.14\skills\talking-head-guide\SKILL.md
+历史会话的实际工具调用确认先后读取onetake与talking-head-guide；不是仅从当前可用技能列表推断。
+证据：C:\Users\Dreamboat\.codex\sessions\2026\11\16\rollout-2026-11-16T11-46-40-01a1e276-d2a0-7302-af74-d12b5dcb157b.jsonl:338、341。
+注意：读取ChatCut的口播规范，不等于使用了ChatCut编辑器或其云端工具渲染；实际出片由onetake本地管线完成。
+3. 前置安装阶段：skill-installer（用于安装onetake，非成片渲染器）。
+日志为fork继承的记录，重复call_id不代表独立执行多次，继承时间戳也不作为原始加载时间的证明。
+本地faster-whisper用于识别对齐，Playwright/Chromium用于画面渲染；这些是工具组件，不是另几个独立skill。
+上述工程记录未提供ChatCut编辑器、Remotion或HyperFrames参与该片渲染的证据。
+
+五、已核读的交付风格与边界
+- 米白底素材画框，图片按顺序展示，随后回到全幅主讲人。
+- 结尾黄色“主力模型”直接叠在人像画面上，不另切成与人物脱离的结束卡。
+- 原人声、音量、停顿和语速保持；不重新配音，不加背景音乐。
+- 旧版本与原素材保持不动，修订另建版本。
+- 历史final_qa.json是技术QA通过；宣传片oracle的音量/静音项并非全通过，不能混为一谈。
+
+六、当前“第二个口播”输入也已定位（本次未开始剪辑或渲染）
+源视频：E:\Agent员工\研究自动剪辑\第二个口播\原视频.mp4
+规格：1280×720、30fps、70.589002秒、H.264、AAC立体声。
+文案：E:\Agent员工\研究自动剪辑\第二个口播\1.txt
+主题：Seedream 5.5真实感、改图、三视图和群像表现。
+图片：E:\Agent员工\研究自动剪辑\第二个口播\第二部分人物\第二部分人物
+共24张PNG，包括5.5出图1–6、人物三视图、换服装、换分镜、5.5三视图、群像与AI感对比图。
+这里只确认现有第二条源是720p，尚未确认有对应4K源，不能宣称已有4K素材。
+
+七、避免混淆项目
+E:\Agent员工\研究自动剪辑\视频研究\原视频.mp4 是另一条93秒竖屏口播，非本次第一条或第二条。
+enterprise_demo 是其他演示工程，不能替代本次确认的 speech_7c1fa1f1\overlay_v5。
+
+本次新增文件仅为定位报告、哈希/流核对JSON与抽帧预览，不修改任何既有视频和工程。

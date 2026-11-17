@@ -1,0 +1,17 @@
+{
+  "official_oracle_verdict": "FAIL",
+  "passed_legs": ["cadence","rest","burst","continuity","curves","framing"],
+  "warnings": ["not-flat"],
+  "failed_legs": ["audio"],
+  "audio": {
+    "peak_dbfs": -0.9,
+    "clipped_samples": 0,
+    "quiet_ratio": 0.039,
+    "explanation": "Original continuous speech does not meet promo thresholds of <=-3dBFS peak and >=15% quiet windows. NEW 4K-original AAC and decoded PCM are preserved exactly, verified in output/final_qa.json; no silence, gain adjustment or new voice was inserted to manufacture a pass."
+  },
+  "continuity_limit": "Score1.00 over zero detected identity boundaries is not meaningful per-boundary proof or aesthetic acceptance.",
+  "render_scope": "V3 prefix362 PNGs retained;60 unaffected post-cue V4 PNGs retained;32 frames corrected for pre-cue glyph leakage using official temporal-shutter renderer. Repair capture counters describe32 frames, not the whole454-frame film.",
+  "framing": "All declared carrier/photoFace/subtitleSafe/endingType windows pass.",
+  "user_aesthetic_acceptance_claimed": false,
+  "full_speed_perceptual_listening_verified": false
+}

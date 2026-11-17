@@ -1,0 +1,22 @@
+{
+  "video": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\output\\onetake_speech_edit_1080p30.mp4",
+  "sha256": "676507ed0571940fe0f215dd9fc3a564a31a0a92814a5b7ecd9bebfe8acd08c2",
+  "page": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\index.html",
+  "technical_qa_pass": true,
+  "browser_pass": true,
+  "audio_preserved": true,
+  "limitations": [
+    "Encoded sample and browser tests are not aesthetic approval.",
+    "No full-speed perceptual listening certified."
+  ],
+  "encoded_visual_review": {
+    "actually_viewed": [
+      "preview/encoded_per_second.jpg",
+      "preview/encoded_cues_00.jpg",
+      "preview/encoded_cues_01.jpg"
+    ],
+    "scope": "Contact-sheet resolution sampled review, not full-size reading of every encoded frame or full-speed perceptual listening.",
+    "observations": "Image1->4, same-window handoffs and return to presenter visible. In inspected settled frames no blocking caption/face overlap or clipped principal text apparent.",
+    "aesthetic_acceptance_claimed": false
+  }
+}

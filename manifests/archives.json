@@ -1,0 +1,139 @@
+{
+  "repo": "124-creator/talking-head-production-backup-20261117",
+  "tag": "snapshot-20261117-current",
+  "assets": [
+    {
+      "name": "snapshot-core-001.zip",
+      "size": 368172766,
+      "sha256": "200f36221c1dad56b89a4e71e32512fa674e81bb115876241f2c7ef85e6777ac",
+      "category": "core",
+      "objects": 240
+    },
+    {
+      "name": "snapshot-core-002.zip",
+      "size": 618988488,
+      "sha256": "170b642760263de9b7d3d15573fc58e75d016e46fad2e568c61edfe8d99757c5",
+      "category": "core",
+      "objects": 75
+    },
+    {
+      "name": "snapshot-core-003.zip",
+      "size": 574270324,
+      "sha256": "ee85664666d2cd28dc4a85134d7616ea2e6d2b6979da3e5f071102eb4628f8e3",
+      "category": "core",
+      "objects": 330
+    },
+    {
+      "name": "snapshot-core-004.zip",
+      "size": 566292499,
+      "sha256": "c9e9db15a459f29a961ea5cc73c56c4230af508a30c272f99d3d4307cccfec67",
+      "category": "core",
+      "objects": 325
+    },
+    {
+      "name": "snapshot-cache-001.zip",
+      "size": 804765150,
+      "sha256": "74fe9e60400448dea82a0b2f0d209e088269ef0c96f6f054b38704de55a5252d",
+      "category": "cache",
+      "objects": 501
+    },
+    {
+      "name": "snapshot-cache-002.zip",
+      "size": 804612127,
+      "sha256": "62e34b46faa886063d51c525c4d704d7409e49b52f9e6c9c996f2e03a55d23e7",
+      "category": "cache",
+      "objects": 494
+    },
+    {
+      "name": "snapshot-cache-003.zip",
+      "size": 804553590,
+      "sha256": "f4f3745aea8ca5e459cfcf2f87c6037c3ba60d84d1ef119963ee918a4ea868cb",
+      "category": "cache",
+      "objects": 508
+    },
+    {
+      "name": "snapshot-cache-004.zip",
+      "size": 804837286,
+      "sha256": "0c5b3b64d1f3aa961693f74e6183d57cbe47d974cf6566fd364986b58e156c59",
+      "category": "cache",
+      "objects": 505
+    },
+    {
+      "name": "snapshot-cache-005.zip",
+      "size": 804736287,
+      "sha256": "1ac6b1e84a68fe60781872900e865fb112ad76b28e4b0cef0c750c2e5c0a960c",
+      "category": "cache",
+      "objects": 499
+    },
+    {
+      "name": "snapshot-cache-006.zip",
+      "size": 805386611,
+      "sha256": "4867f48a8a59d0303abdec4f5d244391651ad3eccdb5337372b0472b230d23ec",
+      "category": "cache",
+      "objects": 529
+    },
+    {
+      "name": "snapshot-cache-007.zip",
+      "size": 805110035,
+      "sha256": "f4148b525ec493e6f29b89830cbd21fc453a62939f624986e5036a4960876501",
+      "category": "cache",
+      "objects": 511
+    },
+    {
+      "name": "snapshot-cache-008.zip",
+      "size": 803504921,
+      "sha256": "c108fe120a7b065a90f38f971205fd792bc86f1686ccd823ca84098e2a8895ad",
+      "category": "cache",
+      "objects": 480
+    },
+    {
+      "name": "snapshot-cache-009.zip",
+      "size": 804344053,
+      "sha256": "82b414662ea126000eeb63428defa54a8fbcdcc6e9e280f709975278ee051ac6",
+      "category": "cache",
+      "objects": 498
+    },
+    {
+      "name": "snapshot-cache-010.zip",
+      "size": 804174040,
+      "sha256": "b44f557387892f5cd86a61171002c16815b84210ae9df3a87a2741f5a9868784",
+      "category": "cache",
+      "objects": 508
+    },
+    {
+      "name": "snapshot-cache-011.zip",
+      "size": 805276168,
+      "sha256": "e20c0b78816ef94114c723df5858b8108ddd8f9d1a49bbab058a87786b7d7364",
+      "category": "cache",
+      "objects": 506
+    },
+    {
+      "name": "snapshot-cache-012.zip",
+      "size": 804731953,
+      "sha256": "8f8c58a92780f564399620875dc97c53b1f05b843834f421d711504113600003",
+      "category": "cache",
+      "objects": 517
+    },
+    {
+      "name": "snapshot-cache-013.zip",
+      "size": 803211501,
+      "sha256": "6bbda61397bdefa1923c5a322f4ec7a9030ad20a48ed8ba7eba5ab01ec2778aa",
+      "category": "cache",
+      "objects": 496
+    },
+    {
+      "name": "snapshot-cache-014.zip",
+      "size": 804352425,
+      "sha256": "55e833f271b168e7e3151b7650a7d7030dcaf14f346593652a8c1c682f089268",
+      "category": "cache",
+      "objects": 507
+    },
+    {
+      "name": "snapshot-cache-015.zip",
+      "size": 772475434,
+      "sha256": "caf8874d47958572b6db7f9bf32de735b0cf52a275901ec09638130ef1425f67",
+      "category": "cache",
+      "objects": 490
+    }
+  ]
+}

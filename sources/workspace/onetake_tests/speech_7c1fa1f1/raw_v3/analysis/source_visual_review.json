@@ -1,0 +1,218 @@
+{
+  "status": "PASS_for_sampled_source_correspondence_and_observed_real_detail_improvement",
+  "sampling": "ffmpeg accurate input seek; t*30 are exact integer frame indices",
+  "samples": [
+    {
+      "seconds": 0.5,
+      "source_frame_index": 15,
+      "old_dimensions": [
+        1280,
+        720
+      ],
+      "raw_dimensions": [
+        3840,
+        2160
+      ],
+      "native_raw_face_crop": [
+        1500,
+        435,
+        2370,
+        1305
+      ],
+      "native_old_face_crop": [
+        500,
+        145,
+        790,
+        435
+      ],
+      "matched_display_rgb_mae": 4.042716652199074,
+      "matched_display_gray_correlation": 0.9953949520306529,
+      "mean_rgb_shift_raw_minus_old": [
+        0.12492947048611111,
+        0.11356228298611111,
+        0.2200271267361111
+      ]
+    },
+    {
+      "seconds": 3,
+      "source_frame_index": 90,
+      "old_dimensions": [
+        1280,
+        720
+      ],
+      "raw_dimensions": [
+        3840,
+        2160
+      ],
+      "native_raw_face_crop": [
+        1500,
+        435,
+        2370,
+        1305
+      ],
+      "native_old_face_crop": [
+        500,
+        145,
+        790,
+        435
+      ],
+      "matched_display_rgb_mae": 3.947679398148148,
+      "matched_display_gray_correlation": 0.9956714236319133,
+      "mean_rgb_shift_raw_minus_old": [
+        -0.325,
+        -0.0156640625,
+        -0.35264539930555555
+      ]
+    },
+    {
+      "seconds": 10.5,
+      "source_frame_index": 315,
+      "old_dimensions": [
+        1280,
+        720
+      ],
+      "raw_dimensions": [
+        3840,
+        2160
+      ],
+      "native_raw_face_crop": [
+        1500,
+        435,
+        2370,
+        1305
+      ],
+      "native_old_face_crop": [
+        500,
+        145,
+        790,
+        435
+      ],
+      "matched_display_rgb_mae": 3.7781807002314816,
+      "matched_display_gray_correlation": 0.9956824181093448,
+      "mean_rgb_shift_raw_minus_old": [
+        -0.2910275607638889,
+        0.049539930555555556,
+        -0.24021375868055556
+      ]
+    },
+    {
+      "seconds": 12.5,
+      "source_frame_index": 375,
+      "old_dimensions": [
+        1280,
+        720
+      ],
+      "raw_dimensions": [
+        3840,
+        2160
+      ],
+      "native_raw_face_crop": [
+        1500,
+        435,
+        2370,
+        1305
+      ],
+      "native_old_face_crop": [
+        500,
+        145,
+        790,
+        435
+      ],
+      "matched_display_rgb_mae": 3.9036154513888888,
+      "matched_display_gray_correlation": 0.9955465701695542,
+      "mean_rgb_shift_raw_minus_old": [
+        -0.7527712673611111,
+        -0.2135980902777778,
+        -0.77048828125
+      ]
+    },
+    {
+      "seconds": 14.2,
+      "source_frame_index": 426,
+      "old_dimensions": [
+        1280,
+        720
+      ],
+      "raw_dimensions": [
+        3840,
+        2160
+      ],
+      "native_raw_face_crop": [
+        1500,
+        435,
+        2370,
+        1305
+      ],
+      "native_old_face_crop": [
+        500,
+        145,
+        790,
+        435
+      ],
+      "matched_display_rgb_mae": 3.7235821759259258,
+      "matched_display_gray_correlation": 0.9961277348502429,
+      "mean_rgb_shift_raw_minus_old": [
+        -0.36634765625,
+        0.06354600694444444,
+        -0.4435590277777778
+      ]
+    }
+  ],
+  "metric_limits": "Matched-size MAE/correlation are only gross correspondence indicators; not a perceptual sharpness score, actual noise score, or proof of all-frame temporal identity.",
+  "owning_scope": "source-quality/timeline visual check only",
+  "source_video_metadata": {
+    "old": {
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "video_frames": 453,
+      "video_seconds": 15.1,
+      "color": "limited-range BT709",
+      "rotation_side_data": null
+    },
+    "new_raw": {
+      "codec": "hevc",
+      "width": 3840,
+      "height": 2160,
+      "fps": "30/1",
+      "video_frames": 453,
+      "video_seconds": 15.1,
+      "color": "limited-range BT709",
+      "rotation_side_data": null
+    }
+  },
+  "actually_viewed": {
+    "whole_frame_comparison": "source_quality_full_compare.jpg:all5rows, fullFOV each resized960x540",
+    "face_comparisons": [
+      "source_quality_face_compare_0.50.jpg",
+      "source_quality_face_compare_3.00.jpg",
+      "source_quality_face_compare_10.50.jpg",
+      "source_quality_face_compare_12.50.jpg",
+      "source_quality_face_compare_14.20.jpg"
+    ],
+    "old_native_face_contact": "source_quality_old_native_contact.jpg, no resizing of290px native old crops"
+  },
+  "visual_findings": {
+    "matched_pose_and_mouth_and_hand_at_all5samples": true,
+    "new_mirror_or_changed_frame_direction_observed": false,
+    "new_crop_or_reframe_observed": false,
+    "large_color_shift_observed": false,
+    "real_source_detail_improvement_observed": true,
+    "detail_examples": [
+      "hair/eyebrow strands distinguish better",
+      "skin and lip texture less blocky or smeared",
+      "chair mesh and clothing texture are more defined"
+    ],
+    "original_motion_blur_remains": "Moving fingers, especially0.5s, remain blurred in the raw source. No claim that resolution removes original shutter blur."
+  },
+  "no_enhancement_applied": true,
+  "not_verified": [
+    "all453sourceframes pixel/semantic identity",
+    "source or final full-speed auditory review",
+    "final rendered output quality",
+    "user aesthetic acceptance"
+  ],
+  "notes": "Native new870x870 crop is shown unresized; old290x290 crop is additionally enlarged3x in side-by-side comparisons solely to match field of view, using ordinary Lanczos display scaling, not AI super-resolution.",
+  "naming_limits": "The _raw filename does not establish uncompressed/lossless or sensor-native4K acquisition; file is HEVC. No acquisition/processing history is asserted."
+}

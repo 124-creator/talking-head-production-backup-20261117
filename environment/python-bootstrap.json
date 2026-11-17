@@ -1,0 +1,10 @@
+{
+  "installer": "python-3.13.5-amd64.exe",
+  "url": "https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe",
+  "sha256": "c1cb40978b28f696b111c36034a1bdeda17d25e35c74a08ef5e5ff405a63fc20",
+  "bytes": 28838672,
+  "expected_python": "3.13.5",
+  "architecture": "AMD64",
+  "license": "https://docs.python.org/3.13/license.html",
+  "verification": "SHA256 matches digest in python.org Sigstore metadata; separate Windows Authenticode check recorded below; no claim of Sigstore cryptographic verification"
+}

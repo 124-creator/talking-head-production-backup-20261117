@@ -1,0 +1,775 @@
+{
+  "pass": true,
+  "composition_sha256": "8bb901d7ebd67b9408627c3537ca25824016e7ef5318fc01d429a92fdec8c31a",
+  "unchanged_prefix_sample_times": [
+    0,
+    1.8,
+    3.6,
+    4.5,
+    5.8,
+    7.8,
+    9.9,
+    10.8,
+    11.5,
+    12.04
+  ],
+  "prefix_samples_pixel_identical": true,
+  "ending_presenter_full_frame": true,
+  "ending_caption_hidden": true,
+  "ending_left_kicker_hidden": true,
+  "main_model_color": "#FFD84D",
+  "only_ending_overlay_words": [
+    "换掉",
+    "你的",
+    "主力模型"
+  ],
+  "main_model_font_size": 210,
+  "verb_font_size": 84,
+  "samples": [
+    {
+      "seconds": 12.06,
+      "visible_text": [
+        "换掉"
+      ],
+      "audit": {
+        "time": 12.06,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 740,
+          "y": 688,
+          "w": 134.40625,
+          "h": 90.71875
+        },
+        "endingModelRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 250
+        },
+        "endingOpacity": -0.0,
+        "endingKickerDisplay": "none",
+        "mainModelColor": "rgb(255, 216, 77)",
+        "captionMix": 0,
+        "modelFontSize": 210,
+        "verbFontSize": 84,
+        "endingModelTextRect": {
+          "x": 730,
+          "y": 1050,
+          "w": 780,
+          "h": 226.796875
+        }
+      }
+    },
+    {
+      "seconds": 12.2,
+      "visible_text": [
+        "换掉"
+      ],
+      "audit": {
+        "time": 12.2,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 740,
+          "y": 688,
+          "w": 134.40625,
+          "h": 90.71875
+        },
+        "endingModelRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 250
+        },
+        "endingOpacity": 0.49999999999999495,
+        "endingKickerDisplay": "none",
+        "mainModelColor": "rgb(255, 216, 77)",
+        "captionMix": 0.1467984133141098,
+        "modelFontSize": 210,
+        "verbFontSize": 84,
+        "endingModelTextRect": {
+          "x": 730,
+          "y": 1050,
+          "w": 780,
+          "h": 226.796875
+        }
+      }
+    },
+    {
+      "seconds": 12.4,
+      "visible_text": [
+        "换掉"
+      ],
+      "audit": {
+        "time": 12.4,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 740,
+          "y": 688,
+          "w": 134.40625,
+          "h": 90.71875
+        },
+        "endingModelRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 250
+        },
+        "endingOpacity": 1,
+        "endingKickerDisplay": "none",
+        "mainModelColor": "rgb(255, 216, 77)",
+        "captionMix": 1,
+        "modelFontSize": 210,
+        "verbFontSize": 84,
+        "endingModelTextRect": {
+          "x": 730,
+          "y": 1050,
+          "w": 780,
+          "h": 226.796875
+        }
+      }
+    },
+    {
+      "seconds": 12.65,
+      "visible_text": [
+        "换掉",
+        "你的"
+      ],
+      "audit": {
+        "time": 12.65,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 740,
+          "y": 688,
+          "w": 134.40625,
+          "h": 90.71875
+        },
+        "endingModelRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 250
+        },
+        "endingOpacity": 1,
+        "endingKickerDisplay": "none",
+        "mainModelColor": "rgb(255, 216, 77)",
+        "captionMix": 1,
+        "modelFontSize": 210,
+        "verbFontSize": 84,
+        "endingModelTextRect": {
+          "x": 730,
+          "y": 1050,
+          "w": 780,
+          "h": 226.796875
+        }
+      }
+    },
+    {
+      "seconds": 12.9,
+      "visible_text": [
+        "换掉",
+        "你的"
+      ],
+      "audit": {
+        "time": 12.9,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 740,
+          "y": 688,
+          "w": 134.40625,
+          "h": 90.71875
+        },
+        "endingModelRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 250
+        },
+        "endingOpacity": 1,
+        "endingKickerDisplay": "none",
+        "mainModelColor": "rgb(255, 216, 77)",
+        "captionMix": 1,
+        "modelFontSize": 210,
+        "verbFontSize": 84,
+        "endingModelTextRect": {
+          "x": 730,
+          "y": 1050,
+          "w": 780,
+          "h": 226.796875
+        }
+      }
+    },
+    {
+      "seconds": 13.2,
+      "visible_text": [
+        "换掉",
+        "主力模型",
+        "你的"
+      ],
+      "audit": {
+        "time": 13.2,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 740,
+          "y": 688,
+          "w": 134.40625,
+          "h": 90.71875
+        },
+        "endingModelRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 250
+        },
+        "endingOpacity": 1,
+        "endingKickerDisplay": "none",
+        "mainModelColor": "rgb(255, 216, 77)",
+        "captionMix": 1,
+        "modelFontSize": 210,
+        "verbFontSize": 84,
+        "endingModelTextRect": {
+          "x": 730,
+          "y": 877.3690185546875,
+          "w": 780,
+          "h": 226.796875
+        }
+      }
+    },
+    {
+      "seconds": 13.65,
+      "visible_text": [
+        "换掉",
+        "主力模型",
+        "你的"
+      ],
+      "audit": {
+        "time": 13.65,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 740,
+          "y": 688,
+          "w": 134.40625,
+          "h": 90.71875
+        },
+        "endingModelRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 250
+        },
+        "endingOpacity": 1,
+        "endingKickerDisplay": "none",
+        "mainModelColor": "rgb(255, 216, 77)",
+        "captionMix": 1,
+        "modelFontSize": 210,
+        "verbFontSize": 84,
+        "endingModelTextRect": {
+          "x": 730,
+          "y": 800.2139892578125,
+          "w": 780,
+          "h": 226.796875
+        }
+      }
+    },
+    {
+      "seconds": 14.2,
+      "visible_text": [
+        "换掉",
+        "主力模型",
+        "你的"
+      ],
+      "audit": {
+        "time": 14.2,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 740,
+          "y": 688,
+          "w": 134.40625,
+          "h": 90.71875
+        },
+        "endingModelRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 250
+        },
+        "endingOpacity": 1,
+        "endingKickerDisplay": "none",
+        "mainModelColor": "rgb(255, 216, 77)",
+        "captionMix": 1,
+        "modelFontSize": 210,
+        "verbFontSize": 84,
+        "endingModelTextRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 226.796875
+        }
+      }
+    },
+    {
+      "seconds": 14.8,
+      "visible_text": [
+        "换掉",
+        "主力模型",
+        "你的"
+      ],
+      "audit": {
+        "time": 14.8,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 740,
+          "y": 688,
+          "w": 134.40625,
+          "h": 90.71875
+        },
+        "endingModelRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 250
+        },
+        "endingOpacity": 1,
+        "endingKickerDisplay": "none",
+        "mainModelColor": "rgb(255, 216, 77)",
+        "captionMix": 1,
+        "modelFontSize": 210,
+        "verbFontSize": 84,
+        "endingModelTextRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 226.796875
+        }
+      }
+    },
+    {
+      "seconds": 15.1,
+      "visible_text": [
+        "换掉",
+        "主力模型",
+        "你的"
+      ],
+      "audit": {
+        "time": 15.1,
+        "phase": 4,
+        "visiblePhotoReveals": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "returnProgress": 1,
+        "carrier": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "caption": "",
+        "captionRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "stageTitle": "越改\n越脏",
+        "stageRect": {
+          "x": 1558,
+          "y": 358,
+          "w": 176,
+          "h": 272.78125
+        },
+        "openingRect": {
+          "x": 100,
+          "y": 184,
+          "w": 252,
+          "h": 123.890625
+        },
+        "closingRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "endingRect": {
+          "x": 740,
+          "y": 688,
+          "w": 134.40625,
+          "h": 90.71875
+        },
+        "endingModelRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 250
+        },
+        "endingOpacity": 1,
+        "endingKickerDisplay": "none",
+        "mainModelColor": "rgb(255, 216, 77)",
+        "captionMix": 1,
+        "modelFontSize": 210,
+        "verbFontSize": 84,
+        "endingModelTextRect": {
+          "x": 730,
+          "y": 800,
+          "w": 780,
+          "h": 226.796875
+        }
+      }
+    }
+  ],
+  "javascript_errors": [],
+  "seek_deterministic": true,
+  "user_aesthetic_acceptance_claimed": false
+}

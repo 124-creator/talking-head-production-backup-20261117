@@ -1,0 +1,10 @@
+{
+  "source_video": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\原视频.mp4",
+  "source_sha256": "ea2eb6cebb0a7c98c8d83514289c54c196ac6ff5b0fef75cca13badf8b1328cf",
+  "v1_file": "E:\\Agent员工\\研究自动剪辑\\第二个口播\\第二个口播_成片_v1_1080p30.mp4",
+  "v1_sha256": "1adec70431e227866ebadd9f36755d57b75eca05e2be7df7bd56051f91ede412",
+  "reference": "C:\\Users\\Dreamboat\\OneDrive\\文档\\WeChat Files\\wxid_tnssm99dpsea22\\FileStorage\\Video\\2026-11\\fd430e380a94fa855533d80b9f71fe1b_raw.mp4",
+  "full_duration": 70.6,
+  "expected_frames": 2118,
+  "source_audio_unchanged_required": true
+}

@@ -1,0 +1,39 @@
+{
+  "same_duration": true,
+  "same_video_frame_count": true,
+  "same_video_fps": true,
+  "aac_pts_dts_identical_to_previous_source": true,
+  "aac_packet_payloads_identical_to_previous_source": false,
+  "aac_packet_count": 652,
+  "old_decoded_pcm_sha256": "8ec0f9607c2d6f2f3a63e0d59d1ad94d9fe4e5159f919c5a173145f27619a613",
+  "new_decoded_pcm_sha256": "059f1a260773e9b3107a9755cdf52f529262d84006f5eb4e87729095a95bf2e1",
+  "decoded_sample_count_equal": true,
+  "cross_correlation_windows": [
+    {
+      "start_seconds": 0,
+      "duration_seconds": 2,
+      "best_offset_samples_at_11025hz": 0,
+      "zero_lag_correlation": 0.9970151939556947
+    },
+    {
+      "start_seconds": 4,
+      "duration_seconds": 2,
+      "best_offset_samples_at_11025hz": 0,
+      "zero_lag_correlation": 0.9655380879480502
+    },
+    {
+      "start_seconds": 8,
+      "duration_seconds": 2,
+      "best_offset_samples_at_11025hz": 0,
+      "zero_lag_correlation": 0.9932283211982657
+    },
+    {
+      "start_seconds": 12,
+      "duration_seconds": 2,
+      "best_offset_samples_at_11025hz": 0,
+      "zero_lag_correlation": 0.986812184571305
+    }
+  ],
+  "last_packet_duration_difference_samples": 9,
+  "conclusion": "New original has a different AAC encoding. Speech timing matches at all packet PTS/DTS and four waveform windows with zero offset; reuse established word/caption timing. Output must preserve the NEW original AAC, not the previous compressed audio."
+}

@@ -1,0 +1,18 @@
+{
+  "official_oracle_verdict": "FAIL",
+  "passed_legs": ["cadence","rest","burst","not-flat","continuity","curves","framing"],
+  "failed_legs": ["audio"],
+  "audio": {
+    "peak_dbfs": -0.9,
+    "clipped_samples": 0,
+    "quiet_ratio": 0.039,
+    "explanation": "Continuous original speech fails the promo thresholds of <=-3dBFS peak and >=15% quiet windows. NEW-original AAC and PCM preservation are independently verified in final_qa.json; no gain changes, inserted silence or new voice were used to manufacture a pass."
+  },
+  "continuity_limit": "Score1.00 over zero detected identity boundaries is not aesthetic acceptance or meaningful per-boundary evidence.",
+  "render_scope": "362 unchanged4K-source prefix PNGs reused;92 ending frames re-rendered with official temporal shutter sampling (373 captures).",
+  "left_text_removed": ["ending-kicker","subtitle from12.06s"],
+  "retained_ending_text": ["换掉","你的","主力模型"],
+  "main_model_color": "#FFD84D",
+  "user_aesthetic_acceptance_claimed": false,
+  "full_speed_perceptual_listening_verified": false
+}

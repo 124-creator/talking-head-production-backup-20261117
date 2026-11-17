@@ -1,0 +1,74 @@
+{
+  "file": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\raw_v3\\output\\onetake_raw_v3_1080p30.mp4",
+  "sha256": "55b11dbb0c063ca0ed050481e919c71403b4ccebcef0b03eb1fd2509ecff3ef7",
+  "frames": 454,
+  "fps": 30,
+  "duration_seconds": 15.133333333333333,
+  "source_video_resolution": [
+    3840,
+    2160
+  ],
+  "decoded_png_resolution": [
+    1920,
+    1080
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "output_is_4k": false,
+  "source_pipeline": "4K HEVC -> one Lanczos reduction to output-native 1080p -> lossless RGB PNG; no 720p intermediary, added sharpening or AI upscaling",
+  "fresh_full_film_render": true,
+  "reused_720p_video_frames": 0,
+  "motion_and_caption_timing": "Same as ending_v2; only underlying presenter footage/audio encoding replaced",
+  "original_speech_preserved_by": "NEW 4K original AAC stream copy; no voice or timing edits",
+  "source_audio_file": "assets/source.mp4",
+  "new_paid_api_calls": 0,
+  "new_images_or_synthetic_noise_generated": false,
+  "renderer": "Installed onetake render.py + motion.js + look.js; temporal shutter sampling",
+  "composition_sha256": "4c98c83c4a836fadd4e388af032ba9ae59f91c8a16956175f4758ab76e51cb85",
+  "render_metadata": {
+    "comp": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\raw_v3\\comp.html",
+    "fps": 30,
+    "scale": 1,
+    "size": [
+      1920,
+      1080
+    ],
+    "shutter": 180.0,
+    "samples": "adaptive",
+    "gap_px": 6.0,
+    "samples_per_moving_frame": {
+      "4": 412,
+      "5": 6,
+      "6": 2,
+      "7": 2,
+      "8": 1,
+      "9": 3,
+      "10": 3,
+      "11": 2,
+      "12": 1,
+      "13": 3,
+      "16": 1,
+      "18": 1,
+      "19": 1,
+      "22": 4,
+      "25": 2,
+      "28": 1,
+      "32": 7
+    },
+    "workers": 4,
+    "frames": 454,
+    "still_frames": 2,
+    "cut_frames": 244,
+    "captures": 2289,
+    "seconds": 475.4,
+    "final": false
+  },
+  "render_folder": "E:\\Agent员工\\研究自动剪辑\\onetake_tests\\speech_7c1fa1f1\\raw_v3\\output\\render_20261116_131650",
+  "elapsed_seconds": 487.72321549998014,
+  "previous_v1_preserved": true,
+  "previous_v2_preserved": true,
+  "full_speed_perceptual_listening_verified": false,
+  "user_aesthetic_acceptance_claimed": false
+}
