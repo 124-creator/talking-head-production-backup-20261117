@@ -29,7 +29,7 @@ PART_WORKERS = 3
 PART_ATTEMPTS = 3
 DOWNLOAD_TIMEOUT = 900
 STATE = '.restore-state.json'
-SUPPORT = ('AGENTS.md', 'README.md', 'RESTORE_CONTEXT.md', 'THIRD_PARTY_NOTICES.md',
+SUPPORT = ('AGENTS.md', 'README.md', 'RESTORE_CONTEXT.md', 'THIRD_PARTY_NOTICES.md', 'STATUS.md',
            'Restore.ps1', 'Activate-Project.ps1')
 
 
