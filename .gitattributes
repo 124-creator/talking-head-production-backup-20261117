@@ -1,0 +1,6 @@
+sources/** -text
+manifests/** -text
+environment/** -text
+*.ps1 text eol=crlf
+*.py text eol=lf
+*.md text eol=lf

@@ -76,6 +76,61 @@ def environment_info() -> dict[str, Any]:
             "font_note": "Windows x64 baseline; cross-OS same-font/pixel output is not guaranteed."}
 
 
+
+def verify_system_fonts(root: Path) -> tuple[dict[str, Any], list[str]]:
+    """Read Windows font identities without bundling fonts or failing media checks."""
+    names = ("msyh.ttc", "msyhbd.ttc", "consola.ttf", "consolab.ttf")
+    reference = root / "environment/system-fonts.json"
+    windir = os.environ.get("WINDIR") or os.environ.get("SystemRoot")
+    directory = Path(windir) / "Fonts" if windir else None
+    result: dict[str, Any] = {
+        "reference": str(reference), "fonts_directory": str(directory) if directory else None,
+        "bundled": False, "fonts": [], "requires_visual_qa": False,
+    }
+    warnings: list[str] = []
+    qa_note = "Visual QA of any re-render is required; this is not evidence of existing-media corruption."
+    try:
+        contained(root, reference)
+        records = json.loads(reference.read_text(encoding="utf-8-sig"))
+        if not isinstance(records, list):
+            raise ValueError("Expected a list of font records")
+        expected = {}
+        for record in records:
+            if not isinstance(record, dict) or record.get("name") not in names:
+                continue
+            name, digest = record["name"], record.get("sha256")
+            if name in expected or not isinstance(digest, str) or len(digest) != 64 or any(c not in "0123456789abcdef" for c in digest):
+                raise ValueError(f"Invalid/duplicate font SHA256 reference: {name}")
+            expected[name] = record
+    except (OSError, ValueError, TypeError) as error:
+        result.update(status="unavailable", requires_visual_qa=True, reference_error=str(error))
+        warnings.append(f"System font reference could not be checked: {error}. {qa_note}")
+        return result, warnings
+    for name in names:
+        record = expected.get(name)
+        path = directory / name if directory else None
+        row: dict[str, Any] = {"name": name, "path": str(path) if path else None,
+                               "expected_sha256": record["sha256"] if record else None,
+                               "actual_sha256": None}
+        try:
+            if record is None:
+                row["status"] = "reference_missing"
+            elif path is None or not path.is_file():
+                row["status"] = "missing"
+            else:
+                row["actual_sha256"] = file_sha256(path)
+                row["bytes"] = path.stat().st_size
+                row["status"] = "matched" if row["actual_sha256"] == record["sha256"] else "different"
+        except OSError as error:
+            row.update(status="unreadable", error=str(error))
+        if row["status"] != "matched":
+            warnings.append(f"System font {name}: {row['status']}. {qa_note}")
+        result["fonts"].append(row)
+    result["requires_visual_qa"] = bool(warnings)
+    result["status"] = "differences" if warnings else "matched"
+    return result, warnings
+
+
 def verify_pngs(root: Path) -> dict[str, Any]:
     from PIL import Image
 
@@ -268,7 +323,8 @@ def main(argv: list[str] | None = None) -> int:
         parser.error("--random-seeks must be between 0 and 20")
     root = args.destination.expanduser().resolve()
     report: dict[str, Any] = {"destination": str(root), "read_only": True,
-                              "environment": environment_info(), "errors": []}
+                              "environment": environment_info(), "errors": [], "warnings": []}
+    report["system_fonts"], report["warnings"] = verify_system_fonts(root)
     diagnostic = args.skip_browser or args.allow_system_python
     if not report["environment"]["windows_x64"]:
         report["errors"].append("Supported execution platform is Windows x64; cross-OS fonts are not guaranteed")

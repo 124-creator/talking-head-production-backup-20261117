@@ -1,0 +1,7 @@
+.downloads/
+.bootstrap/
+__pycache__/
+*.py[cod]
+.venv*/
+verification/
+*.log

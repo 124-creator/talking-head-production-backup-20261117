@@ -230,6 +230,46 @@ class RelocationTests(unittest.TestCase):
         self.assertTrue(bom.read_bytes().startswith(b"\xef\xbb\xbf"))
         self.assertTrue(bom.read_bytes().endswith(b"\r\n"))
 
+    def test_system_font_hashes_warn_but_do_not_fail_smoke(self) -> None:
+        windows = Path(self.temporary.name) / "mock-windows"
+        fonts = windows / "Fonts"
+        fonts.mkdir(parents=True)
+        names = ("msyh.ttc", "msyhbd.ttc", "consola.ttf", "consolab.ttf")
+        records = []
+        for number, name in enumerate(names):
+            content = f"font fixture {number}".encode("utf-8")
+            (fonts / name).write_bytes(content)
+            records.append({"name": name, "sha256": hashlib.sha256(content).hexdigest(),
+                            "bytes": len(content), "bundled": False})
+        reference = self.write("environment/system-fonts.json", json.dumps(records))
+        original_reference = reference.read_bytes()
+        with patch.dict(os.environ, {"WINDIR": str(windows)}):
+            information, warnings = smoke.verify_system_fonts(self.root)
+            self.assertEqual(information["status"], "matched")
+            self.assertFalse(information["requires_visual_qa"])
+            self.assertEqual(warnings, [])
+            (fonts / "msyh.ttc").write_bytes(b"new machine font version")
+            (fonts / "consola.ttf").unlink()
+            information, warnings = smoke.verify_system_fonts(self.root)
+            statuses = {font["name"]: font["status"] for font in information["fonts"]}
+            self.assertEqual(statuses["msyh.ttc"], "different")
+            self.assertEqual(statuses["consola.ttf"], "missing")
+            self.assertTrue(information["requires_visual_qa"])
+            self.assertEqual(len(warnings), 2)
+            self.assertTrue(all("Visual QA" in warning and "not evidence" in warning for warning in warnings))
+            with patch.object(smoke, "environment_info", return_value={"windows_x64": True, "isolated_venv": True}), \
+                 patch.object(smoke, "verify_pngs", return_value={}), \
+                 patch.object(smoke, "verify_masters", return_value=[]), \
+                 patch.object(smoke, "verify_browser", return_value={}):
+                output = io.StringIO()
+                with redirect_stdout(output):
+                    self.assertEqual(smoke.main([str(self.root)]), 0)
+                report = json.loads(output.getvalue())
+                self.assertEqual(report["status"], "passed")
+                self.assertEqual(len(report["warnings"]), 2)
+                self.assertTrue(report["system_fonts"]["requires_visual_qa"])
+        self.assertEqual(reference.read_bytes(), original_reference)
+
     def test_smoke_environment_records_python_and_has_no_import_side_effect(self) -> None:
         state = {p.relative_to(self.root) for p in self.root.rglob("*")}
         information = smoke.environment_info()
