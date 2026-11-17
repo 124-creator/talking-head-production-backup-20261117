@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "snapshot_files_verified": 12099,
+  "unit_tests_run": 58,
+  "unit_tests_passed": true,
+  "render_smoke": "passed",
+  "asr_smoke": "passed",
+  "private_download": "passed",
+  "local_transport_reassembly": "passed",
+  "fresh_clone_clean": true,
+  "fresh_isolated_venvs": true,
+  "actual_verification_windows_x64": true,
+  "git_source_blobs_matched": 253,
+  "system_font_mismatches": 0,
+  "snapshot_manifest_sha256": "d77bb20d8f2914401cee41430c3b4486f90201c83b34e6c60fcd37fd8618cff3",
+  "validated_revision": "c53576bf844578796d794b580268b04ac7866181",
+  "source_evidence_sha256": "4a86ef57649b8f944f0c775127e2a1cc39a166f2af6846960394c2e1893da85e",
+  "note": "验证在当前 Windows x64 的独立恢复目录及全新隔离环境完成，不代表已在另一台实体电脑实测。"
+}
